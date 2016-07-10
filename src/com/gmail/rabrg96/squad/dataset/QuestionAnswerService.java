@@ -14,6 +14,7 @@ public final class QuestionAnswerService {
     private String question;
 
     private String questionType;
+    private boolean multiplePossibleType;
 
     public List<Answer> getAnswers() {
         return answers;
@@ -28,8 +29,8 @@ public final class QuestionAnswerService {
     }
 
     private static final List<String> QUESTION_TYPES = Arrays.asList("who", "whom", "whose", "what", "which", "when",
-            "how", "why", "where", "can", "will", "could", "should", "would", "is", "are", "am", "shall", "may", "did",
-            "do", "does");
+            "how", "why", "where", "can", "will", "could", "should", "would", "is", "are", "shall", "may", "did", "do",
+            "does");
 
     // TODO: enum?
     public String getQuestionType() {
@@ -44,8 +45,21 @@ public final class QuestionAnswerService {
         if (question.contains("_"))
             return (questionType = "blank"); // TODO: fill in the blank
 
-        // Look for question types as first to words and if so use the first
         final List<String> words = sentence.words();
+
+        // Check for multiple question words for possible errors for debugging (if there is only one question type
+        // it can only be that type; it must be correct)
+        int count = 0;
+        for (final String word : words) {
+            if (QUESTION_TYPES.contains(word.toLowerCase())) {
+                if (count++ > 1) {
+                    multiplePossibleType = true;
+                    break;
+                }
+            }
+        }
+
+        // Look for question types as first to words and if so use the first
         final String first = words.get(0).toLowerCase();
         final String second = words.get(1).toLowerCase();
         if (QUESTION_TYPES.contains(first) && QUESTION_TYPES.contains(second))
@@ -54,7 +68,7 @@ public final class QuestionAnswerService {
         // Check if last word is question type
         final String last = Character.isLetterOrDigit(words.get(words.size() - 1).charAt(0))
                 ? words.get(words.size() - 1).toLowerCase() : words.get(words.size() - 2).toLowerCase();
-        if (QUESTION_TYPES.contains(last))
+        if (!last.equals("do") && QUESTION_TYPES.contains(last))
             return (questionType = last);
 
         // If not begin with two question words, use dependencies
@@ -81,6 +95,12 @@ public final class QuestionAnswerService {
             }
         }
         throw new IllegalStateException("No question type detected for sentence \"" + question + "\"");
+    }
+
+    public boolean isMultiplePossibleType() {
+        if (questionType == null)
+            getQuestionType();
+        return multiplePossibleType;
     }
 
     @Override

@@ -15,9 +15,11 @@ public class DatasetTest {
                 for (final Paragraph paragraph : article.getParagraphs()) {
                     for (final QuestionAnswerService qas : paragraph.getQas()) {
                         try {
-                            qas.getQuestionType();
+                            if (qas.isMultiplePossibleType()) {
+                                System.out.println(qas.getQuestionType() + ": " + qas.getQuestion());
+                            }
                         } catch (final IllegalStateException e) {
-                            System.out.println("Failed to detect type: " + qas.getQuestion());
+//                            System.out.println("Failed to detect type: " + qas.getQuestion());
                         }
                     }
                 }

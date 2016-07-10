@@ -1,0 +1,614 @@
+what: What one word did the NFL commissioner use to describe what Super Bowl 50 was intended to be?
+what: What year did Roger Goodell announce that Super Bowl 50 would be "important"?
+what: What is the name of San Francisco's stadium when looked at as a possibility for Super Bowl 50?
+what: What is the name of the stadium where Super Bowl 50 was played?
+how: How much did it cost to build the stadium where Super Bowl 50 was played?
+what: What is the name of the Bronco's head coach, who was hired after John Fox? 
+how: How may yards did Peyton Manning throw?
+what: What game did Thomas Davis say he would play in, despite breaking a bone earlier on?
+what: What is the name of the quarterback who was 38 in Super Bowl XXXIII?
+what: What did the NFL do to the playing field at Levi's Stadium before the Super Bowl?
+when: When did the NFL announce that it would not use Roman numbers to designate the Super Bowl number?
+what: What is the name of the property where the media event was held for Super Bowl 50?
+which: Which committee made an effort to invite companies owned by people, who are transgender or gay, to take part in contract business associated with Super Bowl 50.
+what: What is the name of the trophy given to anyone who plays on the winning team in a Super Bowl?
+how: How many different TV networks are considered to be the principal partners, when it comes to broadcasting NFL events?
+which: Which smartphone customers were the only people who could stream the game on their phones?
+what: On what date did the NFL announce that Coldplay would headline the halftime show?
+who: Who got a 61-yard return when players thought he called for a fair catch but did not?
+how: How many yards did the interception gain when the ball was tipped away from Manning?
+what: What is the last name of the player who bumped the ball away from Manning in the fourth quarter of Super Bowl 50?
+what: What is the last name of the player who finally recovered the ball Newton lost in the fourth quarter?
+what: What is the last name of the player who scored a 2-yard touchdown in the fourth quarter?
+what: What is the last name of the player who was Manning's top receiver for Super Bowl 50?
+what: What is th elast name of the player who was the Super Bowl 50 winner's leading rusher?
+which: Which team did Gary Kubiak play for when he was in the Super Bowl?
+what: Warsaw's sidewalks and sanitation facilities are some examples of things which have what?
+what: What did a greedy merchant do to the mermaid?
+when: When was the settlement which would become Warsaw established?
+what: What is the axis of Warsaw which divides it into two parts?
+what: What is being described when simplicity of geometrical forms are teamed with inspiration from the Roman period?
+what: What conviction did many Poles have regarding how the Varsovians thought of themselves?
+when: When did the attack occur in which the Normans impressed Prince Guaimar III occur?
+what: What year did Roger de Tosny fail to accomplish what he set out to do?
+what: What did Tesla's father originally want him to do?
+what: What did Tesla do in Tomingaj?
+what: What did Tesla do in December 1878?
+what: Before he died, what did Tesla's father ask him to do?
+what: What did Tesla do in Maribor for work?
+what: what did tesla do at his old school in 1879?
+what: What was Edison's reply as to what Tesla didn't understand when Tesla asked for payment?
+what: What did Tesla Electric Light & Manufacturing do?
+what: What did Tesla Electric Light & Manufacturing do?
+what: What did Tesla's investors do to him?
+what: what did he do for $2 a day?
+what: What did Tesla do with his patents causing him to lose them?
+what: What did Tesla do for a job that paid two dollars a day?
+what: What else did Tesla do for work at this time?
+what: At first what did Tesla think was the main cause of damage to skin cells when they were exposed to X-rays?
+where: Where can Tesla's theories as to what caused the skin damage be found?
+what: What did the particle do to Tesla?
+where:  Where did he claim he would transport energy to?
+what: What did the sparks do to the insulation?
+what: What did Tesla claim his resonant frequencies could do in the World Today article?
+what: What did Tesla think could improve the brain's intelligence?
+what: What did he do with Wardenclyffe?
+how: How far did he claim the mechanical energy could be transmitted?
+how: How much energy loss did he expect would occur?
+what: What was Tesla on his way to do when he was struck by the cab?
+what: What ground based group did Tesla think the weapon could be used on?
+what: What did he claim the weapon would end?
+what: What did he find that could constitute a hazard?
+what: What did he do to his feet at night?
+what: What did Tesla tell Brisbane he didn't believe in?
+how: Down to how many laws did Tesla believe the fundamental laws could be reduced?
+what: What did Tesla see during his strange illnesses when he was young?
+what: What did he make the employee do when he didn't like her outfit?
+what: What did he believe the ether did?
+who: Who did Tesla think would run the world of the future?
+what: What term did he use for what he believed would be humanity's future rulers?
+what: What entity did Tesla believe would not be able to solve the problems of the time?
+what: What was one of Tesla's books where articles can be read?
+what: What field of computer science is primarily concerned with determining the likelihood of whether or not a problem can ultimately be solved using algorithms?
+what: What is the name of the alphabet is most commonly used in a problem instance?
+what: In the encoding of mathematical objects, what is the way in which integers are commonly expressed?
+what: What is one way in which graphs can be encoded? 
+what: If two integers are multiplied and output a value, what is this expression set called?
+what: What is one variable on which the running time may be contingent?
+what: If input size is is equal to n, what can respectively be assumed is the function of n?
+what: It is generally assumed that a Turing machine can solve anything capable of also being solved using what?
+what: What are two factors that directly effect how powerful a Turing machine may or may not be?
+when: When extensive time is required to sort integers, this represents what case complexity?
+what: What are two examples of measurements are bound within algorithms to establish complexity classes?
+am: IP and AM are most commonly defined by what type of proof system?
+what: What is an example of a measurement within a complexity class that would create a bigger set of problems if the bounds were relaxed?
+what: An algorithm for X which reduces to C would us to do what?
+how: A problem set that that is hard for the expression NP can also be stated how?
+what: If P = NP is unsolved, and reduction is applied to a known NP-complete problem vis a vis Π2 to  Π1, what conclusion can be drawn for Π1?
+can: If polynomial time can be utilized within an NP-complete problem, what does the imply P is equal to?
+what: If P is ultimately proven to be equal tot NP, what effect would this have on the efficiency of problems?
+what: What is a particular problem in biology that would benefit from determining that P = NP?
+what: What is the problem attributed to defining if two finite graphs are isomorphic?
+what: To what level would the polynomial time hierarchy collapse if graph isomorphism is NP-complete?
+what: What is an expression that can be used to illustrate the suspected inequality of complexity classes?
+what: What implication can be derived for P and NP if P and co-NP are established to be unequal?
+what: If NP is not equal to P, viewed through this lens, what type of problems can also be considered intractable?
+what: What is an example of a problem to which effective algorithms have provided a solution in spite of the intractability associated with the breadth of sizes?
+what: What is the example of another problem characterized by large instances that is routinely solved by SAT handlers employing efficient algorithms?
+what: What is similar to literacy that a teacher would teach?
+what: If someone is being taught at their place of residence, what is it called?
+what: What would type of activities would require a teacher to take on a supervisor role?
+what: What would type of studying would require a teacher to take on a supervisor role?
+what: What is another way of learning that is not formal?
+what: What is a typical name for learning that is not inside of the classroom?
+who: Who would decide on the curricula that is consistent and standard?
+what: What type of curricula is it that a teacher may likely follow?
+what: What would a teacher do for someone who is timid?
+what: What would a teacher do for someone who is cocky?
+what: What type of approaches for primary school are available that are different than the norm?
+how: How many teachers are usually involved when co-teaching?
+what: What do critics think the cause of problems with modern schooling is?
+what: What gets transferred to students who are receptive to the teacher?
+what: What do these teachers NOT do?
+how: How do students rate teachers that they feel are enthusiastic?
+what: What register did Chris Keates think that some teachers should not be placed on?
+what: What, when combined with a large workload, can contribute to occupational stress?
+what: What is something that teacher's are at a high risk for?
+what: What funds cannot be used if a teacher is not registered?
+what: What does someone who completes the Initial Teacher Education (ITE) program get?
+how: How long until the Provisional Registration is upgraded, if requirements are met?
+what: What would a Probationer need to do to earn more money, after 6 years?
+what: What is the longest time that a teaching certificate is good for?
+what: What did the Church claim could be avoided with money?
+what: What did the Church do when Luther refused to retract his writings?
+how: How did Luther's tutors advise him to test what he learned?
+what: What did Luther think reason could not be used to test?
+how: How did Tetzel state that the soul could leave purgatory?
+what: What did Martin Luther do during 1510 to 1520?
+when: When did Luther publish On the Bondage of the Will?
+what: What did Luther promise to do as a concession?
+what: What did Luther need to do to avoid excommunication? 
+what: What did Luther do at the end of his speech?
+what: What did Luther refuse to do?
+who: Who said, "Here I stand. I can do no other"?
+what: What manner of words does Mullet think Luther would choose?
+what: What could anyone do to Martin Luther without legal consequence?
+what: What does Luther write that this life doesn't have?
+what: What did Luther do during Lent at this time?
+what: What did the peasants believe Luther would do for them?
+who: Who did the peasants think Luther would support an attack on?
+what: What did Luther state he would not exchange for his life with his wife?
+will: Besides the Bondage of the Will, what other work did Luther view as a book of his?
+what: What did Luther use the hymn to encourage colleagues to do?
+what: What did Luther believe that the soul does after death?
+where: Where did Luther say that the soul doesn't sleep, but rather has visions?
+what: What do scholars sometimes assert that Luther believed about what faith and reason were to each other?
+what: What did Luther think that faith could not be understood by?
+what: What kind of war did Luther support against the Turks, even if he did not oppose a religious war?
+what: What did Agricola apparently believe about who should be in control  law?
+what: What is Luther's opinion of what the law covers??
+what: What does refusing to preach the Ten Commandments not do?
+what: What did Luther claim the church would have to comprise if the law were not taught?
+what: What do the Ten Commandments teach Christians how to do?
+what: What is God's expression of eternal will, according to Luther?
+how: Teaching Christians how they should live is what use of the law?
+what: What did Philip I wish to do around 1539?
+what: What did Luther try to do for the Jews?
+what: What did Josel of Rosheim claimed that Luther said of those who might aid the Jews?
+what: What did Luther say would allow the Jews to stay?
+what: What are the ties that best described what the "eight counties" are based on?
+what: What is the name of the region that is not defined by the eight or 10 county definitions?
+what: What is the name of the water body that is found to the east?
+what: What is the lowest ranking one of the counties could have in terms of most populous counties in the United States?
+what: What is the name given to the district that is associated with the motion picture industry?
+what: What is the metric they use to determine how busy airports are?
+what: What is the moniker that is being used to describe the region's diversified technology?
+what: What did Virgin Media claim BSkyB did that resulted Virgin not carrying the channels anymore?
+what: What did Microsoft announce that it would rename Sky Drive to?
+what: What did Microsoft announce that it would rename Sky Drive Pro to?
+what: What does connecting different Sky Q boxes enable them to do?
+when: When did Setanta Sports say it would launch as a subscription service?
+what: What is the universal band that digital recievers will receive free to air channels on?
+what: Since students do not pay tuition, what do they have to pay for schooling in Victoria?
+when: When did Holden announce that it will close its Victoria plant?
+what: What did this agreement do?
+what: What is the southern region where protestants are concentrated?
+what: What did the Edict do for Huguenots in France?
+what: What is the theory that this King's name is the origin of "Huguenot" called?
+what: What did the king do to regarding Huguenot education?
+whom: From whom did the Huguenots purchase the land where they settled?
+what: In the Rankine cycle, what does water turn into when heated?
+what: After the operators are warned by the escape of the steam, what may they then do?
+what: Aside from firebox, what is another name for the space in which combustible material is burned in the engine?
+what: What can the exhaust steam not fully do when the exhaust event is insufficiently long?
+what: Of what length are engine cycle events when the simplest valve gears are used?
+how: How much turbine power is consumed by the pump while the work fluid is condensed?
+what: In addition to recirculating water, what do condensers do?
+what: What is it called when steam propels a turbo generator with electric motor propulsion?
+what: Combustion is caused by an oxidant and a fuel. What role does oxygen play in combustion?
+how: How much oxygen is found is a liter of fresh water under normal conditions?
+what: By what century did researchers see that they could liquefy air?
+what: What is the name for a form of oxygen in which electrons are paired?
+what: What does it mean when currencies are left to "float?"
+what: What is the name of the law which imposed the speed limit?
+which: There is criticism that the energy policies are expensive quick fixes that ignore which facts?
+what: To force Japan to be more involved in the crisis, what did Saudi and Kuwaiti government do?
+what: What did President Kennedy do in response to the Soviet flight in regards of America's program?
+what: What did the engineers fear would be difficult in space due to it never being attempted in Earth orbit?
+what: What type of medal did NASA give the astronauts who visited space and the moon?
+how: How high in miles did the first block, AS-201, reach when launched?
+did: Since NASA didn't know how many attempts each test would end up requiring, what did they use instead of numbers for the trials?
+what: What did the crew of Apollo 12 do with parts of the Surveyor they landed near after photographing them?
+who: Who can enforce the European Union law when member states provide lesser rights?
+what: What are some examples of territories where a member state is responsible for external relations?
+how: How are the votes weighted to ensure that smaller states aren't dominated by larger ones?
+what: What entity is created if the three different institutions cannot come to a consensus at any stage?
+what: What issues do member states say the Court of Justice does not have the final say on?
+which: In which case was it held that the provisions of the treaties are directly effective if they are clear, unconditional, and don't require further action by EU or national authorities?
+when: When did the three Advocate Generals argue that Directives should create rights and duties for all citizens?
+what: What did the Italian government fail to do in Francovich v Italy?
+which: Which measure must be adopted when there is a choice between several?
+what: What must the adoption of laws which will have legal effect in the EU have?
+what: The European Court of Justice cannot uphold measures that are incompatible with what?
+what: What did did article 34 discriminate against in Procureur du Roi v Dassonville?
+which: In which case did a German man claim the right to live in Netherlands where he was a volunteer plumber?
+which: Which Belgian footballer claimed that he should be allowed to transfer from one football club to another when his contract was fulfilled?
+which: In which case did the Court of Justice state that refusal to admit a lawyer to the Belgian bar because he did not have Belgian heritage wasn't able to be justified?
+which: Which TFEU article states that states are exempt from infringing on rights of establishment when they exercise official authority?
+when: When did the Court of Justice rule that the Commission could only propose that there must be some criminal sanctions?
+why: Why was the Dutch lawyer who moved to Belgium while advising a client in a social society case told he couldn't continue?
+which: In which case did the Court of Justice hold that a German court couldn't deny a Dutch building company the right to enforce a contract based in Germany?
+what: What did the Amazon rainforest do during the Middle Miocene?
+where: Where did the water in the Amazon Basin flow towards when moving west?
+what: What is the lake known as which was created by the rise of the Andes Mountains?
+what: What is the maximum square miles did Betty Meggers claim that can be sustained in the rainforest? 
+how: How many inhabitants did Betty Meggers believe could occupy each square kilometre of the Amazon?
+what: During what time did civilization in the Amazon was flourishing when Orellana made his observations?
+who: Who discovered this and where did they come from?
+what: What are dart frogs are known to secrete?
+what: What is notable about the Amazon forest when it is seen from space?
+what: The Peruvian Amazon indigienous people are one group struggling in the Amazon, what is another group?
+what: Along with drought, what is one other factor that is pushing the Amazon rainforest towards a tipping point?
+what: In what year did the Amazon experience a drought that may have been more extreme than in 2005?
+what: What can a simultaneous hermaphrodite do?
+what: What do current ctenophores have that fossils found did not have?
+which: Which group of ctenophore are are hardest to study?
+what: What does the 9 +3 pattern of cilia thought to do?
+what: What does pumping water into the mesoglea do?
+what: What does the ciliary rosettes do to decease bulk and increase density?
+what: What are the tentacles of cydipped ctenophores are usually fringed with?
+what: What do the auricles do?
+what: What does the bathocyroe and ocyropsis do to escape danger?
+what: Some species of beroe have a pair of strips of adhesive cells on the stomach wall. What does it do?
+what: What does the beroe do when pursuing prey?
+what: What happens to the jellyfish nematocysts when they are eaten by the haeckelia?
+what: What do some researchers believe is the earliest-diverging animal phylum is?
+who: Who did a morphologically analysis in 1985 that concluded cydippids are not monophyletic?
+what: What did the BankAmericard allow customers do to that they couldn't do with previous financial instruments?
+what: On what show did Bill Aiken make is television debut?
+which: Which two leading roles did Audra McDonald perform when she was in high school?
+what: What are the factors that are contributing to the desire to have SR 99 improved to be of interstate standards?
+what: What did Distributed Adaptive Message Block Switching do
+what: What did DECnet originally do 
+what: What did vBNS do 
+where: Where and when did the investigation of the plague pathogen begin?
+how: How and when did the first variant of y. pestis enter Europe?
+what: What did historians do in the absence of census figures?
+when: When the three types of rock are re-melted what is formed? 
+what: What is the area called where two plates move apart?
+what: What is the area called where one plate subducts under another?
+what: What foreign bodies, which are older than the rocks themselves, occur igneous rocks?
+what: What is something that is often torn up and included in sedimentary rock?
+what: The presence or absence of what can be used to determine the relative age of the formations in which they are found? 
+when: When dating rocks, what is the absolute isotopic date applied to?
+what: The point at which different radiometric isotopes stop diffusing into and out of the crystal lattice is called what?
+how: How can you find the absolute age of sedimentary rock units which do not contain radioactive isotopes?
+what: When rock folds deep in the Earth it can fold one of two ways, when it buckles upwards it creates what? 
+what: When rock folds deep in the Earth it can fold one of two ways, when it buckles downwards it creates what? 
+what: Rocks that are a depth where they are ductilely stretched are also often what?
+how: How else can petrologists understand the pressures at which different mineral phases appear?
+how: How else can petrologists understand the temperature at which different mineral phases appear?
+what: Zones in which mountains are built along convergent tectonic plate boundaries are called what?
+what: What did the merchants of Newcastle plot to do to Timothy Dexter?
+what: What street does Nikolaus Pevsner think is one of the finest in England?
+what: What is the average age of people who live in Newcastle?
+what: What does the Geordie dialect keep of the older language which came before it?
+what: Strang is an Anglo-Saxon word which means what in modern English?
+how: How long does it take to get to the middle of Newcastle from its outskirts when riding the rails?
+what: What is the name of the current refurbishment the system is undergoing?
+what: What does the local council hope will help cut down traffic congestion in Newcastle?
+how: How many visitors did the Britain Can Make It exhibition attract?
+which: The sculpture of Amida Nyorai that is included in the V&A's Japanese art collection is dated to which century?
+which: Which Italian that is credited with the creating the Baroque style of sculpture is represented in the V&A's British galleries?
+which: Which artist who had a major influence on the Gothic Revival is represented in the V&A's British galleries?
+which: Which famous Dutch artist who painted The Night Watch is represented in the drawings collection of the V&A?
+which: Which famous French artist who painted the Grande Odalisque of 1814 is represented in the drawings collection of the V&A?
+which: To which year is the earliest known piece of English silver with a dated hallmark is dated?
+which: Which Member of Parliament explained how the museum would preserve the collection and keep it available to the public?
+what: What is the largest item from Italy that is part of the sculpture collection?
+which: To which period is the largest item from Italy that is included in the sculpture collection dated?
+which: Which British sculptor whose work include the Queen Victoria memorial in front of Buckingham Palace is included in the V&A collection?
+which: Which English sculptor who became the leading portrait sculptor in Regency era Britain is represented in the V&A collection?
+which: Which channels did Frank Marx think would be requisitioned by the U.S. Army?
+when: When did ABC first premiere Who Wants to Be a Millionaire?
+when: When Sunday Night Football premiered, to which network did Monday Night Football move?
+what: What company did Eisner become president of when he left ABC in 1976?
+what: What radio station did ABC purchase in May 1960?
+what: What are the only states where ABC doesn't have a licensed affiliate?
+what: What service did ABC launch in May 2013?
+what: What is the name of ESPN's streaming service that is analogous to WATCH ABC?
+who: Who would Begter have married when he came of age?
+how: How many warriors did Toghrul provide Temüjin when his wife was captured?
+what: What form of death did Jamukha hope Temüjin would allow him? 
+what: What did the Shah do when faced with defeat by Genghis Khan's forces?
+what: What did Genghis Khan do to the Tangut imperial family after their surrender?
+which: Which territory did Jochi try to protect that may have led to a dispute with his brothers?
+what: What does the Secret History say Genghis Khan was doing when he sustained his mortal injuries?
+who: Who is an example of a sedentary people who were not favored by the laws of the Mongol Empire?
+how: How were the men who did tasks like those of today's pharmacists viewed in Japan in the Asuka and Nara periods?
+what: What is one example of what a clinical pharmacist's duties entail?
+what: What will a pharmacist who passes the ambulatory pharmacist exam be called?
+what: What is the main reason consulting pharmacists are increasingly working directly with patients?
+what: What do some community pharmacies do?
+what: What do most online pharmacies do?
+who: Who do most jurisdictions say can give scheduled drugs to the public?
+what: What is the estimate of how many physicians give out drugs on their own?
+what: What are pharmacists forbidden to do?
+what: What are examples of clinical services that pharmacists can provide?
+what: What is formed when a phagosome fuses with a lysosome?
+what: What is the process in which neutrophils move towards the site of inflammation called?
+what: What are the phagocytes that are located in tissues in contact with the external environment called?
+what: What is one part of the innate immune system that doesn't attack microbes directly?
+what: What is the receptor that killer T cells use to bind to specific antigens that are complexed with the MHC Class 1 receptor of another cell?
+what: When an activated killer T cell finds cells where the MHC 1 receptor has specific antigens, it releases cytotoxins such as what?
+what: What is a ligand on the cell surface that is upregulated after helper T cell activation?
+what: What is the process by which the antigen/antibody complex is processed in to peptides?
+what: What does the matching helper T cell release when it binds with the MHC:antigen complex of the B cell?
+when: When B cells and T cells begin to replicate, what do some of their offspring cells become?
+what: Hormones can alter the sensitivity of the immune system, so they can be referred to as what?
+what: What is a protein that is closely intertwined with circadian rhythms?
+what: What is a mechanism that can help plants block virus replication?
+what: What kind of disorders occur when part of the immune system isn't active?
+what: In a type III secretion system, proteins are transported to the host cell in order to do what?
+what: The success of pathogens is predicated on their ability to do what?
+what: What does a T cell extend when it encounters a foreign pathogen?
+what: What are the antimicrobial peptides that are the main form of invertebrate systemic immunity called?
+what: Invertebrates do not generate what type of cells that are a part of the vertebrate adaptive immune system?
+what: What is the system by which prokaryotes retain phage gene fragments that they have previously come in contact with?
+what: Tumors that are able to evade the body's immune response can become what?
+what: What is the process by which pathogens evade the immune system by hiding inside the host cells called?
+what: What is the process by which the adaptive immune system is evaded by the chainging of non-essential epitopes called?
+what: What is the process by which the immune system identifies tumors called?
+what: What is an example of an enzyme that can transform skin cells into tumors when expressed at high levels?
+what: What are the skin cells that can be transformed into tumors known as?
+what: What is it called when people in society rebel against laws they think are unfair?
+what: Constitutional impasse is different from civil disobedience because does not include what type of person?
+what: What did Thoreau ask a public figure the taxman to do?
+what: What advise did Thoreau give the tax collector when unable to perform his duty?
+what: What reason is given that you should also protest public companies?
+what: If law breaking is not done in a public manor it is not considered what term?
+why: Stephen Eilmann asks why show public civil disobedience instead what is a better idea?
+what: People behaving with civil disobedience that is not-violent is said to make society have more of what?
+when: When violence is used, what is civil disobedience sometimes called?
+why: Why is it preferred that civil disobedience is non violent?
+what: What is it called when there is an active attempt to overthrow a government or belief system?
+what: What did the Jewish people do so pagan items wouldn't be in the temple of Jerusalem?
+what: What is the civil disobedience called where people refuse to be released?
+can: Civil disobedience can occur when people speak about a certain topic that is deemed as?
+what: What is one criminal behavior that is hard to stop by authorities?
+what: What is one way of digital civil disobedience that can have far reaching consequences?
+when: When large groups of people all boycott a system or don't pay taxes it can be considered?
+what: What is a way you can show police officers civil disobedience ?
+what: What should be avoided when talking to authorities?
+what: What is the group called that does not agree with government at all?
+how: How did their lawyer suggest they would plea?
+when: When many people are arrested, what is a common tactic negotiating?
+what: What is the primary goal of pleading not guilty when arrested for Civil Disobedience?
+what: What would someone who is civilly disobedient do in court?
+what: What is one main reason that civil disobedience is not recognized?
+why: Why should someone not commit a crime when they are protesting?
+what: What is violating a law which is not the goal of the protest called?
+when: When the law is a direct target of the protest, what is this called?
+why: Why are people who distribute leaflets inside courthouses not been arrested?
+who: Zoning requirements, environmental impact, budgeting, and logistics are things who should consider?
+what: What do those in the field do to ensure a positive outcome?
+can: Residential construction can generate what is not carefully planned?
+what: A formal design team may be assembled to do what?
+what: What kind of contract is given when the contractor is given a performance specification and must undertake the project from design to construction, while adhering to the performance specifications?
+what: Cost overruns with government projects have occurred when the contractor did what?
+who: Who may seek changes or exemptions in the law that governs the land where the building will be built?
+what: What is issued once construction is complete and a final inspection has been passed?
+what: What right do private schools have that public schools don't?
+what: What is the major US city that the is the university located?
+what: What is the name of the area that the main campus is centered in Cambridge?
+what: What is the name of world renowned cellist is a former Harvard student?
+what: What is the name of the village that once existed in what is now downtown Jacksonville?
+what: For what nation did Ribault initially claim what is now Jacksonville?
+what: Soon after gaining Florida, what did the English do?
+what: In the wake of the Jacksonville fire, what did the Florida Governor do?
+what: What is the name of the river that is completely contained inside Jacksonville?
+why: Why does Oxfam and Credit Suisse believe their findings are being doubted?
+what: What may explain why some Americans who've become rich may have had a head start?
+what: What is the term that describes the difference between what higher paid and lower paid professionals earn?
+when: When less workers are required, what happens to the job market?
+what: When there are many workers competing for a few jobs its considered as what?
+what: What is the potential earnings for a job where there are few skilled workers but many available positions?
+what: What type of wages result from jobs where there is low supply but high demand?
+what: What is it called when the tax rate and base amount increase simultaneously?
+what: What does less education lead to when working?
+what: What does education in an area where there is high demand for workers tend to create?
+what: What types of organizations are on a decline in the US which adversely effects economic mobility?
+what: What is it estimated that about half of all variation in homicide rates can be accounted for by?
+what: What do conservative researchers fell should be a measure of inequality?
+what: What do David Castlles-Quintana and Vicente Royuela do for a living?
+what: What does high levels of inequality do to growth in poor countries?
+what: What does high levels of inequality do for economic growth in richer countries?
+what: What do a number of researchers think a shortage of is caused in part by income inequality?
+how: How are the certain costs which are difficult to avoid shared?
+what: What is the term when middle income earners aspire to obtain the same standards of living as people wealthier than themselves?
+is: When economic inequality is smaller, more waste and pollution is?
+how: How do socialists think the means of production should be owned?
+what: What can and old, ill man not do?
+what: What can people work towards if they aren't denied their functionings, capabilities and agency?
+who: Who is the producer of Doctor Who?
+what: What year did Doctor Who first show on TV?
+what: What is Doctor Who's space ship called?
+who: What type/genre of TV show is Doctor Who?
+what: In what years did Doctor Who originally show on TV?
+when: When does Doctor Who transition to a new body?
+what: What planet is Doctor Who from?
+what: What vehicle did Doctor Who use for his escape from Gallifrey?
+why: Why does Doctor Who's TARDIS always look the same?
+how: How often does Doctor Who travel by himself?
+what: What enemy of Doctor Who is also a Time Lord?
+what: What does Doctor Who do when his body is mortally damaged?
+what: What type of beings does Doctor Who usually take with him on his travels?
+who: What type of Lord is Doctor Who?
+who: How many seasons did the BBC produce Doctor Who?
+who: What was the BBC hoping that an independent production firm would do for Doctor Who?
+what: What year did Doctor Who finally return to television?
+who: Who will be the new executive producer of Doctor Who in 2018?
+what: What years did the original Doctor Who series run?
+when: When did the BBC rebroadcast the first episode of Doctor Who?
+what: What popular phrase is associated with the Doctor Who series?
+what: What did people vote the Doctor Who series as in a 2011 online vote?
+who: In his defense of Doctor Who, what did Philip Howard compare to the London property market?
+how: How many seasons did the original Doctor Who run?
+what: What is the name of a Time Lord that Doctor Who has fought?
+what: In what year did the serial format change for the Doctor Who series?
+what: What is the most common length of Doctor Who episodes?
+what: In what year did Doctor Who begin being shown in HDTV?
+who: What term is used to explain a change in the appearance of Doctor Who?
+what: In what episode did Doctor Who get a new cycle of regenerations?
+what: What is the name of the first Doctor Who serial?
+what: What is the name of Doctor Who granddaughter?
+what: In what year did Doctor Who state that he was the last Time Lord?
+what: In 2005, what did Doctor Who think the condition of his home planet was?
+what: In what episode did Doctor Who acknowledge having had a brother?
+what: What type of creature is usually Doctor Who's companion?
+what: What is the only story of the original series where Doctor Who travels alone?
+what: Since 2005, what is the gender of Doctor Who's primary traveling companion?
+who: Who are the oldest villains from the Doctor Who series? 
+who: Who is the archenemy of Doctor Who?
+what: What title do both Doctor Who and the Master share?
+what: What radio station did the Doctor Who theme reach the charts on in 2011?
+how: How high did the Doctor Who theme go on the radio charts?
+what: What did ABC do that was special in 2003?
+what: What year did TVOntario start showing Doctor Who episodes?
+what: What countries are the Doctor Who DVDs available to purchase?
+what: What Doctor Who story from 1970 is available on Blu-ray?
+what: What Doctor Who was written without Doctor Who in it?
+what: What character on Coupling is a Doctor Who fan?
+what: In what year did original fiction featuring Doctor Who appear?
+who: Who is the publisher of the Doctor Who Adventures magazine?
+who: Who does not take a position on the canonicity of Doctor Who stories by other media?
+when: When did Doctor Who win an award for Best Drama Series?
+what: What years did Doctor Who win five consecutive awards?
+where: Where is Doctor Who the record holder for most successful science fiction series of all time?
+what: What year did Doctor Who win a Peabody award?
+what: What spot does Doctor Who hold in the 100 Greatest British TV Programs of the 20th Century?
+what: What rank does Doctor Who hold in a list of the 100 Greatest Kids' TV Shows?
+which: Which comedian did a parody where a Dalek appears?
+what: What is the name of the donor who helped establish the Hutchinson Commons?
+what: What did the early entrant program do for potential students?
+what: What is the name of the museum and research center for Near Eastern studies, that is owned by the university?
+what: What is the name of the winter festival held in January that is based on fitness? 
+what: What is the name of the American writer and satirist who is also a university alumni?
+what: What is the name of the Pulitzer Prize novelist who was also a university alumni? 
+what: What is the name of the Bungie Inc. founder who is also a university graduate?
+what: What did the Mongol elites wish Buyantu didn't do?
+what: What did Kublai do to prevent famines?
+what: What modern math concept did Zhu Shijie do work similar to?
+what: What did Guo Shoujing do for calendars?
+what: What types of work did the Han do in Central Asia?
+how: How was it determined how many from each camp would be appointed?
+what: What is Kenya doing to determine if there are more reserves?
+what: What did the Kenyan business people hope for when meeting with the Chinese?
+what: What did the Ominde Commission do?
+what: What do students do after primary school?
+what: What can students that complete high school have opportunites to do?
+how: How well did Kenya do in the Beijing Olympics?
+what: What does the IPCC not do?
+what: What does the WG I Summary for Policymakers report say human activities are doing to greenhouse gases?
+what: What is the scenario called in which we don't change our greenhouse gas creation practices?
+how: How sure did the statement say scientists were that temperatures would keep rising?
+how: How much did the statement predict global surface temperature would increase by 2100?
+what: What did Houghton say is necessary for any changes to the SPM?
+where: Where did Singer hold a press conference in May 2000?
+how: How much did the IPCC Third Assessment Report say sea levels will rise from 1990 to 2100?
+how: How much do researchers now think sea levels will rise from 1990 to 2100?
+what: What do red algal chloroplasts have that green chloroplasts don't?
+what: What is the most important thing apicoplasts do?
+what: What could inverted repeats help do?
+how: How does the secondary theory say most cpDNA is structured?
+where: Where does the secondary theory say most genes are kept?
+what: What does Phosphorylation do?
+what: What does the inner mitochondria membrane do?
+what: What does oxidative phosphorylation do?
+what: What does the chloroplast peripheral reticulum do?
+what: What does chlorophyll use light energy to do?
+what: What do photosynthetic carotenoids do?
+what: What do chloroplasts do like mitochondria?
+what: What can rubisco do by mistake?
+what: What are we unsure of about how chloroplasts make methionine precursors?
+when: When a plant is injured, what can become proplastids?
+what: What is the only divisor besides 1 that a prime number can have?
+what: What are numbers greater than 1 that can be divided by 3 or more numbers called?
+what: What is the name of the process which confirms the primality of a number n?
+what: What theorem states that the probability that a number n is prime is inversely proportional to its logarithm?
+what: What is the name of the supposition that any number larger than 2 can be represented as the sum of two primes?
+what: What is the name of the supposition that there are infinite pairs of primes whose difference is 2?
+what: What is the application of prime numbers used in information technology which utilizes the fact that factoring very large prime numbers is very challenging?
+who: In the mid 18th century, who did not concur that 1 should be the first prime number?
+what: What is another function that primes have that the number 1 does not?
+what: What is one function that prime numbers have that 1 does not?
+what: What is the name of the Egyptian papyrus that suggests that they may have had knowledge of prime numbers?
+what: What does the Sieve of Eratosthenes do?
+when: When using a probabilistic algorithm, how is the probability that the number is composite expressed mathematically?
+what: What is the name of one type of prime where p+1 or p-1 takes a certain shape?
+what: What is the name of one type of computing method that is used to find prime numbers?
+what: What is another way to state the condition that infinitely many primes can exist only if a and q are coprime?
+what: What does it mean when a harmonic series diverges?
+what: What type of prime distribution does the Riemann hypothesis propose is also true for short intervals near X?
+what: Assuming p is a prime other than 2 or 5, then, according to Fermat's theorem, what type of decimal will 1/p always be?
+what: According to Fermat's theorem, what period does 1/p always have assuming p is prime that is not 2 or 5?
+what: What is an additional meaning intended when the word prime is used?
+what: What is the name of an algebraic structure in which addition, subtraction and multiplication are defined?
+what: What happens to the norm when a number is multiplied by p?
+what: What is the animal that the Rhine's islands are named after?
+when: When the Rhine emerges from Lake Constance which way does it flow?
+what: What did industry do to the Rhine until the 1980s?
+what: What is the region called that is the largest conurbation of the Rhine?
+where: At Millingen aan de Rijn where the Rhine splits, what does it change it's name to?
+what: What is the term for closing off rivers that are no longer connected?
+what: What did frozen subsoil and expanded alpine glaciers begin to do?
+who: Who is the hero who killed a dragon on the Drachenfels?
+where: The Scottish Parliament may legislate as it pleases as long as the powers aren't already reserved by where?
+may: In May 2002, where would you go to address the Parliament?
+why: Why is the seating of the debating chamber arranged as it is?
+what: What can the non-elected members from the Scottish Government not do?
+what: Because speakers are drawn from across Scotland, what do the represent the balance of?
+what: What can faith groups ask the Presiding Officer to do for them?
+what: What do MSPs who are not in the chamber when the division bell rings return to do?
+how: How do members vote when there is a division?
+what: What does the minister who was the catalyst of the Members Business do by speaking after everyone else?
+who: Who decides how land or property is allowed to be used?
+who: If a matter is not specifically reserved, who is it devolved to?
+who: Issues dealt with at Westminster are not ones who is able to deal with?
+what: What is the minimum amount of time before a bill can go into law?
+what: If an extraordinary election is held within less than six months before the date of an ordinary election, what does it do to the ordinary election?
+what: What goal does Islamism have when it comes to society and government?
+whom: The idea that Islam can be apolitical isn't able to be embraced by whom?
+what: What term do Islamists think should be applied to them?
+what: What does a writer for the International Crisis Group think the concept of political Islam is a creation of?
+what: What did Iqbal fear would weaken the spiritual foundations of Islam and Muslim society?
+what: Iqbal worried that India's mostly Hindu population would do what to Muslim heritage and culture?
+when: When Iqbal promoted ideas of greater Islamic political unity, what did he encourage ending?
+what: What did Maududi believe Muslim society could not be Islamic in the absence of?
+what: What did the conflict galvanize Muslims around the world to do?
+what: What did the Gulf War inadvertently do in the early 1990s?
+when: When imperialism impacts social norms of a state, what is it called?
+what: What did European chemists make that could be used in warfare?
+who: Who does Edward Said say is being attacked by US imperialism?
+when: When did the movement that would become The United Methodist Church begin?
+where: Where did the movement that would become The United Methodist Church begin?
+who: Who was one man who joined hands and said "Lord of the Church, we are united in Thee...?"
+what: What is that grace of God which sustains the believers in the journey towards Christian Perfection?
+what: What is the governing committee  that voted in favor of a proposal that would permit ministers to officiate same-sex weddings?
+what: The church states that, as Christians, they are aware that neither the way of what is righteous before God?"
+whom: According to the UMC, persons who are addicted to pornography have altered perceptions of whom?
+what: What is the only organization which may speak officially for the church?
+what: What is the least number of members a board of trustees can have?
+what: What is the greatest number of members a board of trustees can have?
+what: What are Deacons granted if they are appointed as pastor in a local church?
+what: What is the title for a seminary graduate who serves a two-three-year term in full-time appointment after being commissioned?
+what: What are members who have been baptized as an infant or child but who have not subsequently professed their own faith?
+what: Upon learning of a French scounting party in the area, what did Washington do?
+how: How did Vaudreuil react when Johnson was seen as larger threat?
+what: Given the strength of French forces at Louisbourg, what did Loudoun do?
+what: During withdrawal from Fort William Henry, what did some Indian allies of French do?
+what: What path does a ball thrown up and down in a moving vehicle take when seen by an outside observer? 
+when: When forces are from the presence of differnet objects, what law gives symmetry?
+what: What experiences acceleration when external force is applied to a system?
+what: What is the magnitude of force divided by when external force is added?
+how: How do you avoid problems when determining forces involved on an object from two or more sources?
+what: If you do not know both magnitude and direction of two forces on an object, what would you call that situation?
+how: How do you determine the acceleration of a rope when two people are pulling it?
+what: What is the resultant force called when two forces act on a particle?
+when: When forces are acting on an extended body, what do you need to account for motion effects?
+what: Whwn forces are at right ngles to each other what can they be broken down to?
+how: If a force is pointing horizontally to the northeast, how many forces can you split the force into?
+what: What do you get when you figure the sum of forces with vector addition?
+what: What can orthogonal forces be when there are three components with two at right angles to each other?
+what: What can keep an object from moving when it is being pushed on a surface?
+what: What is generated between a surface and an object that is being pushed?
+what: Static friction balances what force when there is no movement of an object on a surface?
+what: What is the intrisic angular variable called when particles act upon one another?
+what: If the apparant force of two fermions is attractive, what is the spin function?
+what: If the apparant force of two fermions is repulsive, what is the spin function?
+what: What kind of self-consistent models are physicists trying to make that would create a theory of everything?
+what: What does matter actually have that Newtonian mechanics doesn't address?
+what: What is the only form potential energy can change into?
+what: What is the only form kinetic energy can change into?
+what: What is preserved in a closed system of forces when acted upon?
+why: Why are some forces due to that are impossible to model?
