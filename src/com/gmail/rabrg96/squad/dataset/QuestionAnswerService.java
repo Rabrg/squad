@@ -36,7 +36,13 @@ public final class QuestionAnswerService {
         if (questionType != null)
             return questionType;
 
+        question = question.replace("whence", "where").replace("Whence", "Where");
+
+        // TODO: multiple sentence question
         final Sentence sentence = new Sentence(question);
+
+        if (question.contains("_"))
+            return (questionType = "blank"); // TODO: fill in the blank
 
         // Look for question types as first to words and if so use the first
         final List<String> words = sentence.words();
@@ -56,19 +62,20 @@ public final class QuestionAnswerService {
         for (final SemanticGraphEdge edge : graph.edgeListSorted()) {
             final String source = edge.getSource().word().toLowerCase();
             final String target = edge.getTarget().word().toLowerCase();
-            final String type = QUESTION_TYPES.contains(target) ? target : source; // TODO: randomly gave target priority over source
+
+            String type = QUESTION_TYPES.contains(target) ? target : source; // TODO: randomly gave target priority over source
 
             if (QUESTION_TYPES.contains(type)) {
-                // Debug types which are prone to be error
-                switch (type) {
-                    case "do":
-                    case "is":
-                    case "are":
-                        System.out.println("Question: " + question);
-                        System.out.println("Detected type: " + type);
-                        System.out.println("Edge list: " + graph.edgeListSorted());
-                        System.out.println("=====");
-                        break;
+                if (type.equals("do") || type.equals("is") || type.equals("are")) {
+                    if (question.toLowerCase().contains("what")) {
+                        type = "what";
+                    } else if (question.toLowerCase().contains("which")) {
+                        type = "which";
+                    } else if (question.toLowerCase().contains("how")) { // many
+                        type = "how";
+                    } else if (question.toLowerCase().contains("who")) {
+                        type = "who";
+                    }
                 }
                 return (questionType = type);
             }

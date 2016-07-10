@@ -14,7 +14,11 @@ public class DatasetTest {
             for (final Article article : dataset.getData()) {
                 for (final Paragraph paragraph : article.getParagraphs()) {
                     for (final QuestionAnswerService qas : paragraph.getQas()) {
-                        qas.getQuestionType();
+                        try {
+                            qas.getQuestionType();
+                        } catch (final IllegalStateException e) {
+                            System.out.println("Failed to detect type: " + qas.getQuestion());
+                        }
                     }
                 }
             }
