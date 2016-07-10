@@ -1,0 +1,826 @@
+"C:\Program Files\Java\jdk1.8.0_92\bin\java" -Didea.launcher.port=7543 "-Didea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2016.1.2\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Users\Rabrg\IdeaProjects\squad\out\production\squad;C:\Users\Rabrg\IdeaProjects\squad\lib\gson-2.7.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\stanford-corenlp-3.6.0.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\xom-1.2.10.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\xml-apis-1.3.03.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\xercesImpl-2.8.0.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\xalan-2.7.0.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\joda-time-2.9.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\jollyday-0.4.7.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\jaxb-api-2.2.7.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\ejml-0.23.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\javax.json-api-1.0.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\slf4j-api-1.7.12.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\protobuf-java-2.6.1.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\gson-2.7-javadoc.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\gson-2.7-sources.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\protobuf-java-2.6.1-javadoc.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\protobuf-java-2.6.1-sources.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\stanford-corenlp-3.6.0-javadoc.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\stanford-corenlp-3.6.0-sources.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\stanford-english-corenlp-2016-01-10-models.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2016.1.2\lib\idea_rt.jar" com.intellij.rt.execution.application.AppMain com.gmail.rabrg96.squad.dataset.DatasetTest
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Reading POS tagger model from edu/stanford/nlp/models/pos-tagger/english-left3words/english-left3words-distsim.tagger ... done [2.2 sec].
+Loading depparse model file: edu/stanford/nlp/models/parser/nndep/english_UD.gz ...
+PreComputed 100000, Elapsed Time: 2.137 (s)
+Initializing dependency parser done [5.4 sec].
+Question: The "50" given to the Super Bowl winner is plated with how many karats of gold?
+Detected type: is
+Edge list: [given/VBN -> The/DT (dep), given/VBN -> ``/`` (punct), given/VBN -> 50/CD (nsubjpass), given/VBN -> ''/'' (punct), plated/VBN -> given/VBN (csubjpass), winner/NN -> to/TO (case), winner/NN -> the/DT (det), winner/NN -> Super/NNP (compound), winner/NN -> Bowl/NNP (compound), given/VBN -> winner/NN (nmod:to), plated/VBN -> is/VBZ (auxpass), karats/NNS -> with/IN (case), many/JJ -> how/WRB (advmod), karats/NNS -> many/JJ (amod), plated/VBN -> karats/NNS (nmod:with), gold/NN -> of/IN (case), karats/NNS -> gold/NN (nmod:of), plated/VBN -> ?/. (punct)]
+=====
+Question: Warsaw Summer Jazz Days is one of the many what hosted by Warsaw?
+Detected type: is
+Edge list: [Days/NNS -> Warsaw/NNP (compound), Days/NNS -> Summer/NNP (compound), Days/NNS -> Jazz/NN (compound), one/CD -> Days/NNS (nsubj), one/CD -> is/VBZ (cop), many/JJ -> of/IN (case), many/JJ -> the/DT (det), one/CD -> many/JJ (nmod:of), hosted/VBN -> what/WP (dobj), many/JJ -> hosted/VBN (acl:relcl), Warsaw/NNP -> by/IN (case), hosted/VBN -> Warsaw/NNP (nmod:by), one/CD -> ?/. (punct)]
+=====
+Question: King Sigimund's Column is an example of what kind of attraction in Warsaw?
+Detected type: is
+Edge list: [Sigimund/NNP -> King/NNP (compound), Column/NNP -> Sigimund/NNP (nmod:poss), Sigimund/NNP -> 's/POS (case), example/NN -> Column/NNP (nsubj), example/NN -> is/VBZ (cop), example/NN -> an/DT (det), kind/NN -> of/IN (case), kind/NN -> what/WP (det), example/NN -> kind/NN (nmod:of), attraction/NN -> of/IN (case), kind/NN -> attraction/NN (nmod:of), Warsaw/NNP -> in/IN (case), attraction/NN -> Warsaw/NNP (nmod:in), example/NN -> ?/. (punct)]
+=====
+Question: The house of the Baryczko merchant family is a notable example of what type of architecture?
+Detected type: is
+Edge list: [house/NN -> The/DT (det), example/NN -> house/NN (nsubj), family/NN -> of/IN (case), family/NN -> the/DT (det), family/NN -> Baryczko/NNP (compound), family/NN -> merchant/NN (compound), house/NN -> family/NN (nmod:of), example/NN -> is/VBZ (cop), example/NN -> a/DT (det), example/NN -> notable/JJ (amod), type/NN -> of/IN (case), type/NN -> what/WP (det), example/NN -> type/NN (nmod:of), architecture/NN -> of/IN (case), type/NN -> architecture/NN (nmod:of), example/NN -> ?/. (punct)]
+=====
+Question: Is a problem instance typically characterized as abstract or concrete?
+Detected type: is
+Edge list: [problem/NN -> a/DT (det), Is/VBZ -> problem/NN (nsubj), problem/NN -> instance/NN (dep), characterized/VBN -> typically/RB (advmod), instance/NN -> characterized/VBN (acl), abstract/JJ -> as/IN (case), characterized/VBN -> abstract/JJ (nmod:as), abstract/JJ -> or/CC (cc), abstract/JJ -> concrete/JJ (conj:or), Is/VBZ -> ?/. (punct)]
+=====
+Question: The traveling salesman problem is an example of what type of problem?
+Detected type: is
+Edge list: [problem/NN -> The/DT (det), problem/NN -> traveling/VBG (amod), problem/NN -> salesman/NN (compound), example/NN -> problem/NN (nsubj), example/NN -> is/VBZ (cop), example/NN -> an/DT (det), type/NN -> of/IN (case), type/NN -> what/WP (det), example/NN -> type/NN (nmod:of), problem/NN -> of/IN (case), type/NN -> problem/NN (nmod:of), example/NN -> ?/. (punct)]
+=====
+Question: Is the output of a functional problem typically characterized by a simple or complex answer?
+Detected type: is
+Edge list: [output/NN -> the/DT (det), Is/VBZ -> output/NN (nsubj), problem/NN -> of/IN (case), problem/NN -> a/DT (det), problem/NN -> functional/JJ (amod), output/NN -> problem/NN (nmod:of), characterized/VBN -> typically/RB (advmod), problem/NN -> characterized/VBN (acl), answer/NN -> by/IN (case), answer/NN -> a/DT (det), answer/NN -> simple/JJ (amod), simple/JJ -> or/CC (cc), simple/JJ -> complex/JJ (conj:or), characterized/VBN -> answer/NN (nmod:by), Is/VBZ -> ?/. (punct)]
+=====
+Question: If two integers are multiplied and output a value, what is this expression set called?
+Detected type: are
+Edge list: [multiplied/VBN -> If/IN (mark), integers/NNS -> two/CD (nummod), multiplied/VBN -> integers/NNS (nsubjpass), multiplied/VBN -> are/VBP (auxpass), called/VBN -> multiplied/VBN (advcl), multiplied/VBN -> and/CC (cc), value/NN -> output/NN (compound), value/NN -> a/DT (det), multiplied/VBN -> value/NN (conj:and), called/VBN -> ,/, (punct), called/VBN -> what/WP (dobj), called/VBN -> is/VBZ (auxpass), set/NN -> this/DT (det), set/NN -> expression/NN (compound), called/VBN -> set/NN (nsubjpass), called/VBN -> ?/. (punct)]
+=====
+Question: If input size is is equal to n, what can respectively be assumed is the function of n?
+Detected type: is
+Edge list: [equal/JJ -> If/IN (mark), size/NN -> input/NN (compound), equal/JJ -> size/NN (nsubj), equal/JJ -> is/VBZ (aux), equal/JJ -> is/VBZ (cop), assumed/VBN -> equal/JJ (advcl), n/NN -> to/TO (case), equal/JJ -> n/NN (nmod:to), assumed/VBN -> ,/, (punct), assumed/VBN -> what/WP (nsubjpass), assumed/VBN -> can/MD (aux), assumed/VBN -> respectively/RB (advmod), assumed/VBN -> be/VB (auxpass), function/NN -> is/VBZ (cop), function/NN -> the/DT (det), assumed/VBN -> function/NN (dobj), n/NN -> of/IN (case), function/NN -> n/NN (nmod:of), assumed/VBN -> ?/. (punct)]
+=====
+Question: Time and space are both examples of what type of resource?
+Detected type: are
+Edge list: [examples/NNS -> Time/NNP (nsubj), Time/NNP -> and/CC (cc), Time/NNP -> space/NN (conj:and), examples/NNS -> are/VBP (cop), examples/NNS -> both/DT (det), type/NN -> of/IN (case), type/NN -> what/WP (det), examples/NNS -> type/NN (nmod:of), resource/NN -> of/IN (case), type/NN -> resource/NN (nmod:of), examples/NNS -> ?/. (punct)]
+=====
+Question: Communication complexity is an example of what type of measure?
+Detected type: is
+Edge list: [complexity/NN -> Communication/NN (compound), example/NN -> complexity/NN (nsubj), example/NN -> is/VBZ (cop), example/NN -> an/DT (det), type/NN -> of/IN (case), type/NN -> what/WP (det), example/NN -> type/NN (nmod:of), measure/NN -> of/IN (case), type/NN -> measure/NN (nmod:of), example/NN -> ?/. (punct)]
+=====
+Question: Decision tree is an example of what type of measure?
+Detected type: is
+Edge list: [tree/NN -> Decision/NN (compound), example/NN -> tree/NN (nsubj), example/NN -> is/VBZ (cop), example/NN -> an/DT (det), type/NN -> of/IN (case), type/NN -> what/WP (det), example/NN -> type/NN (nmod:of), measure/NN -> of/IN (case), type/NN -> measure/NN (nmod:of), example/NN -> ?/. (punct)]
+=====
+Question: The analysis of a specific algorithm is typically assigned to what field of computational science?
+Detected type: is
+Edge list: [analysis/NN -> The/DT (det), assigned/VBN -> analysis/NN (nsubjpass), algorithm/NN -> of/IN (case), algorithm/NN -> a/DT (det), algorithm/NN -> specific/JJ (amod), analysis/NN -> algorithm/NN (nmod:of), assigned/VBN -> is/VBZ (auxpass), assigned/VBN -> typically/RB (advmod), field/NN -> to/TO (case), field/NN -> what/WP (det), assigned/VBN -> field/NN (nmod:to), science/NN -> of/IN (case), science/NN -> computational/JJ (amod), field/NN -> science/NN (nmod:of), assigned/VBN -> ?/. (punct)]
+=====
+Question: AC and NC are complexity classes typically associated with what type of circuit?
+Detected type: are
+Edge list: [classes/NNS -> AC/NN (nsubj), AC/NN -> and/CC (cc), AC/NN -> NC/NN (conj:and), classes/NNS -> are/VBP (cop), classes/NNS -> complexity/NN (compound), associated/VBN -> typically/RB (advmod), classes/NNS -> associated/VBN (acl), type/NN -> with/IN (case), type/NN -> what/WP (det), associated/VBN -> type/NN (nmod:with), circuit/NN -> of/IN (case), type/NN -> circuit/NN (nmod:of), classes/NNS -> ?/. (punct)]
+=====
+Question: BQP and QMA are examples of complexity classes most commonly associated with what type of Turing machine?
+Detected type: are
+Edge list: [examples/NNS -> BQP/NN (nsubj), BQP/NN -> and/CC (cc), BQP/NN -> QMA/NN (conj:and), examples/NNS -> are/VBP (cop), classes/NNS -> of/IN (case), classes/NNS -> complexity/NN (compound), examples/NNS -> classes/NNS (nmod:of), commonly/RB -> most/RBS (advmod), associated/VBN -> commonly/RB (advmod), classes/NNS -> associated/VBN (acl), type/NN -> with/IN (case), type/NN -> what/WP (det), associated/VBN -> type/NN (nmod:with), machine/NN -> of/IN (case), machine/NN -> Turing/VBG (amod), type/NN -> machine/NN (nmod:of), examples/NNS -> ?/. (punct)]
+=====
+Question: If P = NP is unsolved, and reduction is applied to a known NP-complete problem vis a vis Π2 to  Π1, what conclusion can be drawn for Π1?
+Detected type: is
+Edge list: [unsolved/JJ -> If/IN (mark), NP/NN -> P/NN (compound), NP/NN -> =/JJ (amod), unsolved/JJ -> NP/NN (nsubj), unsolved/JJ -> is/VBZ (cop), unsolved/JJ -> ,/, (punct), unsolved/JJ -> and/CC (cc), applied/VBN -> reduction/NN (nsubjpass), applied/VBN -> is/VBZ (auxpass), unsolved/JJ -> applied/VBN (conj:and), problem/NN -> to/TO (case), problem/NN -> a/DT (det), problem/NN -> known/JJ (amod), problem/NN -> NP-complete/JJ (amod), applied/VBN -> problem/NN (nmod:to), problem/NN -> vis/FW (amod), Π2/FW -> a/DT (det), Π2/FW -> vis/FW (compound), vis/FW -> Π2/FW (dep), Π1/NN -> to/TO (case), Π2/FW -> Π1/NN (nmod:to), Π2/FW -> ,/, (punct), conclusion/NN -> what/WDT (det), drawn/VBN -> conclusion/NN (nsubjpass), drawn/VBN -> can/MD (aux), drawn/VBN -> be/VB (auxpass), Π2/FW -> drawn/VBN (acl:relcl), Π1/NN -> for/IN (case), drawn/VBN -> Π1/NN (nmod:for), unsolved/JJ -> ?/. (punct)]
+=====
+Question: If P is ultimately proven to be equal tot NP, what effect would this have on the efficiency of problems?
+Detected type: is
+Edge list: [proven/VBN -> If/IN (mark), proven/VBN -> P/NN (nsubjpass), proven/VBN -> is/VBZ (auxpass), proven/VBN -> ultimately/RB (advmod), have/VB -> proven/VBN (advcl), NP/NN -> to/TO (mark), NP/NN -> be/VB (cop), NP/NN -> equal/JJ (amod), NP/NN -> tot/NN (compound), proven/VBN -> NP/NN (xcomp), have/VB -> ,/, (punct), effect/NN -> what/WDT (det), have/VB -> effect/NN (dobj), have/VB -> would/MD (aux), have/VB -> this/DT (nsubj), efficiency/NN -> on/IN (case), efficiency/NN -> the/DT (det), have/VB -> efficiency/NN (nmod:on), problems/NNS -> of/IN (case), efficiency/NN -> problems/NNS (nmod:of), have/VB -> ?/. (punct)]
+=====
+Question: The integer factorization problem essentially seeks to determine if the value of of an input is less than what variable?
+Detected type: is
+Edge list: [problem/NN -> The/DT (det), problem/NN -> integer/NN (compound), problem/NN -> factorization/NN (compound), seeks/VBZ -> problem/NN (nsubj), seeks/VBZ -> essentially/RB (advmod), determine/VB -> to/TO (mark), seeks/VBZ -> determine/VB (xcomp), less/JJR -> if/IN (mark), value/NN -> the/DT (det), less/JJR -> value/NN (nsubj), input/NN -> of/IN (case), input/NN -> of/IN (case), input/NN -> an/DT (det), value/NN -> input/NN (nmod:of), less/JJR -> is/VBZ (cop), determine/VB -> less/JJR (advcl), variable/NN -> than/IN (case), variable/NN -> what/WP (det), less/JJR -> variable/NN (nmod:than), seeks/VBZ -> ?/. (punct)]
+=====
+Question: If NP is not equal to P, viewed through this lens, what type of problems can also be considered intractable?
+Detected type: is
+Edge list: [equal/JJ -> If/IN (mark), equal/JJ -> NP/NN (nsubj), equal/JJ -> is/VBZ (cop), equal/JJ -> not/RB (neg), viewed/VBN -> equal/JJ (advcl), P/NN -> to/TO (case), equal/JJ -> P/NN (nmod:to), viewed/VBN -> ,/, (punct), lens/NN -> through/IN (case), lens/NN -> this/DT (det), viewed/VBN -> lens/NN (nmod:through), viewed/VBN -> ,/, (punct), type/NN -> what/WDT (det), considered/VBN -> type/NN (nsubjpass), problems/NNS -> of/IN (case), type/NN -> problems/NNS (nmod:of), considered/VBN -> can/MD (aux), considered/VBN -> also/RB (advmod), considered/VBN -> be/VB (auxpass), viewed/VBN -> considered/VBN (parataxis), considered/VBN -> intractable/JJ (xcomp), viewed/VBN -> ?/. (punct)]
+=====
+Question: If someone is being taught at their place of residence, what is it called?
+Detected type: is
+Edge list: [taught/VBN -> If/IN (mark), taught/VBN -> someone/NN (nsubjpass), taught/VBN -> is/VBZ (aux), taught/VBN -> being/VBG (auxpass), called/VBN -> taught/VBN (advcl), place/NN -> at/IN (case), place/NN -> their/PRP$ (nmod:poss), taught/VBN -> place/NN (nmod:at), residence/NN -> of/IN (case), place/NN -> residence/NN (nmod:of), called/VBN -> ,/, (punct), called/VBN -> what/WP (nsubjpass), called/VBN -> is/VBZ (auxpass), called/VBN -> it/PRP (nsubjpass), called/VBN -> ?/. (punct)]
+=====
+Question: The teacher's in a platoon style teaching are usually more _____?
+Detected type: are
+Edge list: [teacher/NN -> The/DT (det), teacher/NN -> 's/POS (case), style/NN -> in/IN (case), style/NN -> a/DT (det), style/NN -> platoon/NN (compound), teacher/NN -> style/NN (nmod:in), _____/CD -> teaching/NN (nsubj), _____/CD -> are/VBP (cop), more/RBR -> usually/RB (advmod), _____/CD -> more/RBR (advmod), style/NN -> _____/CD (acl:relcl), teacher/NN -> ?/. (punct)]
+=====
+Question: Is corporal punishment increasing or declining in the South?
+Detected type: is
+Edge list: [punishment/NN -> corporal/JJ (amod), Is/VBZ -> punishment/NN (nsubj), punishment/NN -> increasing/VBG (acl), increasing/VBG -> or/CC (cc), increasing/VBG -> declining/VBG (conj:or), South/NNP -> in/IN (case), South/NNP -> the/DT (det), increasing/VBG -> South/NNP (nmod:in), Is/VBZ -> ?/. (punct)]
+=====
+Question: Humor is a part of the classroom for what type of teacher?
+Detected type: is
+Edge list: [part/NN -> Humor/NN (nsubj), part/NN -> is/VBZ (cop), part/NN -> a/DT (det), classroom/NN -> of/IN (case), classroom/NN -> the/DT (det), part/NN -> classroom/NN (nmod:of), type/NN -> for/IN (case), type/NN -> what/WP (det), classroom/NN -> type/NN (nmod:for), teacher/NN -> of/IN (case), type/NN -> teacher/NN (nmod:of), part/NN -> ?/. (punct)]
+=====
+Question: Is the Pope's confessor a Bishop?
+Detected type: is
+Edge list: [Pope/NNP -> the/DT (det), confessor/NN -> Pope/NNP (nmod:poss), Pope/NNP -> 's/POS (case), Is/VBZ -> confessor/NN (nsubj), Bishop/NNP -> a/DT (det), confessor/NN -> Bishop/NNP (nmod:npmod), Is/VBZ -> ?/. (punct)]
+=====
+Question: Is the focus on spiritual mentorship in Hinduism high or low?
+Detected type: is
+Edge list: [focus/NN -> the/DT (det), Is/VBZ -> focus/NN (nsubj), mentorship/NN -> on/IN (case), mentorship/NN -> spiritual/JJ (amod), focus/NN -> mentorship/NN (nmod:on), Hinduism/NNP -> in/IN (case), mentorship/NN -> Hinduism/NNP (nmod:in), Hinduism/NNP -> high/JJ (amod), high/JJ -> or/CC (cc), high/JJ -> low/JJ (conj:or), Is/VBZ -> ?/. (punct)]
+=====
+Question: The cities of Los Angeles and San Diego are a part of which state?
+Detected type: are
+Edge list: [cities/NNS -> The/DT (det), part/NN -> cities/NNS (nsubj), Angeles/NNP -> of/IN (case), Angeles/NNP -> Los/NNP (compound), cities/NNS -> Angeles/NNP (nmod:of), Angeles/NNP -> and/CC (cc), Diego/NNP -> San/NNP (compound), Angeles/NNP -> Diego/NNP (conj:and), part/NN -> are/VBP (cop), part/NN -> a/DT (det), which/WDT -> of/IN (case), part/NN -> which/WDT (nmod:of), which/WDT -> state/NN (dep), part/NN -> ?/. (punct)]
+=====
+Question: Southern California is second to which island in terms of famous serf breaks?
+Detected type: is
+Edge list: [California/NNP -> Southern/NNP (compound), second/JJ -> California/NNP (nsubj), second/JJ -> is/VBZ (cop), which/WDT -> to/TO (case), second/JJ -> which/WDT (nmod:to), which/WDT -> island/NN (dep), terms/NNS -> in/IN (case), island/NN -> terms/NNS (nmod:in), breaks/NNS -> of/IN (case), breaks/NNS -> famous/JJ (amod), breaks/NNS -> serf/NN (compound), terms/NNS -> breaks/NNS (nmod:of), second/JJ -> ?/. (punct)]
+=====
+Question: Point Conception is an example of a landmark among what boundary of southern California?
+Detected type: is
+Edge list: [Conception/NN -> Point/NN (compound), example/NN -> Conception/NN (nsubj), example/NN -> is/VBZ (cop), example/NN -> an/DT (det), landmark/NN -> of/IN (case), landmark/NN -> a/DT (det), example/NN -> landmark/NN (nmod:of), boundary/NN -> among/IN (case), boundary/NN -> what/WP (det), landmark/NN -> boundary/NN (nmod:among), California/NNP -> of/IN (case), California/NNP -> southern/JJ (amod), boundary/NN -> California/NNP (nmod:of), example/NN -> ?/. (punct)]
+=====
+Question: Southern Californian communities are well known to be large, spread - out, and what other characteristic?
+Detected type: are
+Edge list: [communities/NNS -> Southern/NNP (compound), communities/NNS -> Californian/NN (compound), known/VBN -> communities/NNS (nsubjpass), known/VBN -> are/VBP (auxpass), known/VBN -> well/RB (advmod), large/JJ -> to/TO (mark), large/JJ -> be/VB (cop), known/VBN -> large/JJ (xcomp), large/JJ -> ,/, (punct), large/JJ -> spread/NN (conj:and), large/JJ -> -/: (punct), large/JJ -> out/RP (advmod), large/JJ -> ,/, (punct), large/JJ -> and/CC (cc), characteristic/JJ -> what/WP (det), characteristic/JJ -> other/JJ (amod), large/JJ -> characteristic/JJ (conj:and), known/VBN -> ?/. (punct)]
+=====
+Question: Southern California's distinctive regions are divided culturally, politically and what other trait?
+Detected type: are
+Edge list: [California/NNP -> Southern/NNP (compound), regions/NNS -> California/NNP (nmod:poss), California/NNP -> 's/POS (case), regions/NNS -> distinctive/JJ (amod), divided/VBN -> regions/NNS (nsubjpass), divided/VBN -> are/VBP (auxpass), divided/VBN -> culturally/RB (advmod), divided/VBN -> ,/, (punct), divided/VBN -> politically/RB (advmod), divided/VBN -> and/CC (cc), trait/NN -> what/WP (det), trait/NN -> other/JJ (amod), divided/VBN -> trait/NN (conj:and), divided/VBN -> ?/. (punct)]
+=====
+Question: Cities that anchor the regions are often the hub for what kind of activity?
+Detected type: are
+Edge list: [hub/NN -> Cities/NNS (nsubj), anchor/VBP -> that/WDT (nsubj), Cities/NNS -> anchor/VBP (acl:relcl), regions/NNS -> the/DT (det), anchor/VBP -> regions/NNS (dobj), hub/NN -> are/VBP (cop), hub/NN -> often/RB (advmod), hub/NN -> the/DT (det), kind/NN -> for/IN (case), kind/NN -> what/WP (det), hub/NN -> kind/NN (nmod:for), activity/NN -> of/IN (case), kind/NN -> activity/NN (nmod:of), hub/NN -> ?/. (punct)]
+=====
+Question: There are 34 cities in southern California that have a population exceeding what number?
+Detected type: are
+Edge list: [are/VBP -> There/EX (expl), cities/NNS -> 34/CD (nummod), are/VBP -> cities/NNS (nsubj), California/NNP -> in/IN (case), California/NNP -> southern/JJ (amod), cities/NNS -> California/NNP (nmod:in), have/VBP -> that/WDT (nsubj), cities/NNS -> have/VBP (acl:relcl), population/NN -> a/DT (det), exceeding/VBG -> population/NN (nsubj), have/VBP -> exceeding/VBG (ccomp), number/NN -> what/WP (det), exceeding/VBG -> number/NN (dobj), are/VBP -> ?/. (punct)]
+=====
+Question: Southern California is most famous for tourism and what notably named district?
+Detected type: is
+Edge list: [California/NNP -> Southern/NNP (compound), famous/JJ -> California/NNP (nsubj), famous/JJ -> is/VBZ (cop), famous/JJ -> most/RBS (advmod), tourism/NN -> for/IN (case), famous/JJ -> tourism/NN (nmod:for), tourism/NN -> and/CC (cc), named/VBD -> what/WP (nsubj), named/VBD -> notably/RB (advmod), tourism/NN -> named/VBD (conj:and), named/VBD -> district/NN (dobj), famous/JJ -> ?/. (punct)]
+=====
+Question: Downtown Burbank is an example of what kind of district?
+Detected type: is
+Edge list: [Burbank/NNP -> Downtown/NN (compound), example/NN -> Burbank/NNP (nsubj), example/NN -> is/VBZ (cop), example/NN -> an/DT (det), kind/NN -> of/IN (case), kind/NN -> what/WP (det), example/NN -> kind/NN (nmod:of), district/NN -> of/IN (case), kind/NN -> district/NN (nmod:of), example/NN -> ?/. (punct)]
+=====
+Question: Downtown Santa Monica and Downtown Glendale are a part of which area?
+Detected type: are
+Edge list: [Monica/NNP -> Downtown/NN (compound), Monica/NNP -> Santa/NNP (compound), part/NN -> Monica/NNP (nsubj), Monica/NNP -> and/CC (cc), Glendale/NNP -> Downtown/NN (compound), Monica/NNP -> Glendale/NNP (conj:and), part/NN -> are/VBP (cop), part/NN -> a/DT (det), which/WDT -> of/IN (case), part/NN -> which/WDT (nmod:of), which/WDT -> area/NN (dep), part/NN -> ?/. (punct)]
+=====
+Question: Warner Center is located in which area?
+Detected type: is
+Edge list: [Center/NNP -> Warner/NNP (compound), located/JJ -> Center/NNP (nsubj), located/JJ -> is/VBZ (cop), area/NN -> in/IN (case), area/NN -> which/WDT (det), located/JJ -> area/NN (nmod:in), located/JJ -> ?/. (punct)]
+=====
+Question: Century City is an example of a district that belongs to which city?
+Detected type: is
+Edge list: [City/NNP -> Century/NNP (compound), example/NN -> City/NNP (nsubj), example/NN -> is/VBZ (cop), example/NN -> an/DT (det), district/NN -> of/IN (case), district/NN -> a/DT (det), example/NN -> district/NN (nmod:of), belongs/VBZ -> that/WDT (nsubj), district/NN -> belongs/VBZ (acl:relcl), city/NN -> to/TO (case), city/NN -> which/WDT (det), belongs/VBZ -> city/NN (nmod:to), example/NN -> ?/. (punct)]
+=====
+Question: University City is an example of a business district located in which city?
+Detected type: is
+Edge list: [City/NNP -> University/NNP (compound), example/NN -> City/NNP (nsubj), example/NN -> is/VBZ (cop), example/NN -> an/DT (det), district/NN -> of/IN (case), district/NN -> a/DT (det), district/NN -> business/NN (compound), example/NN -> district/NN (nmod:of), district/NN -> located/JJ (amod), city/NN -> in/IN (case), city/NN -> which/WDT (det), located/JJ -> city/NN (nmod:in), example/NN -> ?/. (punct)]
+=====
+Question: The Los Angeles Rams are an example of what kind of sports team?
+Detected type: are
+Edge list: [Rams/NNPS -> The/DT (det), Rams/NNPS -> Los/NNP (compound), Rams/NNPS -> Angeles/NNP (compound), example/NN -> Rams/NNPS (nsubj), example/NN -> are/VBP (cop), example/NN -> an/DT (det), example/NN -> of/IN (dep), of/IN -> what/WP (root), what/WP -> kind/NN (nsubj), team/NN -> of/IN (case), team/NN -> sports/NNS (compound), kind/NN -> team/NN (nmod:of), what/WP -> ?/. (punct)]
+=====
+Question: The Los Angeles Clippers are a team belonging to which sport?
+Detected type: are
+Edge list: [Clippers/NNP -> The/DT (det), Clippers/NNP -> Los/NNP (compound), Clippers/NNP -> Angeles/NNP (compound), team/NN -> Clippers/NNP (nsubj), team/NN -> are/VBP (cop), team/NN -> a/DT (det), team/NN -> belonging/VBG (acl), which/WDT -> to/TO (case), belonging/VBG -> which/WDT (nmod:to), which/WDT -> sport/NN (dep), team/NN -> ?/. (punct)]
+=====
+Question: The Los Angeles Angels of Anaheim are from which sport?
+Detected type: are
+Edge list: [Angels/NNPS -> The/DT (det), Angels/NNPS -> Los/NNP (compound), Angels/NNPS -> Angeles/NNP (compound), sport/NN -> Angels/NNPS (nsubj), Anaheim/NNP -> of/IN (case), Angels/NNPS -> Anaheim/NNP (nmod:of), sport/NN -> are/VBP (cop), which/WDT -> from/IN (case), sport/NN -> which/WDT (nmod:from), sport/NN -> ?/. (punct)]
+=====
+Question: Sky UK Limited is formerly known by what name?
+Detected type: is
+Edge list: [Limited/NNP -> Sky/NNP (compound), Limited/NNP -> UK/NNP (compound), known/VBN -> Limited/NNP (nsubjpass), known/VBN -> is/VBZ (auxpass), known/VBN -> formerly/RB (advmod), name/NN -> by/IN (case), name/NN -> what/WDT (det), known/VBN -> name/NN (nmod:agent), known/VBN -> ?/. (punct)]
+=====
+Question: Since students do not pay tuition, what do they have to pay for schooling in Victoria?
+Detected type: do
+Edge list: [pay/VB -> Since/IN (mark), pay/VB -> students/NNS (nsubj), pay/VB -> do/VBP (aux), pay/VB -> not/RB (neg), have/VBP -> pay/VB (advcl), pay/VB -> tuition/NN (dobj), have/VBP -> ,/, (punct), have/VBP -> what/WP (dobj), have/VBP -> do/VBP (aux), have/VBP -> they/PRP (nsubj), pay/VB -> to/TO (mark), have/VBP -> pay/VB (xcomp), schooling/NN -> for/IN (case), pay/VB -> schooling/NN (nmod:for), Victoria/NNP -> in/IN (case), schooling/NN -> Victoria/NNP (nmod:in), have/VBP -> ?/. (punct)]
+=====
+Question: French Church Street is in what Irish town?
+Detected type: is
+Edge list: [Street/NNP -> French/JJ (amod), Street/NNP -> Church/NNP (compound), town/NN -> Street/NNP (nsubj), town/NN -> is/VBZ (cop), town/NN -> in/IN (case), town/NN -> what/WDT (det), town/NN -> Irish/JJ (amod), town/NN -> ?/. (punct)]
+=====
+Question: The uniflow engine is an attempt to fix an issue that arises in what cycle?
+Detected type: is
+Edge list: [engine/NN -> The/DT (det), engine/NN -> uniflow/JJ (amod), attempt/NN -> engine/NN (nsubj), attempt/NN -> is/VBZ (cop), attempt/NN -> an/DT (det), fix/VB -> to/TO (mark), attempt/NN -> fix/VB (acl), issue/NN -> an/DT (det), fix/VB -> issue/NN (dobj), arises/VBZ -> that/WDT (nsubj), issue/NN -> arises/VBZ (acl:relcl), cycle/NN -> in/IN (case), cycle/NN -> what/WP (det), arises/VBZ -> cycle/NN (nmod:in), attempt/NN -> ?/. (punct)]
+=====
+Question: An evaporative cooling tower is also referred to as what kind of cooling tower?
+Detected type: is
+Edge list: [tower/NN -> An/DT (det), tower/NN -> evaporative/JJ (amod), tower/NN -> cooling/NN (compound), referred/VBN -> tower/NN (nsubjpass), referred/VBN -> is/VBZ (auxpass), referred/VBN -> also/RB (advmod), referred/VBN -> to/TO (dep), to/TO -> as/IN (dep), kind/NN -> what/WP (det), as/IN -> kind/NN (dep), tower/NN -> of/IN (case), tower/NN -> cooling/VBG (amod), kind/NN -> tower/NN (nmod:of), referred/VBN -> ?/. (punct)]
+=====
+Question: During the compression stage of the Rankine cycle, what state is the working fluid in?
+Detected type: is
+Edge list: [stage/NN -> During/IN (case), stage/NN -> the/DT (det), stage/NN -> compression/NN (compound), is/VBZ -> stage/NN (nmod:during), cycle/NN -> of/IN (case), cycle/NN -> the/DT (det), cycle/NN -> Rankine/NNP (compound), stage/NN -> cycle/NN (nmod:of), is/VBZ -> ,/, (punct), state/NN -> what/WDT (det), is/VBZ -> state/NN (dep), fluid/NN -> the/DT (det), fluid/NN -> working/VBG (amod), is/VBZ -> fluid/NN (nsubj), fluid/NN -> in/IN (acl), is/VBZ -> ?/. (punct)]
+=====
+Question: In the Rankine cycle, in what state is the working fluid received in the condenser?
+Detected type: is
+Edge list: [cycle/NN -> In/IN (case), cycle/NN -> the/DT (det), cycle/NN -> Rankine/NNP (compound), is/VBZ -> cycle/NN (nmod:in), is/VBZ -> ,/, (punct), state/NN -> in/IN (case), state/NN -> what/WP (det), is/VBZ -> state/NN (nmod:in), fluid/NN -> the/DT (det), fluid/NN -> working/VBG (amod), received/VBD -> fluid/NN (nsubj), is/VBZ -> received/VBD (ccomp), condenser/NN -> in/IN (case), condenser/NN -> the/DT (det), received/VBD -> condenser/NN (nmod:in), is/VBZ -> ?/. (punct)]
+=====
+Question: Are atmospheric oxygen levels going up, down, or staying the same?
+Detected type: are
+Edge list: [going/VBG -> Are/VBP (aux), levels/NNS -> atmospheric/JJ (amod), levels/NNS -> oxygen/NN (compound), going/VBG -> levels/NNS (nsubj), going/VBG -> up/RB (advmod), going/VBG -> ,/, (punct), going/VBG -> down/RB (advmod), going/VBG -> ,/, (punct), going/VBG -> or/CC (cc), going/VBG -> staying/VBG (conj:or), same/JJ -> the/DT (det), staying/VBG -> same/JJ (dobj), going/VBG -> ?/. (punct)]
+=====
+Question: Under normal conditions, what do two atoms of oxygen form?
+Detected type: do
+Edge list: [conditions/NNS -> Under/IN (case), conditions/NNS -> normal/JJ (amod), do/VBP -> conditions/NNS (nmod:under), do/VBP -> ,/, (punct), do/VBP -> what/WP (nsubj), atoms/NNS -> two/CD (nummod), do/VBP -> atoms/NNS (dobj), form/NN -> of/IN (case), form/NN -> oxygen/NN (compound), atoms/NNS -> form/NN (nmod:of), do/VBP -> ?/. (punct)]
+=====
+Question: Oxygen is released in cellular respiration by?
+Detected type: is
+Edge list: [released/VBN -> Oxygen/NN (nsubjpass), released/VBN -> is/VBZ (auxpass), respiration/NN -> in/IN (case), respiration/NN -> cellular/JJ (amod), released/VBN -> respiration/NN (nmod:in), released/VBN -> by/IN (nmod), released/VBN -> ?/. (punct)]
+=====
+Question: Combustion is caused by an oxidant and a fuel. What role does oxygen play in combustion?
+Detected type: is
+Edge list: [caused/VBN -> Combustion/NNP (nsubjpass), caused/VBN -> is/VBZ (auxpass), oxidant/JJ -> by/IN (case), oxidant/JJ -> an/DT (det), caused/VBN -> oxidant/JJ (nmod:agent), oxidant/JJ -> and/CC (cc), fuel/NN -> a/DT (det), oxidant/JJ -> fuel/NN (conj:and), caused/VBN -> ./. (punct), role/NN -> What/WP (det), play/NN -> role/NN (nsubj), play/NN -> does/VBZ (aux), play/NN -> oxygen/NN (compound), caused/VBN -> play/NN (parataxis), combustion/NN -> in/IN (case), play/NN -> combustion/NN (nmod:in), caused/VBN -> ?/. (punct)]
+=====
+Question: Peroxides, nitrates and dichromates are examples of what type of compounds?
+Detected type: are
+Edge list: [examples/NNS -> Peroxides/NNS (nsubj), Peroxides/NNS -> ,/, (punct), Peroxides/NNS -> nitrates/NNS (conj:and), Peroxides/NNS -> and/CC (cc), Peroxides/NNS -> dichromates/NNS (conj:and), examples/NNS -> are/VBP (cop), type/NN -> of/IN (case), type/NN -> what/WP (det), examples/NNS -> type/NN (nmod:of), compounds/NNS -> of/IN (case), type/NN -> compounds/NNS (nmod:of), examples/NNS -> ?/. (punct)]
+=====
+Question: Although not a fuel  ___ is the chemical compound the generates the most occurrence of explosions.
+Detected type: is
+Edge list: [compound/NN -> Although/IN (mark), ___/NN -> not/RB (neg), ___/NN -> a/DT (det), ___/NN -> fuel/NN (compound), compound/NN -> ___/NN (nsubj), compound/NN -> is/VBZ (cop), compound/NN -> the/DT (det), compound/NN -> chemical/JJ (amod), generates/VBZ -> the/DT (nsubj), compound/NN -> generates/VBZ (acl:relcl), occurrence/NN -> the/DT (det), occurrence/NN -> most/RBS (advmod), generates/VBZ -> occurrence/NN (dobj), explosions/NNS -> of/IN (case), occurrence/NN -> explosions/NNS (nmod:of), compound/NN -> ./. (punct)]
+=====
+Question: To reduce the chances of combustion ___ is required for safely handeling pure O.
+Detected type: is
+Edge list: [reduce/VB -> To/TO (mark), required/VBN -> reduce/VB (advcl), chances/NNS -> the/DT (det), reduce/VB -> chances/NNS (dobj), combustion/NN -> of/IN (case), chances/NNS -> combustion/NN (nmod:of), combustion/NN -> ___/CD (nummod), required/VBN -> is/VBZ (auxpass), handeling/VBG -> for/IN (mark), handeling/VBG -> safely/RB (advmod), required/VBN -> handeling/VBG (advcl), O./NNP -> pure/JJ (amod), handeling/VBG -> O./NNP (dobj)]
+=====
+Question: Granite is made up largely of what chemical compound?
+Detected type: is
+Edge list: [made/VBN -> Granite/NN (nsubjpass), made/VBN -> is/VBZ (auxpass), made/VBN -> up/RP (compound:prt), compound/NN -> largely/RB (advmod), compound/NN -> of/IN (case), compound/NN -> what/WP (det), compound/NN -> chemical/NN (compound), made/VBN -> compound/NN (nmod:of), made/VBN -> ?/. (punct)]
+=====
+Question: Upon what chemical characteristic is oxygen's solubility dependent?
+Detected type: is
+Edge list: [is/VBZ -> Upon/IN (mark), characteristic/NN -> what/WDT (det), characteristic/NN -> chemical/NN (compound), is/VBZ -> characteristic/NN (dep), dependent/JJ -> oxygen/NN (nmod:poss), oxygen/NN -> 's/POS (case), dependent/JJ -> solubility/NN (compound), is/VBZ -> dependent/JJ (nsubj), is/VBZ -> ?/. (punct)]
+=====
+Question: US is concerned about confrontation of the Middle East with which other country?
+Detected type: is
+Edge list: [concerned/VBN -> US/NNP (nsubjpass), concerned/VBN -> is/VBZ (auxpass), confrontation/NN -> about/IN (case), concerned/VBN -> confrontation/NN (nmod:about), East/NNP -> of/IN (case), East/NNP -> the/DT (det), East/NNP -> Middle/NNP (compound), confrontation/NN -> East/NNP (nmod:of), which/WDT -> with/IN (case), East/NNP -> which/WDT (nmod:with), country/NN -> other/JJ (amod), which/WDT -> country/NN (dep), concerned/VBN -> ?/. (punct)]
+=====
+Question: There is criticism that the energy policies are expensive quick fixes that ignore which facts?
+Detected type: is
+Edge list: [is/VBZ -> There/EX (expl), is/VBZ -> criticism/NN (nsubj), expensive/JJ -> that/IN (mark), policies/NNS -> the/DT (det), policies/NNS -> energy/NN (compound), expensive/JJ -> policies/NNS (nsubj), expensive/JJ -> are/VBP (cop), criticism/NN -> expensive/JJ (ccomp), fixes/NNS -> quick/JJ (amod), expensive/JJ -> fixes/NNS (dobj), ignore/VBP -> that/WDT (nsubj), fixes/NNS -> ignore/VBP (acl:relcl), facts/NNS -> which/WDT (det), ignore/VBP -> facts/NNS (dobj), is/VBZ -> ?/. (punct)]
+=====
+Question: The flags on the moon left by the U.S. manned Apollo missions are all still standing save for which mission's flag?
+Detected type: are
+Edge list: [flags/NNS -> The/DT (det), manned/VBD -> flags/NNS (nsubj), moon/NN -> on/IN (case), moon/NN -> the/DT (det), flags/NNS -> moon/NN (nmod:on), moon/NN -> left/VBN (acl), U.S./NNP -> by/IN (case), U.S./NNP -> the/DT (det), left/VBN -> U.S./NNP (nmod:by), missions/NNS -> Apollo/NNP (compound), manned/VBD -> missions/NNS (dobj), standing/VBG -> are/VBP (cop), standing/VBG -> all/DT (advmod), standing/VBG -> still/RB (advmod), manned/VBD -> standing/VBG (advcl), standing/VBG -> save/VB (xcomp), flag/NN -> for/IN (case), mission/NN -> which/WDT (det), flag/NN -> mission/NN (nmod:poss), mission/NN -> 's/POS (case), save/VB -> flag/NN (nmod:for), manned/VBD -> ?/. (punct)]
+=====
+Question: Do the U.S. flags on the moon still have their original coloring or were they faded due to the Sun?
+Detected type: do
+Edge list: [have/VBP -> Do/VB (aux), flags/NNS -> the/DT (det), flags/NNS -> U.S./NNP (compound), have/VBP -> flags/NNS (nsubj), moon/NN -> on/IN (case), moon/NN -> the/DT (det), flags/NNS -> moon/NN (nmod:on), have/VBP -> still/RB (advmod), coloring/NN -> their/PRP$ (nmod:poss), coloring/NN -> original/JJ (amod), have/VBP -> coloring/NN (dobj), have/VBP -> or/CC (cc), faded/VBD -> were/VBD (cop), faded/VBD -> they/PRP (nsubj), have/VBP -> faded/VBD (conj:or), faded/VBD -> due/JJ (advmod), Sun/NNP -> to/TO (case), Sun/NNP -> the/DT (det), due/JJ -> Sun/NNP (nmod:to), have/VBP -> ?/. (punct)]
+=====
+Question: Are there any regions where the Treaty of European Union excludes from jurisdiction?
+Detected type: are
+Edge list: [regions/NNS -> Are/VBP (cop), regions/NNS -> there/EX (expl), regions/NNS -> any/DT (det), excludes/VBZ -> where/WRB (advmod), Treaty/NNP -> the/DT (det), excludes/VBZ -> Treaty/NNP (nsubj), Union/NNP -> of/IN (case), Union/NNP -> European/NNP (compound), Treaty/NNP -> Union/NNP (nmod:of), regions/NNS -> excludes/VBZ (acl:relcl), jurisdiction/NN -> from/IN (case), excludes/VBZ -> jurisdiction/NN (nmod:from), regions/NNS -> ?/. (punct)]
+=====
+Question: Is the Lisbon Treaty one that would alter existing treaties or replace them?
+Detected type: is
+Edge list: [one/CD -> Is/VBZ (cop), Treaty/NNP -> the/DT (det), Treaty/NNP -> Lisbon/NNP (compound), one/CD -> Treaty/NNP (nsubj), alter/VB -> that/WDT (nsubj), alter/VB -> would/MD (aux), one/CD -> alter/VB (acl:relcl), treaties/NNS -> existing/VBG (amod), alter/VB -> treaties/NNS (dobj), alter/VB -> or/CC (cc), alter/VB -> replace/VB (conj:or), replace/VB -> them/PRP (dobj), one/CD -> ?/. (punct)]
+=====
+Question: The legislative body, the Council, are made up of what type of individuals?
+Detected type: are
+Edge list: [body/NN -> The/DT (det), body/NN -> legislative/JJ (amod), made/VBN -> body/NN (nsubjpass), body/NN -> ,/, (punct), Council/NNP -> the/DT (det), body/NN -> Council/NNP (appos), body/NN -> ,/, (punct), made/VBN -> are/VBP (auxpass), made/VBN -> up/RP (compound:prt), type/NN -> of/IN (case), type/NN -> what/WP (det), made/VBN -> type/NN (nmod:of), individuals/NNS -> of/IN (case), type/NN -> individuals/NNS (nmod:of), made/VBN -> ?/. (punct)]
+=====
+Question: Is it easier or harder to change EU law than stay the same?
+Detected type: is
+Edge list: [easier/JJR -> Is/VBZ (cop), easier/JJR -> it/PRP (nsubj), easier/JJR -> or/CC (cc), easier/JJR -> harder/JJR (conj:or), change/VB -> to/TO (mark), easier/JJR -> change/VB (xcomp), law/NN -> EU/NNP (compound), change/VB -> law/NN (dobj), stay/VB -> than/IN (mark), change/VB -> stay/VB (advcl), same/JJ -> the/DT (det), stay/VB -> same/JJ (dobj), easier/JJR -> ?/. (punct)]
+=====
+Question: If there is a conflict between EU law and national law, which law take precedence?
+Detected type: is
+Edge list: [is/VBZ -> If/IN (mark), is/VBZ -> there/EX (expl), conflict/NN -> a/DT (det), is/VBZ -> conflict/NN (nsubj), law/NN -> between/IN (case), law/NN -> EU/NNP (compound), conflict/NN -> law/NN (nmod:between), law/NN -> and/CC (cc), law/NN -> national/JJ (amod), law/NN -> law/NN (conj:and), law/NN -> ,/, (punct), take/VBP -> which/WDT (dobj), take/VBP -> law/NN (nsubj), law/NN -> take/VBP (acl:relcl), take/VBP -> precedence/NN (dobj), is/VBZ -> ?/. (punct)]
+=====
+Question: The Social Chapter is a chapter of what treaty?
+Detected type: is
+Edge list: [Chapter/NNP -> The/DT (det), Chapter/NNP -> Social/NNP (compound), chapter/NN -> Chapter/NNP (nsubj), chapter/NN -> is/VBZ (cop), chapter/NN -> a/DT (det), treaty/NN -> of/IN (case), treaty/NN -> what/WP (det), chapter/NN -> treaty/NN (nmod:of), chapter/NN -> ?/. (punct)]
+=====
+Question: All Italian chocolate is made from what alone?
+Detected type: is
+Edge list: [chocolate/NN -> All/DT (det), chocolate/NN -> Italian/JJ (amod), made/VBN -> chocolate/NN (nsubjpass), made/VBN -> is/VBZ (auxpass), made/VBN -> from/IN (xcomp), from/IN -> what/WP (root), what/WP -> alone/RB (advmod), what/WP -> ?/. (punct)]
+=====
+Question: The Amazon region is home to how many species of insect?
+Detected type: is
+Edge list: [region/NN -> The/DT (det), region/NN -> Amazon/NNP (compound), home/NN -> region/NN (nsubj), home/NN -> is/VBZ (cop), species/NNS -> to/TO (case), many/JJ -> how/WRB (advmod), species/NNS -> many/JJ (amod), home/NN -> species/NNS (nmod:to), insect/NN -> of/IN (case), species/NNS -> insect/NN (nmod:of), home/NN -> ?/. (punct)]
+=====
+Question: Indigenous territories are largely being destroyed in what two ways?
+Detected type: are
+Edge list: [territories/NNS -> Indigenous/JJ (amod), destroyed/VBN -> territories/NNS (nsubjpass), destroyed/VBN -> are/VBP (aux), destroyed/VBN -> largely/RB (advmod), destroyed/VBN -> being/VBG (auxpass), ways/NNS -> in/IN (case), ways/NNS -> what/WDT (det), ways/NNS -> two/CD (nummod), destroyed/VBN -> ways/NNS (nmod:in), destroyed/VBN -> ?/. (punct)]
+=====
+Question: The Peruvian Amazon indigienous people are one group struggling in the Amazon, what is another group?
+Detected type: are
+Edge list: [people/NNS -> The/DT (det), people/NNS -> Peruvian/JJ (amod), people/NNS -> Amazon/NNP (compound), people/NNS -> indigienous/JJ (amod), group/NN -> people/NNS (nsubj), group/NN -> are/VBP (dep), group/NN -> one/CD (nummod), are/VBP -> group/NN (nsubj), group/NN -> struggling/VBG (acl), Amazon/NNP -> in/IN (case), Amazon/NNP -> the/DT (det), struggling/VBG -> Amazon/NNP (nmod:in), are/VBP -> ,/, (punct), group/NN -> what/WP (nsubj), group/NN -> is/VBZ (cop), group/NN -> another/DT (det), group/NN -> ?/. (punct)]
+=====
+Question: There is growing interest in what indigenous group in the Amazon?
+Detected type: is
+Edge list: [is/VBZ -> There/EX (expl), interest/NN -> growing/VBG (amod), is/VBZ -> interest/NN (nsubj), group/NN -> in/IN (case), group/NN -> what/WP (det), group/NN -> indigenous/JJ (amod), interest/NN -> group/NN (nmod:in), Amazon/NNP -> in/IN (case), Amazon/NNP -> the/DT (det), interest/NN -> Amazon/NNP (nmod:in), is/VBZ -> ?/. (punct)]
+=====
+Question: The classification of aspects of the Amazon forest is important for mapping what type of emission?
+Detected type: is
+Edge list: [classification/NN -> The/DT (det), important/JJ -> classification/NN (nsubj), aspects/NNS -> of/IN (case), classification/NN -> aspects/NNS (nmod:of), forest/NN -> of/IN (case), forest/NN -> the/DT (det), forest/NN -> Amazon/NNP (compound), aspects/NNS -> forest/NN (nmod:of), important/JJ -> is/VBZ (cop), mapping/VBG -> for/IN (mark), important/JJ -> mapping/VBG (advcl), mapping/VBG -> what/WP (dobj), what/WP -> type/NN (dep), emission/NN -> of/IN (case), type/NN -> emission/NN (nmod:of), important/JJ -> ?/. (punct)]
+=====
+Question: Are juiveniles capable of reproduction?
+Detected type: are
+Edge list: [Are/VBP -> juiveniles/NNS (nsubj), juiveniles/NNS -> capable/JJ (amod), reproduction/NN -> of/IN (case), capable/JJ -> reproduction/NN (nmod:of), Are/VBP -> ?/. (punct)]
+=====
+Question: Ctenophora are less complex than which other phylum?
+Detected type: are
+Edge list: [complex/JJ -> Ctenophora/NNP (nsubj), complex/JJ -> are/VBP (cop), complex/JJ -> less/RBR (advmod), which/WDT -> than/IN (case), complex/JJ -> which/WDT (nmod:than), phylum/NN -> other/JJ (amod), which/WDT -> phylum/NN (dep), complex/JJ -> ?/. (punct)]
+=====
+Question: Ctenophores are less complex than what other group?
+Detected type: are
+Edge list: [complex/JJ -> Ctenophores/NNS (nsubj), complex/JJ -> are/VBP (cop), complex/JJ -> less/RBR (advmod), group/NN -> than/IN (case), group/NN -> what/WP (det), group/NN -> other/JJ (amod), complex/JJ -> group/NN (nmod:than), complex/JJ -> ?/. (punct)]
+=====
+Question: Cydippid are typically what shape?
+Detected type: are
+Edge list: [shape/NN -> Cydippid/NNP (nsubj), shape/NN -> are/VBP (cop), shape/NN -> typically/RB (advmod), shape/NN -> what/WP (det), shape/NN -> ?/. (punct)]
+=====
+Question: Beroida are known by what other name?
+Detected type: are
+Edge list: [known/VBN -> Beroida/NNP (nsubjpass), known/VBN -> are/VBP (auxpass), name/NN -> by/IN (case), name/NN -> what/WP (det), name/NN -> other/JJ (amod), known/VBN -> name/NN (nmod:agent), known/VBN -> ?/. (punct)]
+=====
+Question: Is fertilization  internal or exeternal in most species?
+Detected type: is
+Edge list: [Is/VBZ -> fertilization/NN (nsubj), fertilization/NN -> internal/JJ (amod), internal/JJ -> or/CC (cc), internal/JJ -> exeternal/JJ (conj:or), species/NNS -> in/IN (case), species/NNS -> most/JJS (amod), internal/JJ -> species/NNS (nmod:in), Is/VBZ -> ?/. (punct)]
+=====
+Question: Do adults or juveniles secretions luminesce brighter?
+Detected type: do
+Edge list: [luminesce/VBP -> adults/NNS (nsubj), adults/NNS -> or/CC (cc), adults/NNS -> juveniles/NNS (conj:or), adults/NNS -> secretions/NNS (dep), Do/VB -> luminesce/VBP (ccomp), luminesce/VBP -> brighter/JJR (dobj), Do/VB -> ?/. (punct)]
+=====
+Question: Are ctenophores predators, vegetarian or parasitic?
+Detected type: are
+Edge list: [predators/NNS -> ctenophores/NNS (compound), Are/VBP -> predators/NNS (nsubj), predators/NNS -> ,/, (punct), predators/NNS -> vegetarian/JJ (appos), vegetarian/JJ -> or/CC (cc), vegetarian/JJ -> parasitic/JJ (conj:or), Are/VBP -> ?/. (punct)]
+=====
+Question: Stromatoveris is similair to which genus?
+Detected type: is
+Edge list: [similair/JJ -> Stromatoveris/NNP (nsubj), similair/JJ -> is/VBZ (cop), which/WDT -> to/TO (case), similair/JJ -> which/WDT (nmod:to), which/WDT -> genus/NNS (dep), similair/JJ -> ?/. (punct)]
+=====
+Question: The Tower District is centered around which historic theatre?
+Detected type: is
+Edge list: [District/NNP -> The/DT (det), District/NNP -> Tower/NNP (compound), centered/VBN -> District/NNP (nsubjpass), centered/VBN -> is/VBZ (auxpass), theatre/NN -> around/IN (case), theatre/NN -> which/WDT (det), theatre/NN -> historic/JJ (amod), centered/VBN -> theatre/NN (nmod:around), centered/VBN -> ?/. (punct)]
+=====
+Question: The west side of Fresno is the center of which ethnic community?
+Detected type: is
+Edge list: [side/NN -> The/DT (det), side/NN -> west/JJ (amod), center/NN -> side/NN (nsubj), Fresno/NNP -> of/IN (case), side/NN -> Fresno/NNP (nmod:of), center/NN -> is/VBZ (cop), center/NN -> the/DT (det), which/WDT -> of/IN (case), center/NN -> which/WDT (nmod:of), community/NN -> ethnic/JJ (amod), which/WDT -> community/NN (dep), center/NN -> ?/. (punct)]
+=====
+Question: Are there any other aviation communities such as Sierra Sky Park in the United States?
+Detected type: are
+Edge list: [communities/NNS -> Are/VBP (cop), communities/NNS -> there/EX (expl), communities/NNS -> any/DT (det), communities/NNS -> other/JJ (amod), communities/NNS -> aviation/NN (compound), Park/NNP -> such/JJ (case), such/JJ -> as/IN (mwe), Park/NNP -> Sierra/NNP (compound), Park/NNP -> Sky/NNP (compound), communities/NNS -> Park/NNP (nmod:such_as), States/NNPS -> in/IN (case), States/NNPS -> the/DT (det), States/NNPS -> United/NNP (compound), Park/NNP -> States/NNPS (nmod:in), communities/NNS -> ?/. (punct)]
+=====
+Question: Is the packet header long
+Detected type: is
+Edge list: [long/RB -> Is/VBZ (cop), header/NN -> the/DT (det), header/NN -> packet/NN (compound), long/RB -> header/NN (nmod:npmod)]
+=====
+Question: This type of system is known as
+Detected type: is
+Edge list: [type/NN -> This/DT (det), known/VBN -> type/NN (nsubjpass), system/NN -> of/IN (case), type/NN -> system/NN (nmod:of), known/VBN -> is/VBZ (auxpass), known/VBN -> as/IN (dep)]
+=====
+Question: The 4 sales and service centers are viewed as
+Detected type: are
+Edge list: [sales/NNS -> The/DT (det), sales/NNS -> 4/CD (nummod), viewed/VBN -> sales/NNS (nsubjpass), sales/NNS -> and/CC (cc), centers/NNS -> service/NN (compound), sales/NNS -> centers/NNS (conj:and), viewed/VBN -> are/VBP (auxpass), viewed/VBN -> as/IN (advmod)]
+=====
+Question: ableine was retired and the new platform is called
+Detected type: is
+Edge list: [retired/VBN -> ableine/NN (nsubjpass), retired/VBN -> was/VBD (auxpass), retired/VBN -> and/CC (cc), platform/NN -> the/DT (det), platform/NN -> new/JJ (amod), called/VBN -> platform/NN (nsubjpass), called/VBN -> is/VBZ (auxpass), retired/VBN -> called/VBN (conj:and)]
+=====
+Question: In the layered model of the Earth there are seismic discontinuities in which layer?
+Detected type: are
+Edge list: [model/NN -> In/IN (case), model/NN -> the/DT (det), model/NN -> layered/JJ (amod), are/VBP -> model/NN (nmod:in), Earth/NNP -> of/IN (case), Earth/NNP -> the/DT (det), model/NN -> Earth/NNP (nmod:of), are/VBP -> there/EX (expl), discontinuities/NNS -> seismic/JJ (amod), are/VBP -> discontinuities/NNS (nsubj), which/WDT -> in/IN (case), layer/NN -> which/WDT (nmod:in), discontinuities/NNS -> layer/NN (acl:relcl), are/VBP -> ?/. (punct)]
+=====
+Question: Rocks on top of a fault that are cut are always older or younger than the fault itself?
+Detected type: are
+Edge list: [older/JJR -> Rocks/NNS (nsubj), fault/NN -> on/IN (case), on/IN -> top/NN (mwe), on/IN -> of/IN (mwe), fault/NN -> a/DT (det), Rocks/NNS -> fault/NN (nmod:on_top_of), cut/VBN -> that/WDT (nsubjpass), cut/VBN -> are/VBP (auxpass), fault/NN -> cut/VBN (acl:relcl), older/JJR -> are/VBP (cop), older/JJR -> always/RB (advmod), older/JJR -> or/CC (cc), older/JJR -> younger/JJR (conj:or), fault/NN -> than/IN (case), fault/NN -> the/DT (det), older/JJR -> fault/NN (nmod:than), fault/NN -> itself/PRP (nmod:npmod), older/JJR -> ?/. (punct)]
+=====
+Question: Xenoliths are picked up by what and deposited into the matrix of igneous rocks?
+Detected type: are
+Edge list: [picked/VBN -> Xenoliths/NNS (nsubjpass), picked/VBN -> are/VBP (auxpass), picked/VBN -> up/RP (compound:prt), what/WDT -> by/IN (case), picked/VBN -> what/WDT (nmod:agent), what/WDT -> and/CC (cc), what/WDT -> deposited/VBN (conj:and), matrix/NN -> into/IN (case), matrix/NN -> the/DT (det), what/WDT -> matrix/NN (nmod:into), rocks/NNS -> of/IN (case), rocks/NNS -> igneous/JJ (amod), matrix/NN -> rocks/NNS (nmod:of), picked/VBN -> ?/. (punct)]
+=====
+Question: It is now possible to convert old relative ages into what type of ages using isotopic dating?
+Detected type: is
+Edge list: [possible/JJ -> It/PRP (nsubj), possible/JJ -> is/VBZ (cop), possible/JJ -> now/RB (advmod), convert/VB -> to/TO (mark), possible/JJ -> convert/VB (xcomp), ages/NNS -> old/JJ (amod), ages/NNS -> relative/JJ (amod), convert/VB -> ages/NNS (dobj), type/NN -> into/IN (case), type/NN -> what/WP (det), convert/VB -> type/NN (nmod:into), ages/NNS -> of/IN (case), type/NN -> ages/NNS (nmod:of), convert/VB -> using/VBG (advcl), dating/VBG -> isotopic/JJ (amod), using/VBG -> dating/VBG (dobj), possible/JJ -> ?/. (punct)]
+=====
+Question: Stretched rocks that pinch into lenses are known by what word?
+Detected type: are
+Edge list: [rocks/NNS -> Stretched/VBN (amod), known/VBN -> rocks/NNS (nsubjpass), pinch/VBP -> that/WDT (nsubj), rocks/NNS -> pinch/VBP (acl:relcl), lenses/NNS -> into/IN (case), pinch/VBP -> lenses/NNS (nmod:into), known/VBN -> are/VBP (auxpass), word/NN -> by/IN (case), word/NN -> what/WDT (det), known/VBN -> word/NN (nmod:agent), known/VBN -> ?/. (punct)]
+=====
+Question: In order to better understand the orientations of faults and folds, structural geologists do what with measurements of geological structures?
+Detected type: do
+Edge list: [understand/VB -> In/IN (mark), In/IN -> order/NN (mwe), understand/VB -> to/TO (mark), understand/VB -> better/RBR (advmod), do/VBP -> understand/VB (advcl), orientations/NNS -> the/DT (det), understand/VB -> orientations/NNS (dobj), faults/NNS -> of/IN (case), orientations/NNS -> faults/NNS (nmod:of), understand/VB -> and/CC (cc), understand/VB -> folds/VBZ (conj:and), do/VBP -> ,/, (punct), geologists/NNS -> structural/JJ (amod), do/VBP -> geologists/NNS (nsubj), do/VBP -> what/WP (dobj), measurements/NNS -> with/IN (case), what/WP -> measurements/NNS (nmod:with), structures/NNS -> of/IN (case), structures/NNS -> geological/JJ (amod), measurements/NNS -> structures/NNS (nmod:of), do/VBP -> ?/. (punct)]
+=====
+Question: Gosforth and Byker are the largest shopping areas of what type?
+Detected type: are
+Edge list: [areas/NNS -> Gosforth/NNP (nsubj), Gosforth/NNP -> and/CC (cc), Gosforth/NNP -> Byker/NNP (conj:and), areas/NNS -> are/VBP (cop), areas/NNS -> the/DT (det), areas/NNS -> largest/JJS (amod), areas/NNS -> shopping/NN (compound), type/NN -> of/IN (case), type/NN -> what/WP (det), areas/NNS -> type/NN (nmod:of), areas/NNS -> ?/. (punct)]
+=====
+Question: Newcastle is home to a large population of what type of person?
+Detected type: is
+Edge list: [home/NN -> Newcastle/NNP (nsubj), home/NN -> is/VBZ (cop), population/NN -> to/TO (case), population/NN -> a/DT (det), population/NN -> large/JJ (amod), home/NN -> population/NN (nmod:to), type/NN -> of/IN (case), type/NN -> what/WP (det), population/NN -> type/NN (nmod:of), person/NN -> of/IN (case), type/NN -> person/NN (nmod:of), home/NN -> ?/. (punct)]
+=====
+Question: There are two of what type of institution in Newcastle?
+Detected type: are
+Edge list: [are/VBP -> There/EX (expl), are/VBP -> two/CD (nsubj), type/NN -> of/IN (case), type/NN -> what/WP (det), two/CD -> type/NN (nmod:of), institution/NN -> of/IN (case), type/NN -> institution/NN (nmod:of), Newcastle/NNP -> in/IN (case), two/CD -> Newcastle/NNP (nmod:in), are/VBP -> ?/. (punct)]
+=====
+Question: Strang is an Anglo-Saxon word which means what in modern English?
+Detected type: is
+Edge list: [word/NN -> Strang/NNP (nsubj), word/NN -> is/VBZ (cop), word/NN -> an/DT (det), word/NN -> Anglo-Saxon/JJ (amod), means/VBZ -> which/WDT (nsubj), word/NN -> means/VBZ (acl:relcl), means/VBZ -> what/WP (dobj), English/NNP -> in/IN (case), English/NNP -> modern/JJ (amod), what/WP -> English/NNP (nmod:in), word/NN -> ?/. (punct)]
+=====
+Question: The V&A is looking to open a branded gallery in which city in Scotland?
+Detected type: is
+Edge list: [V&A/NN -> The/DT (det), looking/VBG -> V&A/NN (nsubj), looking/VBG -> is/VBZ (aux), open/VB -> to/TO (mark), looking/VBG -> open/VB (xcomp), gallery/NN -> a/DT (det), gallery/NN -> branded/JJ (amod), open/VB -> gallery/NN (dobj), which/WDT -> in/IN (case), gallery/NN -> which/WDT (nmod:in), which/WDT -> city/NN (dep), Scotland/NNP -> in/IN (case), city/NN -> Scotland/NNP (nmod:in), looking/VBG -> ?/. (punct)]
+=====
+Question: Included in the V&A collection is dormer window dated 1523-35 from which European chateau?
+Detected type: is
+Edge list: [collection/NN -> in/IN (case), collection/NN -> the/DT (det), collection/NN -> V&A/NN (compound), Included/VBN -> collection/NN (nmod:in), Included/VBN -> is/VBZ (dep), window/NN -> dormer/NN (compound), is/VBZ -> window/NN (nsubj), window/NN -> dated/VBN (acl), dated/VBN -> 1523-35/CD (dobj), which/WDT -> from/IN (case), 1523-35/CD -> which/WDT (nmod:from), chateau/NN -> European/JJ (amod), which/WDT -> chateau/NN (dep), Included/VBN -> ?/. (punct)]
+=====
+Question: The sculpture of Amida Nyorai that is included in the V&A's Japanese art collection is dated to which century?
+Detected type: is
+Edge list: [sculpture/NN -> The/DT (det), dated/VBN -> sculpture/NN (nsubjpass), Nyorai/NNP -> of/IN (case), Nyorai/NNP -> Amida/NNP (compound), sculpture/NN -> Nyorai/NNP (nmod:of), included/VBN -> that/WDT (nsubjpass), included/VBN -> is/VBZ (auxpass), sculpture/NN -> included/VBN (acl:relcl), collection/NN -> in/IN (case), V&A/NNP -> the/DT (det), collection/NN -> V&A/NNP (nmod:poss), V&A/NNP -> 's/POS (case), collection/NN -> Japanese/JJ (amod), collection/NN -> art/NN (compound), included/VBN -> collection/NN (nmod:in), dated/VBN -> is/VBZ (auxpass), which/WDT -> to/TO (case), dated/VBN -> which/WDT (nmod:to), which/WDT -> century/NN (dep), dated/VBN -> ?/. (punct)]
+=====
+Question: Most of the objects in the Japanese art collection is dated to which time period?
+Detected type: is
+Edge list: [dated/VBN -> Most/JJS (nsubjpass), objects/NNS -> of/IN (case), objects/NNS -> the/DT (det), Most/JJS -> objects/NNS (nmod:of), collection/NN -> in/IN (case), collection/NN -> the/DT (det), collection/NN -> Japanese/JJ (amod), collection/NN -> art/NN (compound), objects/NNS -> collection/NN (nmod:in), dated/VBN -> is/VBZ (auxpass), period/NN -> to/TO (case), period/NN -> which/WDT (det), period/NN -> time/NN (compound), dated/VBN -> period/NN (nmod:to), dated/VBN -> ?/. (punct)]
+=====
+Question: Suzuki Chokichi's incense burner dated 1875 is made of what from material?
+Detected type: is
+Edge list: [Chokichi/NNP -> Suzuki/NNP (compound), burner/NN -> Chokichi/NNP (nmod:poss), Chokichi/NNP -> 's/POS (case), burner/NN -> incense/NN (compound), made/VBN -> dated/VBN (dep), made/VBN -> 1875/CD (nsubjpass), made/VBN -> is/VBZ (auxpass), burner/NN -> made/VBN (acl), what/WP -> of/IN (case), made/VBN -> what/WP (nmod:of), material/NN -> from/IN (case), what/WP -> material/NN (nmod:from), burner/NN -> ?/. (punct)]
+=====
+Question: Some of the museum's collection of Korean boxes are inlaid with what objects?
+Detected type: are
+Edge list: [inlaid/VBN -> Some/DT (nsubjpass), collection/NN -> of/IN (case), museum/NN -> the/DT (det), collection/NN -> museum/NN (nmod:poss), museum/NN -> 's/POS (case), Some/DT -> collection/NN (nmod:of), boxes/NNS -> of/IN (case), boxes/NNS -> Korean/JJ (amod), collection/NN -> boxes/NNS (nmod:of), inlaid/VBN -> are/VBP (auxpass), objects/NNS -> with/IN (case), objects/NNS -> what/WP (det), inlaid/VBN -> objects/NNS (nmod:with), inlaid/VBN -> ?/. (punct)]
+=====
+Question: Some of the combs in the V&A collection of South East Asian art is made of what material?
+Detected type: is
+Edge list: [made/VBN -> Some/DT (nsubjpass), combs/NNS -> of/IN (case), combs/NNS -> the/DT (det), Some/DT -> combs/NNS (nmod:of), collection/NN -> in/IN (case), collection/NN -> the/DT (det), collection/NN -> V&A/NN (compound), Some/DT -> collection/NN (nmod:in), art/NN -> of/IN (case), art/NN -> South/NNP (compound), art/NN -> East/NNP (compound), art/NN -> Asian/JJ (amod), collection/NN -> art/NN (nmod:of), made/VBN -> is/VBZ (auxpass), material/NN -> of/IN (case), material/NN -> what/WP (det), made/VBN -> material/NN (nmod:of), made/VBN -> ?/. (punct)]
+=====
+Question: The Codex Forster is a collection of notebooks by which famous Italian Renaissance polymath?
+Detected type: is
+Edge list: [Forster/NNP -> The/DT (det), Forster/NNP -> Codex/NNP (compound), collection/NN -> Forster/NNP (nsubj), collection/NN -> is/VBZ (cop), collection/NN -> a/DT (det), notebooks/NNS -> of/IN (case), collection/NN -> notebooks/NNS (nmod:of), which/WDT -> by/IN (case), notebooks/NNS -> which/WDT (nmod:by), polymath/NNP -> famous/JJ (amod), polymath/NNP -> Italian/JJ (amod), polymath/NNP -> Renaissance/NNP (compound), which/WDT -> polymath/NNP (dep), collection/NN -> ?/. (punct)]
+=====
+Question: The V&A library's collection of illuminated manuscripts are dated to which centuries?
+Detected type: are
+Edge list: [library/NN -> The/DT (det), library/NN -> V&A/NNP (compound), collection/NN -> library/NN (nmod:poss), library/NN -> 's/POS (case), dated/VBN -> collection/NN (nsubjpass), manuscripts/NNS -> of/IN (case), manuscripts/NNS -> illuminated/JJ (amod), collection/NN -> manuscripts/NNS (nmod:of), dated/VBN -> are/VBP (auxpass), which/WDT -> to/TO (case), dated/VBN -> which/WDT (nmod:to), which/WDT -> centuries/NNS (dep), dated/VBN -> ?/. (punct)]
+=====
+Question: The National Art Library at the V&A is known by what other name?
+Detected type: is
+Edge list: [Library/NNP -> The/DT (det), Library/NNP -> National/NNP (compound), Library/NNP -> Art/NNP (compound), known/VBN -> Library/NNP (nsubjpass), V&A/NN -> at/IN (case), V&A/NN -> the/DT (det), Library/NNP -> V&A/NN (nmod:at), known/VBN -> is/VBZ (auxpass), name/NN -> by/IN (case), name/NN -> what/WP (det), name/NN -> other/JJ (amod), known/VBN -> name/NN (nmod:agent), known/VBN -> ?/. (punct)]
+=====
+Question: The Art Deco style of glassware is represented by which artist?
+Detected type: is
+Edge list: [style/NN -> The/DT (det), style/NN -> Art/NNP (compound), style/NN -> Deco/NNP (compound), represented/VBN -> style/NN (nsubjpass), glassware/NN -> of/IN (case), style/NN -> glassware/NN (nmod:of), represented/VBN -> is/VBZ (auxpass), which/WDT -> by/IN (case), represented/VBN -> which/WDT (nmod:agent), which/WDT -> artist/NN (dep), represented/VBN -> ?/. (punct)]
+=====
+Question: The Art Noveau style of glassware is represented by which two artists?
+Detected type: is
+Edge list: [style/NN -> The/DT (det), style/NN -> Art/NNP (compound), style/NN -> Noveau/NNP (compound), represented/VBN -> style/NN (nsubjpass), glassware/NN -> of/IN (case), style/NN -> glassware/NN (nmod:of), represented/VBN -> is/VBZ (auxpass), which/WDT -> by/IN (case), represented/VBN -> which/WDT (nmod:agent), artists/NNS -> two/CD (nummod), which/WDT -> artists/NNS (dep), artists/NNS -> ?/. (punct)]
+=====
+Question: The silver and gold collection of the V&A is divided into which categories?
+Detected type: is
+Edge list: [collection/NN -> The/DT (det), collection/NN -> silver/NN (compound), silver/NN -> and/CC (cc), silver/NN -> gold/NN (conj:and), divided/VBN -> collection/NN (nsubjpass), V&A/NN -> of/IN (case), V&A/NN -> the/DT (det), collection/NN -> V&A/NN (nmod:of), divided/VBN -> is/VBZ (auxpass), which/WDT -> into/IN (case), divided/VBN -> which/WDT (nmod:into), which/WDT -> categories/NNS (dep), divided/VBN -> ?/. (punct)]
+=====
+Question: The Art Deco period of textiles works is represented by which American artist?
+Detected type: is
+Edge list: [period/NN -> The/DT (det), period/NN -> Art/NNP (compound), period/NN -> Deco/NNP (compound), works/VBZ -> period/NN (nsubj), textiles/NNS -> of/IN (case), period/NN -> textiles/NNS (nmod:of), represented/VBN -> is/VBZ (auxpass), works/VBZ -> represented/VBN (dep), which/WDT -> by/IN (case), represented/VBN -> which/WDT (nmod:agent), artist/NN -> American/JJ (amod), which/WDT -> artist/NN (dep), works/VBZ -> ?/. (punct)]
+=====
+Question: The material in the V&A theatre collection is available for which use?
+Detected type: is
+Edge list: [material/NN -> The/DT (det), available/JJ -> material/NN (nsubj), collection/NN -> in/IN (case), collection/NN -> the/DT (det), collection/NN -> V&A/NNP (compound), collection/NN -> theatre/NN (compound), material/NN -> collection/NN (nmod:in), available/JJ -> is/VBZ (cop), which/WDT -> for/IN (case), use/NN -> which/WDT (nmod:for), available/JJ -> use/NN (nmod), available/JJ -> ?/. (punct)]
+=====
+Question: Disney-ABC Television Group is a subsidiary of what division of the Walt Disney Company?
+Detected type: is
+Edge list: [Group/NNP -> Disney-ABC/NNP (compound), Group/NNP -> Television/NNP (compound), subsidiary/NN -> Group/NNP (nsubj), subsidiary/NN -> is/VBZ (cop), subsidiary/NN -> a/DT (det), division/NN -> of/IN (case), division/NN -> what/WP (det), subsidiary/NN -> division/NN (nmod:of), Company/NNP -> of/IN (case), Company/NNP -> the/DT (det), Company/NNP -> Walt/NNP (compound), Company/NNP -> Disney/NNP (compound), division/NN -> Company/NNP (nmod:of), subsidiary/NN -> ?/. (punct)]
+=====
+Question: The Walt Disney Company is a part owner of what VOD streaming service?
+Detected type: is
+Edge list: [Company/NNP -> The/DT (det), Company/NNP -> Walt/NNP (compound), Company/NNP -> Disney/NNP (compound), owner/NN -> Company/NNP (nsubj), owner/NN -> is/VBZ (cop), owner/NN -> a/DT (det), owner/NN -> part/NN (compound), service/NN -> of/IN (case), service/NN -> what/WP (det), service/NN -> VOD/NNP (compound), service/NN -> streaming/NN (compound), owner/NN -> service/NN (nmod:of), owner/NN -> ?/. (punct)]
+=====
+Question: Jenggis is the adjectival form of what word?
+Detected type: is
+Edge list: [form/NN -> Jenggis/NNP (nsubj), form/NN -> is/VBZ (cop), form/NN -> the/DT (det), form/NN -> adjectival/JJ (amod), word/NN -> of/IN (case), word/NN -> what/WP (det), form/NN -> word/NN (nmod:of), form/NN -> ?/. (punct)]
+=====
+Question: The idea of acquired immunity in jawed vertebrates is the basis of what medical treatment?
+Detected type: is
+Edge list: [idea/NN -> The/DT (det), basis/NN -> idea/NN (nsubj), immunity/NN -> of/IN (case), immunity/NN -> acquired/VBN (amod), idea/NN -> immunity/NN (nmod:of), vertebrates/NNS -> in/IN (case), vertebrates/NNS -> jawed/JJ (amod), immunity/NN -> vertebrates/NNS (nmod:in), basis/NN -> is/VBZ (cop), basis/NN -> the/DT (det), treatment/NN -> of/IN (case), treatment/NN -> what/WP (det), treatment/NN -> medical/JJ (amod), basis/NN -> treatment/NN (nmod:of), basis/NN -> ?/. (punct)]
+=====
+Question: What even is the earliest known reference to immunity?
+Detected type: is
+Edge list: [is/VBZ -> even/RB (advmod), What/WDT -> is/VBZ (cop), reference/NN -> the/DT (det), reference/NN -> earliest/JJS (amod), reference/NN -> known/JJ (amod), What/WDT -> reference/NN (nsubj), immunity/NN -> to/TO (case), reference/NN -> immunity/NN (nmod:to), What/WDT -> ?/. (punct)]
+=====
+Question: Most antibiotics target bacteria and don't affect what class of organisms?
+Detected type: do
+Edge list: [antibiotics/NNS -> Most/JJS (amod), target/VBP -> antibiotics/NNS (nsubj), target/VBP -> bacteria/NNS (dobj), target/VBP -> and/CC (cc), affect/VB -> do/VBP (aux), affect/VB -> n't/RB (neg), target/VBP -> affect/VB (conj:and), class/NN -> what/WP (det), affect/VB -> class/NN (dobj), organisms/NNS -> of/IN (case), class/NN -> organisms/NNS (nmod:of), target/VBP -> ?/. (punct)]
+=====
+Question: MHC antigens on normal body cells are recognized by what receptor on NK cells?
+Detected type: are
+Edge list: [antigens/NNS -> MHC/NN (compound), recognized/VBN -> antigens/NNS (nsubjpass), cells/NNS -> on/IN (case), cells/NNS -> normal/JJ (amod), cells/NNS -> body/NN (compound), antigens/NNS -> cells/NNS (nmod:on), recognized/VBN -> are/VBP (auxpass), receptor/NN -> by/IN (case), receptor/NN -> what/WDT (det), recognized/VBN -> receptor/NN (nmod:agent), cells/NNS -> on/IN (case), cells/NNS -> NK/NN (compound), receptor/NN -> cells/NNS (nmod:on), recognized/VBN -> ?/. (punct)]
+=====
+Question: The function of long-lived memory cells is an example of what kind of immune response?
+Detected type: is
+Edge list: [function/NN -> The/DT (det), example/NN -> function/NN (nsubj), cells/NNS -> of/IN (case), cells/NNS -> long-lived/JJ (amod), cells/NNS -> memory/NN (compound), function/NN -> cells/NNS (nmod:of), example/NN -> is/VBZ (cop), example/NN -> an/DT (det), example/NN -> of/IN (dep), of/IN -> what/WP (root), what/WP -> kind/NN (nsubj), response/NN -> of/IN (case), response/NN -> immune/JJ (amod), kind/NN -> response/NN (nmod:of), what/WP -> ?/. (punct)]
+=====
+Question: Antibodies are transferred to the gut of the infant through what means?
+Detected type: are
+Edge list: [transferred/VBN -> Antibodies/NNS (nsubjpass), transferred/VBN -> are/VBP (auxpass), gut/NN -> to/TO (case), gut/NN -> the/DT (det), transferred/VBN -> gut/NN (nmod:to), infant/NN -> of/IN (case), infant/NN -> the/DT (det), gut/NN -> infant/NN (nmod:of), means/VBZ -> through/IN (mark), means/VBZ -> what/WP (nsubj), transferred/VBN -> means/VBZ (advcl), transferred/VBN -> ?/. (punct)]
+=====
+Question: Antibodies transported from the mother to an infant via the placenta is an example of what type of short-lived immunity?
+Detected type: is
+Edge list: [example/NN -> Antibodies/NNS (nsubj), Antibodies/NNS -> transported/VBN (acl), mother/NN -> from/IN (case), mother/NN -> the/DT (det), transported/VBN -> mother/NN (nmod:from), infant/NN -> to/TO (case), infant/NN -> an/DT (det), transported/VBN -> infant/NN (nmod:to), placenta/NN -> via/IN (case), placenta/NN -> the/DT (det), Antibodies/NNS -> placenta/NN (nmod:via), example/NN -> is/VBZ (cop), example/NN -> an/DT (det), example/NN -> of/IN (dep), of/IN -> what/WP (mwe), what/WP -> type/NN (nsubj), immunity/NN -> of/IN (case), immunity/NN -> short-lived/JJ (amod), type/NN -> immunity/NN (nmod:of), what/WP -> ?/. (punct)]
+=====
+Question: Female sex hormones are immunostimulators of which immune responses?
+Detected type: are
+Edge list: [hormones/NNS -> Female/JJ (amod), hormones/NNS -> sex/NN (compound), immunostimulators/NNS -> hormones/NNS (nsubj), immunostimulators/NNS -> are/VBP (cop), which/WDT -> of/IN (case), immunostimulators/NNS -> which/WDT (nmod:of), responses/NNS -> immune/JJ (amod), which/WDT -> responses/NNS (dep), immunostimulators/NNS -> ?/. (punct)]
+=====
+Question: Tumor antigens are complexed with MHC class I molecules in the same way as what antigens?
+Detected type: are
+Edge list: [antigens/NNS -> Tumor/NN (compound), complexed/VBN -> antigens/NNS (nsubjpass), complexed/VBN -> are/VBP (auxpass), molecules/NNS -> with/IN (case), molecules/NNS -> MHC/NN (compound), molecules/NNS -> class/NN (compound), molecules/NNS -> I/CD (nummod), complexed/VBN -> molecules/NNS (nmod:with), way/NN -> in/IN (case), way/NN -> the/DT (det), way/NN -> same/JJ (amod), complexed/VBN -> way/NN (nmod:in), antigens/NNS -> as/IN (case), antigens/NNS -> what/WP (det), way/NN -> antigens/NNS (nmod:as), complexed/VBN -> ?/. (punct)]
+=====
+Question: Low doses of anti-inflammatories are sometimes used with what classes of drugs?
+Detected type: are
+Edge list: [doses/NNS -> Low/JJ (amod), used/VBN -> doses/NNS (nsubjpass), anti-inflammatories/NNS -> of/IN (case), doses/NNS -> anti-inflammatories/NNS (nmod:of), used/VBN -> are/VBP (auxpass), used/VBN -> sometimes/RB (advmod), classes/NNS -> with/IN (case), classes/NNS -> what/WP (det), used/VBN -> classes/NNS (nmod:with), drugs/NNS -> of/IN (case), classes/NNS -> drugs/NNS (nmod:of), used/VBN -> ?/. (punct)]
+=====
+Question: Invertebrates do not generate what type of cells that are a part of the vertebrate adaptive immune system?
+Detected type: do
+Edge list: [generate/VB -> Invertebrates/NNS (nsubj), generate/VB -> do/VBP (aux), generate/VB -> not/RB (neg), type/NN -> what/WP (det), generate/VB -> type/NN (dobj), cells/NNS -> of/IN (case), type/NN -> cells/NNS (nmod:of), part/NN -> that/WDT (nsubj), part/NN -> are/VBP (cop), part/NN -> a/DT (det), cells/NNS -> part/NN (acl:relcl), system/NN -> of/IN (case), system/NN -> the/DT (det), system/NN -> vertebrate/NN (compound), system/NN -> adaptive/JJ (amod), system/NN -> immune/JJ (amod), part/NN -> system/NN (nmod:of), generate/VB -> ?/. (punct)]
+=====
+Question: The restriction modification system is used by bacteria for protection from what pathogens?
+Detected type: is
+Edge list: [system/NN -> The/DT (det), system/NN -> restriction/NN (compound), system/NN -> modification/NN (compound), used/VBN -> system/NN (nsubjpass), used/VBN -> is/VBZ (auxpass), bacteria/NNS -> by/IN (case), used/VBN -> bacteria/NNS (nmod:agent), protection/NN -> for/IN (case), bacteria/NNS -> protection/NN (nmod:for), pathogens/NNS -> from/IN (case), pathogens/NNS -> what/WP (det), protection/NN -> pathogens/NNS (nmod:from), used/VBN -> ?/. (punct)]
+=====
+Question: There is a public database of epitopes for pathogens known to be recognizable by what cells?
+Detected type: is
+Edge list: [is/VBZ -> There/EX (expl), database/NN -> a/DT (det), database/NN -> public/NN (compound), is/VBZ -> database/NN (nsubj), epitopes/NNS -> of/IN (case), database/NN -> epitopes/NNS (nmod:of), pathogens/NNS -> for/IN (case), epitopes/NNS -> pathogens/NNS (nmod:for), pathogens/NNS -> known/VBN (acl), recognizable/JJ -> to/TO (mark), recognizable/JJ -> be/VB (auxpass), known/VBN -> recognizable/JJ (xcomp), cells/NNS -> by/IN (case), cells/NNS -> what/WP (det), recognizable/JJ -> cells/NNS (nmod:agent), is/VBZ -> ?/. (punct)]
+=====
+Question: The speed of the killing response of the human immune system is a product of what process?
+Detected type: is
+Edge list: [speed/NN -> The/DT (det), product/NN -> speed/NN (nsubj), response/NN -> of/IN (case), response/NN -> the/DT (det), response/NN -> killing/NN (compound), speed/NN -> response/NN (nmod:of), system/NN -> of/IN (case), system/NN -> the/DT (det), system/NN -> human/JJ (amod), system/NN -> immune/JJ (amod), response/NN -> system/NN (nmod:of), product/NN -> is/VBZ (cop), product/NN -> a/DT (det), process/NN -> of/IN (case), process/NN -> what/WP (det), product/NN -> process/NN (nmod:of), product/NN -> ?/. (punct)]
+=====
+Question: His poem is considered the first kind of what type of protest?
+Detected type: is
+Edge list: [poem/NN -> His/PRP$ (nmod:poss), considered/VBN -> poem/NN (nsubjpass), considered/VBN -> is/VBZ (auxpass), kind/NN -> the/DT (det), kind/NN -> first/JJ (amod), considered/VBN -> kind/NN (xcomp), type/NN -> of/IN (case), type/NN -> what/WP (det), kind/NN -> type/NN (nmod:of), protest/NN -> of/IN (case), type/NN -> protest/NN (nmod:of), considered/VBN -> ?/. (punct)]
+=====
+Question: Constitutional impasse is different from civil disobedience because does not include what type of person?
+Detected type: is
+Edge list: [impasse/NN -> Constitutional/NNP (compound), different/JJ -> impasse/NN (nsubj), different/JJ -> is/VBZ (cop), disobedience/NN -> from/IN (case), disobedience/NN -> civil/JJ (amod), different/JJ -> disobedience/NN (nmod:from), include/VB -> because/IN (mark), include/VB -> does/VBZ (aux), include/VB -> not/RB (neg), different/JJ -> include/VB (advcl), type/NN -> what/WP (det), include/VB -> type/NN (dobj), person/NN -> of/IN (case), type/NN -> person/NN (nmod:of), different/JJ -> ?/. (punct)]
+=====
+Question: Constitutional impasse is distinct from what key term?
+Detected type: is
+Edge list: [impasse/NN -> Constitutional/NNP (compound), distinct/JJ -> impasse/NN (nsubj), distinct/JJ -> is/VBZ (cop), term/NN -> from/IN (case), term/NN -> what/WP (det), term/NN -> key/JJ (amod), distinct/JJ -> term/NN (nmod:from), distinct/JJ -> ?/. (punct)]
+=====
+Question: Civil Disobedience is mainly performed by what population group?
+Detected type: is
+Edge list: [Disobedience/NN -> Civil/JJ (amod), performed/VBN -> Disobedience/NN (nsubjpass), performed/VBN -> is/VBZ (auxpass), performed/VBN -> mainly/RB (advmod), group/NN -> by/IN (case), group/NN -> what/WDT (det), group/NN -> population/NN (compound), performed/VBN -> group/NN (nmod:agent), performed/VBN -> ?/. (punct)]
+=====
+Question: Thoreau argues that usually majority rules but their views collectively are sometimes?
+Detected type: are
+Edge list: [argues/VBZ -> Thoreau/NNP (nsubj), argues/VBZ -> that/IN (dobj), majority/NN -> usually/RB (advmod), rules/NNS -> majority/NN (compound), that/IN -> rules/NNS (root), rules/NNS -> but/CC (cc), views/NNS -> their/PRP$ (nmod:poss), sometimes/RB -> views/NNS (nsubj), sometimes/RB -> collectively/RB (advmod), sometimes/RB -> are/VBP (cop), rules/NNS -> sometimes/RB (conj:but), rules/NNS -> ?/. (punct)]
+=====
+Question: Some theories argue that civil disobedience is justified in regard to?
+Detected type: is
+Edge list: [theories/NNS -> Some/DT (det), argue/VBP -> theories/NNS (nsubj), justified/JJ -> that/IN (mark), disobedience/NN -> civil/JJ (amod), justified/JJ -> disobedience/NN (nsubj), justified/JJ -> is/VBZ (cop), argue/VBP -> justified/JJ (ccomp), regard/NN -> in/IN (case), justified/JJ -> regard/NN (nmod:in), regard/NN -> to/TO (nmod), argue/VBP -> ?/. (punct)]
+=====
+Question: Browlee also applies that civil disobedience is okay regarding?
+Detected type: is
+Edge list: [applies/VBZ -> Browlee/NNP (nsubj), applies/VBZ -> also/RB (advmod), okay/JJ -> that/IN (mark), disobedience/NN -> civil/JJ (amod), okay/JJ -> disobedience/NN (nsubj), okay/JJ -> is/VBZ (cop), applies/VBZ -> okay/JJ (ccomp), okay/JJ -> regarding/VBG (xcomp), applies/VBZ -> ?/. (punct)]
+=====
+Question: If law breaking is not done in a public manor it is not considered what term?
+Detected type: is
+Edge list: [done/VBN -> If/IN (mark), breaking/NN -> law/NN (compound), done/VBN -> breaking/NN (nsubjpass), done/VBN -> is/VBZ (auxpass), done/VBN -> not/RB (neg), considered/VBN -> done/VBN (advcl), manor/NN -> in/IN (case), manor/NN -> a/DT (det), manor/NN -> public/JJ (amod), considered/VBN -> manor/NN (nmod:in), considered/VBN -> it/PRP (nsubjpass), considered/VBN -> is/VBZ (auxpass), considered/VBN -> not/RB (neg), term/NN -> what/WP (det), considered/VBN -> term/NN (xcomp), considered/VBN -> ?/. (punct)]
+=====
+Question: Such protests are usually considered to be what type?
+Detected type: are
+Edge list: [protests/NNS -> Such/JJ (amod), considered/VBN -> protests/NNS (nsubjpass), considered/VBN -> are/VBP (auxpass), considered/VBN -> usually/RB (advmod), type/NN -> to/TO (mark), type/NN -> be/VB (cop), type/NN -> what/WP (det), considered/VBN -> type/NN (xcomp), considered/VBN -> ?/. (punct)]
+=====
+Question: Anarchists do not want to accept punishment for what reason?
+Detected type: do
+Edge list: [want/VB -> Anarchists/NNS (nsubj), want/VB -> do/VBP (aux), want/VB -> not/RB (neg), accept/VB -> to/TO (mark), want/VB -> accept/VB (xcomp), accept/VB -> punishment/NN (dobj), reason/NN -> for/IN (case), reason/NN -> what/WP (det), punishment/NN -> reason/NN (nmod:for), want/VB -> ?/. (punct)]
+=====
+Question: Harsh Criminal punishments are given as to what end?
+Detected type: are
+Edge list: [punishments/NNS -> Harsh/JJ (amod), punishments/NNS -> Criminal/NNP (compound), given/VBN -> punishments/NNS (nsubjpass), given/VBN -> are/VBP (auxpass), end/VB -> as/IN (mark), end/VB -> to/TO (mark), end/VB -> what/WP (nsubj), given/VBN -> end/VB (advcl), given/VBN -> ?/. (punct)]
+=====
+Question: Zoning requirements, environmental impact, budgeting, and logistics are things who should consider?
+Detected type: are
+Edge list: [requirements/NNS -> Zoning/VBG (compound), things/NNS -> requirements/NNS (nsubj), requirements/NNS -> ,/, (punct), impact/NN -> environmental/JJ (amod), requirements/NNS -> impact/NN (conj:and), requirements/NNS -> ,/, (punct), requirements/NNS -> budgeting/NN (conj:and), requirements/NNS -> ,/, (punct), requirements/NNS -> and/CC (cc), requirements/NNS -> logistics/NNS (conj:and), things/NNS -> are/VBP (cop), consider/VB -> who/WP (nsubj), consider/VB -> should/MD (aux), things/NNS -> consider/VB (acl:relcl), things/NNS -> ?/. (punct)]
+=====
+Question: Building construction is usually further divided into what categories?
+Detected type: is
+Edge list: [construction/NN -> Building/NN (compound), divided/VBN -> construction/NN (nsubjpass), divided/VBN -> is/VBZ (auxpass), divided/VBN -> usually/RB (advmod), divided/VBN -> further/JJ (advmod), categories/NNS -> into/IN (case), categories/NNS -> what/WP (det), divided/VBN -> categories/NNS (nmod:into), divided/VBN -> ?/. (punct)]
+=====
+Question: Large public works, dams, bridges, highways, water/wastewater and utility distribution are under what construction sector?
+Detected type: are
+Edge list: [works/NNS -> Large/JJ (amod), works/NNS -> public/JJ (amod), sector/NN -> works/NNS (nsubj), works/NNS -> ,/, (punct), works/NNS -> dams/NNS (appos), dams/NNS -> ,/, (punct), dams/NNS -> bridges/NNS (conj:and), dams/NNS -> ,/, (punct), dams/NNS -> highways/NNS (conj:and), dams/NNS -> ,/, (punct), dams/NNS -> water/wastewater/NN (conj:and), dams/NNS -> and/CC (cc), distribution/NN -> utility/NN (compound), dams/NNS -> distribution/NN (conj:and), sector/NN -> are/VBP (cop), sector/NN -> under/IN (case), sector/NN -> what/WP (det), sector/NN -> construction/NN (compound), sector/NN -> ?/. (punct)]
+=====
+Question: Refineries, process chemical, power generation, mills and manufacturing plants are under what sector of construction?
+Detected type: are
+Edge list: [sector/NN -> Refineries/NNS (nsubj), Refineries/NNS -> ,/, (punct), chemical/NN -> process/NN (compound), Refineries/NNS -> chemical/NN (conj:and), Refineries/NNS -> ,/, (punct), generation/NN -> power/NN (compound), Refineries/NNS -> generation/NN (conj:and), Refineries/NNS -> ,/, (punct), Refineries/NNS -> mills/NNS (conj:and), Refineries/NNS -> and/CC (cc), plants/NNS -> manufacturing/VBG (amod), Refineries/NNS -> plants/NNS (conj:and), sector/NN -> are/VBP (cop), sector/NN -> under/IN (case), sector/NN -> what/WP (det), construction/NN -> of/IN (case), sector/NN -> construction/NN (nmod:of), sector/NN -> ?/. (punct)]
+=====
+Question: Building printing is making it possible to flexibly construct small commercial buildings and private habitations in what amount of time?
+Detected type: is
+Edge list: [printing/NN -> Building/NN (compound), making/VBG -> printing/NN (nsubj), making/VBG -> is/VBZ (aux), possible/JJ -> it/PRP (nsubj), making/VBG -> possible/JJ (xcomp), construct/VB -> to/TO (mark), construct/VB -> flexibly/RB (advmod), possible/JJ -> construct/VB (xcomp), buildings/NNS -> small/JJ (amod), buildings/NNS -> commercial/JJ (amod), construct/VB -> buildings/NNS (dobj), buildings/NNS -> and/CC (cc), habitations/NNS -> private/JJ (amod), buildings/NNS -> habitations/NNS (conj:and), amount/NN -> in/IN (case), amount/NN -> what/WP (det), construct/VB -> amount/NN (nmod:in), time/NN -> of/IN (case), amount/NN -> time/NN (nmod:of), making/VBG -> ?/. (punct)]
+=====
+Question: Working versions of 3D-printing building technology are already printing how much building material per hour?
+Detected type: are
+Edge list: [versions/NNS -> Working/VBG (amod), printing/VBG -> versions/NNS (nsubj), technology/NN -> of/IN (case), technology/NN -> 3D-printing/JJ (amod), technology/NN -> building/NN (compound), versions/NNS -> technology/NN (nmod:of), printing/VBG -> are/VBP (aux), printing/VBG -> already/RB (advmod), much/JJ -> how/WRB (advmod), material/NN -> much/JJ (amod), material/NN -> building/NN (compound), printing/VBG -> material/NN (dobj), hour/NN -> per/IN (case), material/NN -> hour/NN (nmod:per), printing/VBG -> ?/. (punct)]
+=====
+Question: Focus on what is to ameliorate the many problems that arise from the often highly competitive and adversarial practices within the construction industry.
+Detected type: is
+Edge list: [is/VBZ -> on/IN (mark), is/VBZ -> what/WP (nsubj), Focus/NN -> is/VBZ (acl), ameliorate/VB -> to/TO (mark), is/VBZ -> ameliorate/VB (xcomp), problems/NNS -> the/DT (det), problems/NNS -> many/JJ (amod), ameliorate/VB -> problems/NNS (dobj), arise/VBP -> that/WDT (nsubj), problems/NNS -> arise/VBP (acl:relcl), practices/NNS -> from/IN (case), practices/NNS -> the/DT (det), competitive/JJ -> often/RB (advmod), competitive/JJ -> highly/RB (advmod), practices/NNS -> competitive/JJ (amod), competitive/JJ -> and/CC (cc), competitive/JJ -> adversarial/JJ (conj:and), arise/VBP -> practices/NNS (nmod:from), industry/NN -> within/IN (case), industry/NN -> the/DT (det), industry/NN -> construction/NN (compound), practices/NNS -> industry/NN (nmod:within), Focus/NN -> ./. (punct)]
+=====
+Question: Post 2008 undergraduate students are required to complete how many general education classes towards degree?
+Detected type: are
+Edge list: [students/NNS -> Post/NNP (compound), students/NNS -> 2008/CD (nummod), students/NNS -> undergraduate/JJ (amod), required/VBN -> students/NNS (nsubjpass), required/VBN -> are/VBP (auxpass), complete/VB -> to/TO (mark), required/VBN -> complete/VB (xcomp), many/JJ -> how/WRB (advmod), classes/NNS -> many/JJ (amod), classes/NNS -> general/JJ (amod), classes/NNS -> education/NN (compound), complete/VB -> classes/NNS (dobj), degree/NN -> towards/IN (case), classes/NNS -> degree/NN (nmod:towards), required/VBN -> ?/. (punct)]
+=====
+Question: Survivial is at the heart of what concept for workers?
+Detected type: is
+Edge list: [heart/NN -> Survivial/NNP (nsubj), heart/NN -> is/VBZ (cop), heart/NN -> at/IN (case), heart/NN -> the/DT (det), concept/NN -> of/IN (case), concept/NN -> what/WP (det), heart/NN -> concept/NN (nmod:of), workers/NNS -> for/IN (case), concept/NN -> workers/NNS (nmod:for), heart/NN -> ?/. (punct)]
+=====
+Question: In many countries, what kind of pay gap is there?
+Detected type: is
+Edge list: [countries/NNS -> In/IN (case), countries/NNS -> many/JJ (amod), is/VBZ -> countries/NNS (nmod:in), is/VBZ -> ,/, (punct), kind/NN -> what/WDT (det), is/VBZ -> kind/NN (dep), gap/NN -> of/IN (case), gap/NN -> pay/NN (compound), kind/NN -> gap/NN (nmod:of), is/VBZ -> there/EX (expl), is/VBZ -> ?/. (punct)]
+=====
+Question: According to the wealth concentration theory, what advantage do the wealthy have in accumulating new wealth?
+Detected type: do
+Edge list: [theory/NN -> According/VBG (case), According/VBG -> to/TO (mwe), theory/NN -> the/DT (det), theory/NN -> wealth/NN (compound), theory/NN -> concentration/NN (compound), do/VBP -> theory/NN (nmod:according_to), do/VBP -> ,/, (punct), advantage/NN -> what/WDT (det), do/VBP -> advantage/NN (nsubj), wealthy/JJ -> the/DT (det), do/VBP -> wealthy/JJ (dobj), accumulating/VBG -> have/VBP (aux), accumulating/VBG -> in/IN (mark), wealthy/JJ -> accumulating/VBG (dep), wealth/NN -> new/JJ (amod), accumulating/VBG -> wealth/NN (dobj), do/VBP -> ?/. (punct)]
+=====
+Question: Income not from the creation of wealth but by grabbing a larger share of it is know to economists by what term?
+Detected type: is
+Edge list: [know/VB -> Income/NN (nsubjpass), creation/NN -> not/RB (neg), creation/NN -> from/IN (case), creation/NN -> the/DT (det), Income/NN -> creation/NN (nmod:from), wealth/NN -> of/IN (case), creation/NN -> wealth/NN (nmod:of), Income/NN -> but/CC (cc), grabbing/VBG -> by/IN (mark), Income/NN -> grabbing/VBG (conj:but), share/NN -> a/DT (det), share/NN -> larger/JJR (amod), grabbing/VBG -> share/NN (dobj), it/PRP -> of/IN (case), share/NN -> it/PRP (nmod:of), know/VB -> is/VBZ (auxpass), economists/NNS -> to/TO (case), know/VB -> economists/NNS (nmod:to), term/NN -> by/IN (case), term/NN -> what/WDT (det), know/VB -> term/NN (nmod:agent), know/VB -> ?/. (punct)]
+=====
+Question: A dollar spent by a poor person is likely to provide what for them?
+Detected type: is
+Edge list: [dollar/NN -> A/DT (det), likely/JJ -> dollar/NN (nsubj), dollar/NN -> spent/VBN (acl), person/NN -> by/IN (case), person/NN -> a/DT (det), person/NN -> poor/JJ (amod), spent/VBN -> person/NN (nmod:by), likely/JJ -> is/VBZ (cop), provide/VB -> to/TO (mark), likely/JJ -> provide/VB (xcomp), provide/VB -> what/WP (dobj), them/PRP -> for/IN (case), what/WP -> them/PRP (nmod:for), likely/JJ -> ?/. (punct)]
+=====
+Question: Excessive bureaucratic red tape is one of the reasons for what type of ownership?
+Detected type: is
+Edge list: [tape/NN -> Excessive/JJ (amod), tape/NN -> bureaucratic/JJ (amod), tape/NN -> red/JJ (amod), one/CD -> tape/NN (nsubj), one/CD -> is/VBZ (cop), reasons/NNS -> of/IN (case), reasons/NNS -> the/DT (det), one/CD -> reasons/NNS (nmod:of), type/NN -> for/IN (case), type/NN -> what/WP (det), reasons/NNS -> type/NN (nmod:for), ownership/NN -> of/IN (case), type/NN -> ownership/NN (nmod:of), one/CD -> ?/. (punct)]
+=====
+Question: Was is the name of the Torchwood series that was mostly based in the US?
+Detected type: is
+Edge list: [name/NN -> Was/VBD (nsubj), name/NN -> is/VBZ (cop), name/NN -> the/DT (det), series/NN -> of/IN (case), series/NN -> the/DT (det), series/NN -> Torchwood/NNP (compound), name/NN -> series/NN (nmod:of), based/VBN -> that/WDT (nsubjpass), based/VBN -> was/VBD (auxpass), based/VBN -> mostly/RB (advmod), series/NN -> based/VBN (acl:relcl), US/NNP -> in/IN (case), US/NNP -> the/DT (det), based/VBN -> US/NNP (nmod:in), name/NN -> ?/. (punct)]
+=====
+Question: The Mitchell Tower is designed to look like what Oxford tower?
+Detected type: is
+Edge list: [Tower/NNP -> The/DT (det), Tower/NNP -> Mitchell/NNP (compound), designed/VBN -> Tower/NNP (nsubjpass), designed/VBN -> is/VBZ (auxpass), look/VB -> to/TO (mark), designed/VBN -> look/VB (xcomp), tower/NN -> like/IN (case), tower/NN -> what/WP (det), tower/NN -> Oxford/NNP (compound), look/VB -> tower/NN (nmod:like), designed/VBN -> ?/. (punct)]
+=====
+Question: The Center in Paris is located near what river?
+Detected type: is
+Edge list: [Center/NNP -> The/DT (det), located/JJ -> Center/NNP (nsubj), Paris/NNP -> in/IN (case), Center/NNP -> Paris/NNP (nmod:in), located/JJ -> is/VBZ (cop), river/NN -> near/IN (case), river/NN -> what/WP (det), located/JJ -> river/NN (nmod:near), located/JJ -> ?/. (punct)]
+=====
+Question: The university's center in Beijing is located next to what school's campus?
+Detected type: is
+Edge list: [university/NN -> The/DT (det), center/NN -> university/NN (nmod:poss), university/NN -> 's/POS (case), located/JJ -> center/NN (nsubj), Beijing/NNP -> in/IN (case), center/NN -> Beijing/NNP (nmod:in), located/JJ -> is/VBZ (cop), campus/NN -> next/IN (case), next/IN -> to/TO (mwe), school/NN -> what/WP (det), campus/NN -> school/NN (nmod:poss), school/NN -> 's/POS (case), located/JJ -> campus/NN (nmod:next_to), located/JJ -> ?/. (punct)]
+=====
+Question: The academic body of the university is made up of how many divisions of graduate?
+Detected type: is
+Edge list: [body/NN -> The/DT (det), body/NN -> academic/JJ (amod), made/VBN -> body/NN (nsubjpass), university/NN -> of/IN (case), university/NN -> the/DT (det), body/NN -> university/NN (nmod:of), made/VBN -> is/VBZ (auxpass), made/VBN -> up/RP (compound:prt), divisions/NNS -> of/IN (case), many/JJ -> how/WRB (advmod), divisions/NNS -> many/JJ (amod), made/VBN -> divisions/NNS (nmod:of), graduate/NN -> of/IN (case), divisions/NNS -> graduate/NN (nmod:of), made/VBN -> ?/. (punct)]
+=====
+Question: The academic body of the university is made up of how many professional schools?
+Detected type: is
+Edge list: [body/NN -> The/DT (det), body/NN -> academic/JJ (amod), made/VBN -> body/NN (nsubjpass), university/NN -> of/IN (case), university/NN -> the/DT (det), body/NN -> university/NN (nmod:of), made/VBN -> is/VBZ (auxpass), made/VBN -> up/RP (compound:prt), schools/NNS -> of/IN (case), many/JJ -> how/WRB (advmod), schools/NNS -> many/JJ (amod), schools/NNS -> professional/JJ (amod), made/VBN -> schools/NNS (nmod:of), made/VBN -> ?/. (punct)]
+=====
+Question: The Maroons are apart of what association?
+Detected type: are
+Edge list: [Maroons/NNPS -> The/DT (det), Maroons/NNPS -> are/VBP (dep), are/VBP -> apart/RB (advmod), association/NN -> of/IN (case), association/NN -> what/WP (det), apart/RB -> association/NN (nmod:of), Maroons/NNPS -> ?/. (punct)]
+=====
+Question: Hank Paulson is the former Chairman and CEO of what banking firm?
+Detected type: is
+Edge list: [Paulson/NNP -> Hank/NNP (compound), Chairman/NNP -> Paulson/NNP (nsubj), Chairman/NNP -> is/VBZ (cop), Chairman/NNP -> the/DT (det), Chairman/NNP -> former/JJ (amod), Chairman/NNP -> and/CC (cc), Chairman/NNP -> CEO/NNP (conj:and), firm/NN -> of/IN (case), firm/NN -> what/WP (det), firm/NN -> banking/NN (compound), CEO/NNP -> firm/NN (nmod:of), Chairman/NNP -> ?/. (punct)]
+=====
+Question: If a and q are coprime, which theorem holds that an arithmetic progression has an infinite number of primes?
+Detected type: are
+Edge list: [coprime/NN -> If/IN (mark), coprime/NN -> a/DT (nsubj), a/DT -> and/CC (cc), a/DT -> q/VB (conj:and), coprime/NN -> are/VBP (cop), coprime/NN -> ,/, (punct), theorem/VBP -> which/WDT (nsubj), coprime/NN -> theorem/VBP (acl:relcl), theorem/VBP -> holds/VBZ (dep), has/VBZ -> that/IN (mark), progression/NN -> an/DT (det), progression/NN -> arithmetic/NN (compound), has/VBZ -> progression/NN (nsubj), holds/VBZ -> has/VBZ (ccomp), number/NN -> an/DT (det), number/NN -> infinite/JJ (amod), has/VBZ -> number/NN (dobj), primes/VBZ -> of/IN (case), number/NN -> primes/VBZ (nmod:of), coprime/NN -> ?/. (punct)]
+=====
+Question: Assuming p is a prime other than 2 or 5, then, according to Fermat's theorem, what type of decimal will 1/p always be?
+Detected type: is
+Edge list: [Assuming/VBG -> p/NN (dobj), p/NN -> is/VBZ (dep), is/VBZ -> a/DT (nsubj), a/DT -> prime/JJ (amod), prime/JJ -> other/JJ (dep), 2/CD -> than/IN (case), other/JJ -> 2/CD (nmod:than), 2/CD -> or/CC (cc), 2/CD -> 5/CD (conj:or), other/JJ -> ,/, (punct), other/JJ -> then/RB (advmod), other/JJ -> ,/, (punct), theorem/NN -> according/VBG (case), according/VBG -> to/TO (mwe), theorem/NN -> Fermat/NNP (nmod:poss), Fermat/NNP -> 's/POS (case), other/JJ -> theorem/NN (nmod:according_to), theorem/NN -> ,/, (punct), type/NN -> what/WDT (det), 1/p/VB -> type/NN (nsubj), decimal/NN -> of/IN (case), type/NN -> decimal/NN (nmod:of), 1/p/VB -> will/MD (aux), theorem/NN -> 1/p/VB (acl:relcl), be/VB -> always/RB (advmod), 1/p/VB -> be/VB (dobj), Assuming/VBG -> ?/. (punct)]
+=====
+Question: The inland delta at the mouth of the Rhine is with what Lake?
+Detected type: is
+Edge list: [delta/NN -> The/DT (det), delta/NN -> inland/RB (amod), is/VBZ -> delta/NN (nsubj), mouth/NN -> at/IN (case), mouth/NN -> the/DT (det), delta/NN -> mouth/NN (nmod:at), Rhine/NNP -> of/IN (case), Rhine/NNP -> the/DT (det), mouth/NN -> Rhine/NNP (nmod:of), Lake/NNP -> with/IN (case), Lake/NNP -> what/WP (det), is/VBZ -> Lake/NNP (nmod:with), is/VBZ -> ?/. (punct)]
+=====
+Question: The Rhine is the longest river in what country?
+Detected type: is
+Edge list: [Rhine/NNP -> The/DT (det), river/NN -> Rhine/NNP (nsubj), river/NN -> is/VBZ (cop), river/NN -> the/DT (det), river/NN -> longest/JJS (amod), country/NN -> in/IN (case), country/NN -> what/WDT (det), river/NN -> country/NN (nmod:in), river/NN -> ?/. (punct)]
+=====
+Question: The Rhine Gorge is between Koblenz and what other city?
+Detected type: is
+Edge list: [Gorge/NNP -> The/DT (det), Gorge/NNP -> Rhine/NNP (compound), Koblenz/NNP -> Gorge/NNP (nsubj), Koblenz/NNP -> is/VBZ (cop), Koblenz/NNP -> between/IN (case), Koblenz/NNP -> and/CC (cc), city/NN -> what/WP (det), city/NN -> other/JJ (amod), Koblenz/NNP -> city/NN (conj:and), Koblenz/NNP -> ?/. (punct)]
+=====
+Question: Because speakers are drawn from across Scotland, what do the represent the balance of?
+Detected type: are
+Edge list: [drawn/VBN -> Because/IN (mark), drawn/VBN -> speakers/NNS (nsubjpass), drawn/VBN -> are/VBP (auxpass), represent/VBP -> drawn/VBN (advcl), Scotland/NNP -> from/IN (case), Scotland/NNP -> across/IN (case), drawn/VBN -> Scotland/NNP (nmod:across), represent/VBP -> ,/, (punct), represent/VBP -> what/WP (dep), represent/VBP -> do/VBP (aux), represent/VBP -> the/DT (nsubj), balance/NN -> the/DT (det), represent/VBP -> balance/NN (dobj), balance/NN -> of/IN (acl), represent/VBP -> ?/. (punct)]
+=====
+Question: If a matter is not specifically reserved, who is it devolved to?
+Detected type: is
+Edge list: [reserved/VBN -> If/IN (mark), matter/NN -> a/DT (det), reserved/VBN -> matter/NN (nsubjpass), reserved/VBN -> is/VBZ (auxpass), reserved/VBN -> not/RB (neg), reserved/VBN -> specifically/RB (advmod), devolved/VBD -> reserved/VBN (advcl), devolved/VBD -> ,/, (punct), devolved/VBD -> who/WP (nsubj), devolved/VBD -> is/VBZ (aux), devolved/VBD -> it/PRP (nsubj), devolved/VBD -> to/TO (nmod), devolved/VBD -> ?/. (punct)]
+=====
+Question: Issues dealt with at Westminster are not ones who is able to deal with?
+Detected type: are
+Edge list: [dealt/VBD -> Issues/NNS (nsubj), Westminster/NNP -> with/IN (case), Westminster/NNP -> at/IN (case), dealt/VBD -> Westminster/NNP (nmod:at), ones/NNS -> are/VBP (cop), ones/NNS -> not/RB (neg), dealt/VBD -> ones/NNS (dep), able/JJ -> who/WP (nsubj), able/JJ -> is/VBZ (cop), ones/NNS -> able/JJ (acl:relcl), deal/VB -> to/TO (mark), able/JJ -> deal/VB (xcomp), deal/VB -> with/IN (nmod), dealt/VBD -> ?/. (punct)]
+=====
+Question: Other than Scotland's Chief Law Officer, from whence are most ministers drawn from amongst?
+Detected type: are
+Edge list: [ministers/NNS -> Other/JJ (advmod), Officer/NNP -> than/IN (case), Officer/NNP -> Scotland/NNP (nmod:poss), Scotland/NNP -> 's/POS (case), Officer/NNP -> Chief/NNP (compound), Officer/NNP -> Law/NNP (compound), Other/JJ -> Officer/NNP (nmod:than), ministers/NNS -> ,/, (punct), whence/NN -> from/IN (case), ministers/NNS -> whence/NN (nmod:from), ministers/NNS -> are/VBP (cop), ministers/NNS -> most/RBS (advmod), ministers/NNS -> drawn/VBN (acl), amongst/IN -> from/IN (case), drawn/VBN -> amongst/IN (nmod:from), ministers/NNS -> ?/. (punct)]
+=====
+Question: If an extraordinary election is held within less than six months before the date of an ordinary election, what does it do to the ordinary election?
+Detected type: is
+Edge list: [held/VBN -> If/IN (mark), election/NN -> an/DT (det), election/NN -> extraordinary/JJ (amod), held/VBN -> election/NN (nsubjpass), held/VBN -> is/VBZ (auxpass), do/VB -> held/VBN (advcl), months/NNS -> within/IN (case), six/CD -> less/JJR (advmod), less/JJR -> than/IN (mwe), months/NNS -> six/CD (nummod), held/VBN -> months/NNS (nmod:within), date/NN -> before/IN (case), date/NN -> the/DT (det), held/VBN -> date/NN (nmod:before), election/NN -> of/IN (case), election/NN -> an/DT (det), election/NN -> ordinary/JJ (amod), date/NN -> election/NN (nmod:of), do/VB -> ,/, (punct), do/VB -> what/WP (dobj), do/VB -> does/VBZ (aux), do/VB -> it/PRP (nsubj), election/NN -> to/TO (case), election/NN -> the/DT (det), election/NN -> ordinary/JJ (amod), do/VB -> election/NN (nmod:to), do/VB -> ?/. (punct)]
+=====
+Question: One strategy of Islamization is to seize power by what methods?
+Detected type: is
+Edge list: [strategy/NN -> One/CD (nummod), is/VBZ -> strategy/NN (nsubj), Islamization/NN -> of/IN (case), strategy/NN -> Islamization/NN (nmod:of), seize/VB -> to/TO (mark), is/VBZ -> seize/VB (xcomp), seize/VB -> power/NN (dobj), methods/NNS -> by/IN (case), methods/NNS -> what/WP (det), seize/VB -> methods/NNS (nmod:by), is/VBZ -> ?/. (punct)]
+=====
+Question: Salafism posits that democracy is responsible for what type of horrible events of the 20th century?
+Detected type: is
+Edge list: [posits/VBZ -> Salafism/NNP (nsubj), responsible/JJ -> that/IN (mark), responsible/JJ -> democracy/NN (nsubj), responsible/JJ -> is/VBZ (cop), posits/VBZ -> responsible/JJ (ccomp), type/NN -> for/IN (case), type/NN -> what/WP (det), responsible/JJ -> type/NN (nmod:for), events/NNS -> of/IN (case), events/NNS -> horrible/JJ (amod), type/NN -> events/NNS (nmod:of), century/NN -> of/IN (case), century/NN -> the/DT (det), century/NN -> 20th/JJ (amod), events/NNS -> century/NN (nmod:of), posits/VBZ -> ?/. (punct)]
+=====
+Question: Iqbal worried that India's mostly Hindu population would do what to Muslim heritage and culture?
+Detected type: do
+Edge list: [worried/VBD -> Iqbal/NNP (nsubj), do/VB -> that/IN (mark), population/NN -> India/NNP (nmod:poss), India/NNP -> 's/POS (case), Hindu/JJ -> mostly/RB (advmod), population/NN -> Hindu/JJ (amod), do/VB -> population/NN (nsubj), do/VB -> would/MD (aux), worried/VBD -> do/VB (ccomp), do/VB -> what/WP (dobj), heritage/NN -> to/TO (case), heritage/NN -> Muslim/JJ (amod), what/WP -> heritage/NN (nmod:to), heritage/NN -> and/CC (cc), heritage/NN -> culture/NN (conj:and), worried/VBD -> ?/. (punct)]
+=====
+Question: The Brotherhood was the only opposition group in Egypt able to do what during elections?
+Detected type: do
+Edge list: [Brotherhood/NNP -> The/DT (det), group/NN -> Brotherhood/NNP (nsubj), group/NN -> was/VBD (cop), group/NN -> the/DT (det), group/NN -> only/JJ (amod), group/NN -> opposition/NN (compound), Egypt/NNP -> in/IN (case), group/NN -> Egypt/NNP (nmod:in), group/NN -> able/JJ (amod), do/VB -> to/TO (mark), able/JJ -> do/VB (xcomp), do/VB -> what/WP (dobj), elections/NNS -> during/IN (case), what/WP -> elections/NNS (nmod:during), group/NN -> ?/. (punct)]
+=====
+Question: The Brotherhood's members are against consuming what beverage?
+Detected type: are
+Edge list: [Brotherhood/NNP -> The/DT (det), members/NNS -> Brotherhood/NNP (nmod:poss), Brotherhood/NNP -> 's/POS (case), are/VBP -> members/NNS (nsubj), consuming/VBG -> against/IN (mark), are/VBP -> consuming/VBG (advcl), beverage/NN -> what/WP (det), consuming/VBG -> beverage/NN (dobj), are/VBP -> ?/. (punct)]
+=====
+Question: The abolition of the Ottoman Caliphate is believed to have ended what system?
+Detected type: is
+Edge list: [abolition/NN -> The/DT (det), believed/VBN -> abolition/NN (nsubjpass), Caliphate/NNP -> of/IN (case), Caliphate/NNP -> the/DT (det), Caliphate/NNP -> Ottoman/NNP (compound), abolition/NN -> Caliphate/NNP (nmod:of), believed/VBN -> is/VBZ (auxpass), ended/VBN -> to/TO (mark), ended/VBN -> have/VB (aux), believed/VBN -> ended/VBN (xcomp), system/NN -> what/WP (det), ended/VBN -> system/NN (dobj), believed/VBN -> ?/. (punct)]
+=====
+Question: colonial rule, or physical occupation of a territory is an example of what kind of imperialism?
+Detected type: is
+Edge list: [rule/NN -> colonial/NN (compound), example/NN -> rule/NN (nsubj), rule/NN -> ,/, (punct), rule/NN -> or/CC (cc), occupation/NN -> physical/JJ (amod), rule/NN -> occupation/NN (conj:or), territory/NN -> of/IN (case), territory/NN -> a/DT (det), occupation/NN -> territory/NN (nmod:of), example/NN -> is/VBZ (cop), example/NN -> an/DT (det), kind/NN -> of/IN (case), kind/NN -> what/WP (det), example/NN -> kind/NN (nmod:of), imperialism/NN -> of/IN (case), kind/NN -> imperialism/NN (nmod:of), example/NN -> ?/. (punct)]
+=====
+Question: Imperialism is confused with what other term?
+Detected type: is
+Edge list: [confused/VBN -> Imperialism/NN (nsubjpass), confused/VBN -> is/VBZ (auxpass), term/NN -> with/IN (case), term/NN -> what/WP (det), term/NN -> other/JJ (amod), confused/VBN -> term/NN (nmod:with), confused/VBN -> ?/. (punct)]
+=====
+Question: Colonialism as a policy is caused by financial and what other reasons?
+Detected type: is
+Edge list: [caused/VBN -> Colonialism/NNP (nsubjpass), policy/NN -> as/IN (case), policy/NN -> a/DT (det), Colonialism/NNP -> policy/NN (nmod:as), caused/VBN -> is/VBZ (auxpass), financial/JJ -> by/IN (case), caused/VBN -> financial/JJ (nmod:agent), financial/JJ -> and/CC (cc), reasons/NNS -> what/WP (det), reasons/NNS -> other/JJ (amod), financial/JJ -> reasons/NNS (conj:and), caused/VBN -> ?/. (punct)]
+=====
+Question: Who besides the Russians are often left out of the colonialism debat?
+Detected type: are
+Edge list: [left/VBN -> besides/IN (mark), Russians/NNPS -> the/DT (det), left/VBN -> Russians/NNPS (nsubjpass), left/VBN -> are/VBP (auxpass), left/VBN -> often/RB (advmod), Who/WP -> left/VBN (dep), debat/NN -> out/IN (case), out/IN -> of/IN (mwe), debat/NN -> the/DT (det), debat/NN -> colonialism/NN (compound), left/VBN -> debat/NN (nmod:out_of), Who/WP -> ?/. (punct)]
+=====
+Question: Political advantage is an attribute of which state policies?
+Detected type: is
+Edge list: [advantage/NN -> Political/JJ (amod), attribute/NN -> advantage/NN (nsubj), attribute/NN -> is/VBZ (cop), attribute/NN -> an/DT (det), policies/NNS -> of/IN (case), policies/NNS -> which/WDT (det), policies/NNS -> state/NN (compound), attribute/NN -> policies/NNS (nmod:of), attribute/NN -> ?/. (punct)]
+=====
+Question: Imperialism is most often associated with which sovereignty?
+Detected type: is
+Edge list: [associated/VBN -> Imperialism/NN (nsubjpass), associated/VBN -> is/VBZ (auxpass), often/RB -> most/RBS (advmod), associated/VBN -> often/RB (advmod), sovereignty/NN -> with/IN (case), sovereignty/NN -> which/WDT (det), associated/VBN -> sovereignty/NN (nmod:with), associated/VBN -> ?/. (punct)]
+=====
+Question: Terra Nullius is a Latin expression meaning what in English?
+Detected type: is
+Edge list: [Nullius/NNP -> Terra/NNP (compound), expression/NN -> Nullius/NNP (nsubj), expression/NN -> is/VBZ (cop), expression/NN -> a/DT (det), expression/NN -> Latin/JJ (amod), expression/NN -> meaning/VBG (acl), meaning/VBG -> what/WP (dobj), English/NNP -> in/IN (case), what/WP -> English/NNP (nmod:in), expression/NN -> ?/. (punct)]
+=====
+Question: Is the UMC pro-life or pro-choice?
+Detected type: is
+Edge list: [UMC/NNP -> the/DT (det), Is/VBZ -> UMC/NNP (nsubj), UMC/NNP -> pro-life/JJ (amod), pro-life/JJ -> or/CC (cc), pro-life/JJ -> pro-choice/JJ (conj:or), Is/VBZ -> ?/. (punct)]
+=====
+Question: The church states that, as Christians, they are aware that neither the way of what is righteous before God?"
+Detected type: are
+Edge list: [church/NN -> The/DT (det), states/VBZ -> church/NN (nsubj), aware/JJ -> that/IN (mark), aware/JJ -> ,/, (punct), Christians/NNS -> as/IN (case), aware/JJ -> Christians/NNS (nmod:as), aware/JJ -> ,/, (punct), aware/JJ -> they/PRP (nsubj), aware/JJ -> are/VBP (cop), states/VBZ -> aware/JJ (ccomp), aware/JJ -> that/IN (dep), way/NN -> neither/CC (cc:preconj), way/NN -> the/DT (det), that/IN -> way/NN (root), righteous/JJ -> of/IN (mark), righteous/JJ -> what/WP (nsubj), righteous/JJ -> is/VBZ (cop), way/NN -> righteous/JJ (acl), God/NNP -> before/IN (case), righteous/JJ -> God/NNP (nmod:before), way/NN -> ?/. (punct), way/NN -> ''/'' (punct)]
+=====
+Question: Many liturgies are derived from what book?
+Detected type: are
+Edge list: [liturgies/NNS -> Many/JJ (amod), derived/VBN -> liturgies/NNS (nsubjpass), derived/VBN -> are/VBP (auxpass), book/NN -> from/IN (case), book/NN -> what/WP (det), derived/VBN -> book/NN (nmod:from), derived/VBN -> ?/. (punct)]
+=====
+Question: The United States is divided into how many jurisdictions?
+Detected type: is
+Edge list: [States/NNPS -> The/DT (det), States/NNPS -> United/NNP (compound), divided/VBN -> States/NNPS (nsubjpass), divided/VBN -> is/VBZ (auxpass), jurisdictions/NNS -> into/IN (case), many/JJ -> how/WRB (advmod), jurisdictions/NNS -> many/JJ (amod), divided/VBN -> jurisdictions/NNS (nmod:into), divided/VBN -> ?/. (punct)]
+=====
+Question: Clergy are members of what group rather than of any local congregation?
+Detected type: are
+Edge list: [members/NNS -> Clergy/NNP (nsubj), members/NNS -> are/VBP (cop), group/NN -> of/IN (case), group/NN -> what/WP (det), members/NNS -> group/NN (nmod:of), congregation/NN -> rather/RB (advmod), rather/RB -> than/IN (mwe), congregation/NN -> of/IN (case), congregation/NN -> any/DT (det), congregation/NN -> local/JJ (amod), members/NNS -> congregation/NN (nmod:of), members/NNS -> ?/. (punct)]
+=====
+Question: The UMC established and is affiliated with approximately how many colleges and universities in the U.S.?
+Detected type: is
+Edge list: [UMC/NNP -> The/DT (det), established/VBD -> UMC/NNP (nsubj), established/VBD -> and/CC (cc), affiliated/VBN -> is/VBZ (auxpass), established/VBD -> affiliated/VBN (conj:and), colleges/NNS -> with/IN (case), many/JJ -> approximately/RB (advmod), many/JJ -> how/WRB (advmod), colleges/NNS -> many/JJ (amod), affiliated/VBN -> colleges/NNS (nmod:with), colleges/NNS -> and/CC (cc), colleges/NNS -> universities/NNS (conj:and), U.S./NNP -> in/IN (case), U.S./NNP -> the/DT (det), affiliated/VBN -> U.S./NNP (nmod:in), established/VBD -> ?/. (punct)]
+=====
+Question: Most schools established by the UMC are members of what group?
+Detected type: are
+Edge list: [schools/NNS -> Most/JJS (amod), members/NNS -> schools/NNS (nsubj), schools/NNS -> established/VBN (acl), UMC/NNP -> by/IN (case), UMC/NNP -> the/DT (det), established/VBN -> UMC/NNP (nmod:by), members/NNS -> are/VBP (cop), group/NN -> of/IN (case), group/NN -> what/WP (det), members/NNS -> group/NN (nmod:of), members/NNS -> ?/. (punct)]
+=====
+Question: All clergy appointments are made for how long?
+Detected type: are
+Edge list: [appointments/NNS -> All/DT (det), appointments/NNS -> clergy/NNS (compound), made/VBN -> appointments/NNS (nsubjpass), made/VBN -> are/VBP (auxpass), long/JJ -> for/IN (case), long/JJ -> how/WRB (advmod), made/VBN -> long/JJ (nmod:for), made/VBN -> ?/. (punct)]
+=====
+Question: No appointment is official fixed until what occurs?
+Detected type: is
+Edge list: [appointment/NN -> No/DT (neg), official/JJ -> appointment/NN (nsubj), official/JJ -> is/VBZ (cop), official/JJ -> fixed/VBN (xcomp), occurs/VBZ -> until/IN (mark), occurs/VBZ -> what/WP (nsubj), fixed/VBN -> occurs/VBZ (advcl), official/JJ -> ?/. (punct)]
+=====
+Question: If you do not know both magnitude and direction of two forces on an object, what would you call that situation?
+Detected type: do
+Edge list: [know/VB -> If/IN (mark), know/VB -> you/PRP (nsubj), know/VB -> do/VBP (aux), know/VB -> not/RB (neg), call/VB -> know/VB (advcl), magnitude/NN -> both/DT (cc:preconj), know/VB -> magnitude/NN (dobj), magnitude/NN -> and/CC (cc), magnitude/NN -> direction/NN (conj:and), forces/NNS -> of/IN (case), forces/NNS -> two/CD (nummod), magnitude/NN -> forces/NNS (nmod:of), object/NN -> on/IN (case), object/NN -> an/DT (det), know/VB -> object/NN (nmod:on), call/VB -> ,/, (punct), call/VB -> what/WP (dobj), call/VB -> would/MD (aux), call/VB -> you/PRP (nsubj), situation/NN -> that/DT (det), call/VB -> situation/NN (dobj), call/VB -> ?/. (punct)]
+=====
+Question: Whwn forces are at right ngles to each other what can they be broken down to?
+Detected type: are
+Edge list: [forces/NNS -> Whwn/JJ (amod), ngles/NNS -> forces/NNS (nsubj), ngles/NNS -> are/VBP (cop), ngles/NNS -> at/IN (case), ngles/NNS -> right/JJ (amod), other/JJ -> to/TO (case), other/JJ -> each/DT (det), ngles/NNS -> other/JJ (nmod:to), broken/VBN -> what/WP (dobj), broken/VBN -> can/MD (aux), broken/VBN -> they/PRP (nsubjpass), broken/VBN -> be/VB (auxpass), other/JJ -> broken/VBN (acl:relcl), broken/VBN -> down/RP (compound:prt), broken/VBN -> to/TO (nmod), ngles/NNS -> ?/. (punct)]
+=====
+Question: If a force is pointing horizontally to the northeast, how many forces can you split the force into?
+Detected type: is
+Edge list: [pointing/VBG -> If/IN (mark), force/NN -> a/DT (det), pointing/VBG -> force/NN (nsubj), pointing/VBG -> is/VBZ (aux), split/VB -> pointing/VBG (advcl), pointing/VBG -> horizontally/RB (advmod), northeast/NN -> to/TO (case), northeast/NN -> the/DT (det), pointing/VBG -> northeast/NN (nmod:to), split/VB -> ,/, (punct), many/JJ -> how/WRB (advmod), forces/NNS -> many/JJ (amod), split/VB -> forces/NNS (nsubj), split/VB -> can/MD (aux), split/VB -> you/PRP (nsubj), force/NN -> the/DT (det), split/VB -> force/NN (dobj), split/VB -> into/IN (nmod), split/VB -> ?/. (punct)]
+=====
+Question: Objects of constant density are proportional to volume by what force to define standard weights?.
+Detected type: are
+Edge list: [proportional/JJ -> Objects/NNS (nsubj), density/NN -> of/IN (case), density/NN -> constant/JJ (amod), Objects/NNS -> density/NN (nmod:of), proportional/JJ -> are/VBP (cop), volume/NN -> to/TO (case), proportional/JJ -> volume/NN (nmod:to), force/NN -> by/IN (case), force/NN -> what/WP (det), proportional/JJ -> force/NN (nmod:by), define/VB -> to/TO (mark), force/NN -> define/VB (acl), weights/NNS -> standard/JJ (amod), define/VB -> weights/NNS (dobj), proportional/JJ -> ?/. (punct), proportional/JJ -> ./. (punct)]
+=====
+Question: If the apparant force of two fermions is attractive, what is the spin function?
+Detected type: is
+Edge list: [attractive/JJ -> If/IN (mark), force/NN -> the/DT (det), force/NN -> apparant/JJ (amod), attractive/JJ -> force/NN (nsubj), fermions/NNS -> of/IN (case), fermions/NNS -> two/CD (nummod), force/NN -> fermions/NNS (nmod:of), attractive/JJ -> is/VBZ (cop), function/NN -> attractive/JJ (advcl), function/NN -> ,/, (punct), function/NN -> what/WP (nsubj), function/NN -> is/VBZ (cop), function/NN -> the/DT (det), function/NN -> spin/NN (compound), function/NN -> ?/. (punct)]
+=====
+Question: If the apparant force of two fermions is repulsive, what is the spin function?
+Detected type: is
+Edge list: [repulsive/JJ -> If/IN (mark), force/NN -> the/DT (det), force/NN -> apparant/JJ (amod), repulsive/JJ -> force/NN (nsubj), fermions/NNS -> of/IN (case), fermions/NNS -> two/CD (nummod), force/NN -> fermions/NNS (nmod:of), repulsive/JJ -> is/VBZ (cop), function/NN -> repulsive/JJ (advcl), function/NN -> ,/, (punct), function/NN -> what/WP (nsubj), function/NN -> is/VBZ (cop), function/NN -> the/DT (det), function/NN -> spin/NN (compound), function/NN -> ?/. (punct)]
+=====
+Question: Matter particles are shown as what kind of lines in a Feynman diagram?
+Detected type: are
+Edge list: [particles/NNS -> Matter/NN (compound), shown/VBN -> particles/NNS (nsubjpass), shown/VBN -> are/VBP (auxpass), shown/VBN -> as/IN (advmod), kind/NN -> what/WP (det), as/IN -> kind/NN (dep), lines/NNS -> of/IN (case), kind/NN -> lines/NNS (nmod:of), diagram/NN -> in/IN (case), diagram/NN -> a/DT (det), diagram/NN -> Feynman/NNP (compound), kind/NN -> diagram/NN (nmod:in), shown/VBN -> ?/. (punct)]
+=====
+Question: Tension, compression, and drag are what kind of forces?
+Detected type: are
+Edge list: [Tension/NN -> ,/, (punct), Tension/NN -> compression/NN (conj:and), Tension/NN -> ,/, (punct), Tension/NN -> and/CC (cc), Tension/NN -> drag/NN (conj:and), Tension/NN -> are/VBP (dep), kind/NN -> what/WP (det), are/VBP -> kind/NN (nsubj), forces/NNS -> of/IN (case), kind/NN -> forces/NNS (nmod:of), Tension/NN -> ?/. (punct)]
+=====
+
+Process finished with exit code 0
