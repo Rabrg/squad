@@ -109,6 +109,8 @@ public final class QuestionAnswerService {
                 "answers=" + answers +
                 ", id='" + id + '\'' +
                 ", question='" + question + '\'' +
+                ", questionType='" + questionType + '\'' +
+                ", multiplePossibleType=" + multiplePossibleType +
                 '}';
     }
 }
