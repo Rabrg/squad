@@ -65,6 +65,15 @@ public final class QuestionAnswerService {
         if (QUESTION_TYPES.contains(first) && QUESTION_TYPES.contains(second))
             return (questionType = first);
 
+        // Check if the question contains "When ..., <type>"
+        if (question.toLowerCase().startsWith("when")) {
+            for (final String type : QUESTION_TYPES) {
+                if (question.contains(", " + type)) {
+                    return (questionType = type);
+                }
+            }
+        }
+
         // Check if last word is question type
         final String last = Character.isLetterOrDigit(words.get(words.size() - 1).charAt(0))
                 ? words.get(words.size() - 1).toLowerCase() : words.get(words.size() - 2).toLowerCase();

@@ -3,7 +3,7 @@ what: What year did Roger Goodell announce that Super Bowl 50 would be "importan
 what: What is the name of San Francisco's stadium when looked at as a possibility for Super Bowl 50?
 what: What is the name of the stadium where Super Bowl 50 was played?
 how: How much did it cost to build the stadium where Super Bowl 50 was played?
-what: What is the name of the Bronco's head coach, who was hired after John Fox? 
+what: What is the name of the Bronco's head coach, who was hired after John Fox?
 how: How may yards did Peyton Manning throw?
 what: What game did Thomas Davis say he would play in, despite breaking a bone earlier on?
 what: What is the name of the quarterback who was 38 in Super Bowl XXXIII?
@@ -72,7 +72,7 @@ what: What was one of Tesla's books where articles can be read?
 what: What field of computer science is primarily concerned with determining the likelihood of whether or not a problem can ultimately be solved using algorithms?
 what: What is the name of the alphabet is most commonly used in a problem instance?
 what: In the encoding of mathematical objects, what is the way in which integers are commonly expressed?
-what: What is one way in which graphs can be encoded? 
+what: What is one way in which graphs can be encoded?
 what: If two integers are multiplied and output a value, what is this expression set called?
 what: What is one variable on which the running time may be contingent?
 what: If input size is is equal to n, what can respectively be assumed is the function of n?
@@ -80,7 +80,6 @@ what: It is generally assumed that a Turing machine can solve anything capable o
 what: What are two factors that directly effect how powerful a Turing machine may or may not be?
 when: When extensive time is required to sort integers, this represents what case complexity?
 what: What are two examples of measurements are bound within algorithms to establish complexity classes?
-am: IP and AM are most commonly defined by what type of proof system?
 what: What is an example of a measurement within a complexity class that would create a bigger set of problems if the bounds were relaxed?
 what: An algorithm for X which reduces to C would us to do what?
 how: A problem set that that is hard for the expression NP can also be stated how?
@@ -127,7 +126,7 @@ how: How did Tetzel state that the soul could leave purgatory?
 what: What did Martin Luther do during 1510 to 1520?
 when: When did Luther publish On the Bondage of the Will?
 what: What did Luther promise to do as a concession?
-what: What did Luther need to do to avoid excommunication? 
+what: What did Luther need to do to avoid excommunication?
 what: What did Luther do at the end of his speech?
 what: What did Luther refuse to do?
 who: Who said, "Here I stand. I can do no other"?
@@ -221,7 +220,7 @@ which: In which case did the Court of Justice hold that a German court couldn't 
 what: What did the Amazon rainforest do during the Middle Miocene?
 where: Where did the water in the Amazon Basin flow towards when moving west?
 what: What is the lake known as which was created by the rise of the Andes Mountains?
-what: What is the maximum square miles did Betty Meggers claim that can be sustained in the rainforest? 
+what: What is the maximum square miles did Betty Meggers claim that can be sustained in the rainforest?
 how: How many inhabitants did Betty Meggers believe could occupy each square kilometre of the Amazon?
 what: During what time did civilization in the Amazon was flourishing when Orellana made his observations?
 who: Who discovered this and where did they come from?
@@ -249,22 +248,22 @@ what: On what show did Bill Aiken make is television debut?
 which: Which two leading roles did Audra McDonald perform when she was in high school?
 what: What are the factors that are contributing to the desire to have SR 99 improved to be of interstate standards?
 what: What did Distributed Adaptive Message Block Switching do
-what: What did DECnet originally do 
-what: What did vBNS do 
+what: What did DECnet originally do
+what: What did vBNS do
 where: Where and when did the investigation of the plague pathogen begin?
 how: How and when did the first variant of y. pestis enter Europe?
 what: What did historians do in the absence of census figures?
-when: When the three types of rock are re-melted what is formed? 
+when: When the three types of rock are re-melted what is formed?
 what: What is the area called where two plates move apart?
 what: What is the area called where one plate subducts under another?
 what: What foreign bodies, which are older than the rocks themselves, occur igneous rocks?
 what: What is something that is often torn up and included in sedimentary rock?
-what: The presence or absence of what can be used to determine the relative age of the formations in which they are found? 
-when: When dating rocks, what is the absolute isotopic date applied to?
+what: The presence or absence of what can be used to determine the relative age of the formations in which they are found?
+what: When dating rocks, what is the absolute isotopic date applied to?
 what: The point at which different radiometric isotopes stop diffusing into and out of the crystal lattice is called what?
 how: How can you find the absolute age of sedimentary rock units which do not contain radioactive isotopes?
-what: When rock folds deep in the Earth it can fold one of two ways, when it buckles upwards it creates what? 
-what: When rock folds deep in the Earth it can fold one of two ways, when it buckles downwards it creates what? 
+when: When rock folds deep in the Earth it can fold one of two ways, when it buckles upwards it creates what?
+when: When rock folds deep in the Earth it can fold one of two ways, when it buckles downwards it creates what?
 what: Rocks that are a depth where they are ductilely stretched are also often what?
 how: How else can petrologists understand the pressures at which different mineral phases appear?
 how: How else can petrologists understand the temperature at which different mineral phases appear?
@@ -299,7 +298,7 @@ what: What service did ABC launch in May 2013?
 what: What is the name of ESPN's streaming service that is analogous to WATCH ABC?
 who: Who would Begter have married when he came of age?
 how: How many warriors did Toghrul provide Temüjin when his wife was captured?
-what: What form of death did Jamukha hope Temüjin would allow him? 
+what: What form of death did Jamukha hope Temüjin would allow him?
 what: What did the Shah do when faced with defeat by Genghis Khan's forces?
 what: What did Genghis Khan do to the Tangut imperial family after their surrender?
 which: Which territory did Jochi try to protect that may have led to a dispute with his brothers?
@@ -324,7 +323,7 @@ what: When an activated killer T cell finds cells where the MHC 1 receptor has s
 what: What is a ligand on the cell surface that is upregulated after helper T cell activation?
 what: What is the process by which the antigen/antibody complex is processed in to peptides?
 what: What does the matching helper T cell release when it binds with the MHC:antigen complex of the B cell?
-when: When B cells and T cells begin to replicate, what do some of their offspring cells become?
+what: When B cells and T cells begin to replicate, what do some of their offspring cells become?
 what: Hormones can alter the sensitivity of the immune system, so they can be referred to as what?
 what: What is a protein that is closely intertwined with circadian rhythms?
 what: What is a mechanism that can help plants block virus replication?
@@ -349,7 +348,7 @@ what: What reason is given that you should also protest public companies?
 what: If law breaking is not done in a public manor it is not considered what term?
 why: Stephen Eilmann asks why show public civil disobedience instead what is a better idea?
 what: People behaving with civil disobedience that is not-violent is said to make society have more of what?
-when: When violence is used, what is civil disobedience sometimes called?
+what: When violence is used, what is civil disobedience sometimes called?
 why: Why is it preferred that civil disobedience is non violent?
 what: What is it called when there is an active attempt to overthrow a government or belief system?
 what: What did the Jewish people do so pagan items wouldn't be in the temple of Jerusalem?
@@ -362,13 +361,13 @@ what: What is a way you can show police officers civil disobedience ?
 what: What should be avoided when talking to authorities?
 what: What is the group called that does not agree with government at all?
 how: How did their lawyer suggest they would plea?
-when: When many people are arrested, what is a common tactic negotiating?
+what: When many people are arrested, what is a common tactic negotiating?
 what: What is the primary goal of pleading not guilty when arrested for Civil Disobedience?
 what: What would someone who is civilly disobedient do in court?
 what: What is one main reason that civil disobedience is not recognized?
 why: Why should someone not commit a crime when they are protesting?
 what: What is violating a law which is not the goal of the protest called?
-when: When the law is a direct target of the protest, what is this called?
+what: When the law is a direct target of the protest, what is this called?
 why: Why are people who distribute leaflets inside courthouses not been arrested?
 who: Zoning requirements, environmental impact, budgeting, and logistics are things who should consider?
 what: What do those in the field do to ensure a positive outcome?
@@ -390,7 +389,7 @@ what: What is the name of the river that is completely contained inside Jacksonv
 why: Why does Oxfam and Credit Suisse believe their findings are being doubted?
 what: What may explain why some Americans who've become rich may have had a head start?
 what: What is the term that describes the difference between what higher paid and lower paid professionals earn?
-when: When less workers are required, what happens to the job market?
+what: When less workers are required, what happens to the job market?
 what: When there are many workers competing for a few jobs its considered as what?
 what: What is the potential earnings for a job where there are few skilled workers but many available positions?
 what: What type of wages result from jobs where there is low supply but high demand?
@@ -448,7 +447,7 @@ what: In what episode did Doctor Who acknowledge having had a brother?
 what: What type of creature is usually Doctor Who's companion?
 what: What is the only story of the original series where Doctor Who travels alone?
 what: Since 2005, what is the gender of Doctor Who's primary traveling companion?
-who: Who are the oldest villains from the Doctor Who series? 
+who: Who are the oldest villains from the Doctor Who series?
 who: Who is the archenemy of Doctor Who?
 what: What title do both Doctor Who and the Master share?
 what: What radio station did the Doctor Who theme reach the charts on in 2011?
@@ -472,9 +471,9 @@ which: Which comedian did a parody where a Dalek appears?
 what: What is the name of the donor who helped establish the Hutchinson Commons?
 what: What did the early entrant program do for potential students?
 what: What is the name of the museum and research center for Near Eastern studies, that is owned by the university?
-what: What is the name of the winter festival held in January that is based on fitness? 
+what: What is the name of the winter festival held in January that is based on fitness?
 what: What is the name of the American writer and satirist who is also a university alumni?
-what: What is the name of the Pulitzer Prize novelist who was also a university alumni? 
+what: What is the name of the Pulitzer Prize novelist who was also a university alumni?
 what: What is the name of the Bungie Inc. founder who is also a university graduate?
 what: What did the Mongol elites wish Buyantu didn't do?
 what: What did Kublai do to prevent famines?
@@ -511,7 +510,7 @@ what: What do photosynthetic carotenoids do?
 what: What do chloroplasts do like mitochondria?
 what: What can rubisco do by mistake?
 what: What are we unsure of about how chloroplasts make methionine precursors?
-when: When a plant is injured, what can become proplastids?
+what: When a plant is injured, what can become proplastids?
 what: What is the only divisor besides 1 that a prime number can have?
 what: What are numbers greater than 1 that can be divided by 3 or more numbers called?
 what: What is the name of the process which confirms the primality of a number n?
@@ -524,7 +523,7 @@ what: What is another function that primes have that the number 1 does not?
 what: What is one function that prime numbers have that 1 does not?
 what: What is the name of the Egyptian papyrus that suggests that they may have had knowledge of prime numbers?
 what: What does the Sieve of Eratosthenes do?
-when: When using a probabilistic algorithm, how is the probability that the number is composite expressed mathematically?
+how: When using a probabilistic algorithm, how is the probability that the number is composite expressed mathematically?
 what: What is the name of one type of prime where p+1 or p-1 takes a certain shape?
 what: What is the name of one type of computing method that is used to find prime numbers?
 what: What is another way to state the condition that infinitely many primes can exist only if a and q are coprime?
@@ -563,11 +562,11 @@ what: What term do Islamists think should be applied to them?
 what: What does a writer for the International Crisis Group think the concept of political Islam is a creation of?
 what: What did Iqbal fear would weaken the spiritual foundations of Islam and Muslim society?
 what: Iqbal worried that India's mostly Hindu population would do what to Muslim heritage and culture?
-when: When Iqbal promoted ideas of greater Islamic political unity, what did he encourage ending?
+what: When Iqbal promoted ideas of greater Islamic political unity, what did he encourage ending?
 what: What did Maududi believe Muslim society could not be Islamic in the absence of?
 what: What did the conflict galvanize Muslims around the world to do?
 what: What did the Gulf War inadvertently do in the early 1990s?
-when: When imperialism impacts social norms of a state, what is it called?
+what: When imperialism impacts social norms of a state, what is it called?
 what: What did European chemists make that could be used in warfare?
 who: Who does Edward Said say is being attacked by US imperialism?
 when: When did the movement that would become The United Methodist Church begin?
@@ -587,15 +586,15 @@ what: Upon learning of a French scounting party in the area, what did Washington
 how: How did Vaudreuil react when Johnson was seen as larger threat?
 what: Given the strength of French forces at Louisbourg, what did Loudoun do?
 what: During withdrawal from Fort William Henry, what did some Indian allies of French do?
-what: What path does a ball thrown up and down in a moving vehicle take when seen by an outside observer? 
-when: When forces are from the presence of differnet objects, what law gives symmetry?
+what: What path does a ball thrown up and down in a moving vehicle take when seen by an outside observer?
+what: When forces are from the presence of differnet objects, what law gives symmetry?
 what: What experiences acceleration when external force is applied to a system?
 what: What is the magnitude of force divided by when external force is added?
 how: How do you avoid problems when determining forces involved on an object from two or more sources?
 what: If you do not know both magnitude and direction of two forces on an object, what would you call that situation?
 how: How do you determine the acceleration of a rope when two people are pulling it?
 what: What is the resultant force called when two forces act on a particle?
-when: When forces are acting on an extended body, what do you need to account for motion effects?
+what: When forces are acting on an extended body, what do you need to account for motion effects?
 what: Whwn forces are at right ngles to each other what can they be broken down to?
 how: If a force is pointing horizontally to the northeast, how many forces can you split the force into?
 what: What do you get when you figure the sum of forces with vector addition?
