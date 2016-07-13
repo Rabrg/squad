@@ -20,7 +20,7 @@ public class Marmotta {
         try {
             final ClientConfiguration configuration = new ClientConfiguration("http://desktop-4c0usdm:8080/marmotta/");
             final MarmottaClient client = new MarmottaClient(configuration);
-            final SPARQLResult result = client.getSPARQLClient().select("SELECT * WHERE { ?subject ?property ?object LIMIT } 10");
+            final SPARQLResult result = client.getSPARQLClient().select("SELECT * WHERE { ?subject ?property ?object } LIMIT 10");
             System.out.println(result);
         } catch (final Exception e) {
             e.printStackTrace();

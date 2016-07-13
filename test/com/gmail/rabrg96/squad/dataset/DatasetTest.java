@@ -11,6 +11,7 @@ import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.simple.Sentence;
 
 import java.io.FileReader;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 import java.util.Properties;
@@ -26,19 +27,37 @@ public class DatasetTest {
             props.put("annotators", "tokenize, ssplit, pos, lemma, ner, parse, dcoref");
             StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
-
             for (final Paragraph paragraph : dataset.getData().get(0).getParagraphs()) {
                 String text = paragraph.getContext();
                 Annotation document = new Annotation(text);
                 pipeline.annotate(document);
 
                 Map<Integer, CorefChain> graph = document.get(CorefCoreAnnotations.CorefChainAnnotation.class);
-                System.out.println("Graph: " + graph.toString());
+//                System.out.println("Graph: " + graph.toString());
+//                System.out.println("-----------");
                 for (Map.Entry<Integer, CorefChain> entry : graph.entrySet()) {
                     CorefChain chain = entry.getValue();
-                    CorefChain.CorefMention repMention = chain.getRepresentativeMention();
-                    System.out.println("Chain: " + chain.toString());
-                    System.out.println("Rep: " + repMention.toString());
+                    final List<CorefChain.CorefMention> mentions = chain.getMentionsInTextualOrder();
+                    if (mentions.size() > 1) { // TODO:  URGENT word precision
+                        StringBuilder builder = new StringBuilder();
+                        builder.append("Context before: " + paragraph.getContextSentences()+ "\n");
+                        boolean replaced = false;
+                        final String first = mentions.get(0).mentionSpan;
+                        for (int i = 1; i < mentions.size(); i++) {
+                            final CorefChain.CorefMention mention = mentions.get(i);
+                            if (PRONOUNS.contains(mention.mentionSpan.toLowerCase())) {
+                                replaced = true;
+                                builder.append("Replacing " + mention.mentionSpan + " with " + first + "\n");
+                                paragraph.getContextSentences().set(mention.sentNum - 1,
+                                        paragraph.getContextSentences().get(mention.sentNum - 1).replace(mention.mentionSpan, first));
+                            }
+                        }
+                        builder.append("Context after: " + paragraph.getContextSentences() + "\n");
+                        builder.append("============\n");
+                        if (replaced) {
+                            System.out.print(builder);
+                        }
+                    }
                 }
 //                for (final String text : paragraph.getContextSentences()) {
 //                    final Sentence sentence = new Sentence(text);
@@ -98,4 +117,9 @@ public class DatasetTest {
             e.printStackTrace();
         }
     }
+
+    private static final List<String> PRONOUNS = Arrays.asList("hers", "herself", "him", "himself", "hisself", "it",
+            "itself", "me", "myself", "one", "oneself", "ours", "ourselves", "ownself", "self", "she", "thee",
+            "theirs", "them", "themselves", "they", "thou", "thy", "us", "her", "his", "mine", "my", "our", "ours",
+            "their", "thy", "your"); // TODO: in an ideal world use POS tagger
 }
