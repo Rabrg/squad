@@ -1,12 +1,24 @@
 package com.gmail.rabrg96.squad.dataset;
 
+import com.gmail.rabrg96.squad.util.Coref;
 import edu.stanford.nlp.simple.Document;
 import edu.stanford.nlp.simple.Sentence;
 
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.*;
 import java.util.stream.Collectors;
 
 public final class Paragraph {
+
+    private enum RelevancyMode {
+        ORIGINAL,
+        IGNORE_COMMON
+    }
+
+    private static final RelevancyMode mode = RelevancyMode.IGNORE_COMMON;
+
+    private static List<String> commonWords;
 
     private String context;
     private List<QuestionAnswerService> qas;
@@ -25,14 +37,33 @@ public final class Paragraph {
         if (contextSentences == null) {
             final Document document = new Document(context);
             contextSentences = document.sentences().stream().map(Sentence::text).collect(Collectors.toList());
+            Coref.replaceContextPronouns(this);
         }
         return contextSentences;
     }
 
-    // answer is in the first or second sentence over 70% of the time
+    // TODO: relevancy helper class. currently everything relevancy related in this class is disgusting
+    public Map<String, Double> getRelevancyOrederedContextSentences(final QuestionAnswerService qas) {
+        switch (mode) {
+            case ORIGINAL:
+                return originalRelevancy(qas);
+            case IGNORE_COMMON:
+                if (commonWords == null) {
+                    try {
+                        commonWords = Files.readAllLines(Paths.get("./res/common.txt"));
+                    } catch (final Exception e) {
+                        e.printStackTrace();
+                    }
+                }
+                return ignoreCommonRelevancy(qas);
+        }
+        return null;
+    }
+
+    // answer is in the first or second sentence over 83% of the time
     // could be improved by ignoring (or weighting) common words
-    public Map<String, Integer> getRelevancyOrederedContextSentences(final QuestionAnswerService qas) {
-        final Map<String, Integer> relevancyOrdered = new HashMap<>(getContextSentences().size());
+    private Map<String, Double> originalRelevancy(final QuestionAnswerService qas) {
+        final Map<String, Double> relevancyOrdered = new HashMap<>(getContextSentences().size());
         final Sentence questionSentence = new Sentence(qas.getQuestion());
         for (final String context : getContextSentences()) {
             final Sentence contextSentence = new Sentence(context);
@@ -44,7 +75,38 @@ public final class Paragraph {
                     }
                 }
             }
-            relevancyOrdered.put(context, sentenceCounter);
+            relevancyOrdered.put(context, ((double) sentenceCounter) / contextSentence.lemmas().size() );
+        }
+        sortByValue(relevancyOrdered);
+        return relevancyOrdered;
+    }
+
+    // ignores the most common words when calculating relevancy
+    private Map<String, Double> ignoreCommonRelevancy(final QuestionAnswerService qas) {
+        final Map<String, Double> relevancyOrdered = new HashMap<>(getContextSentences().size());
+        final Sentence questionSentence = new Sentence(qas.getQuestion());
+
+        final List<String> questionLemmas = new ArrayList<>(questionSentence.lemmas());
+        for (int i = 0; i < questionLemmas.size(); i++) {
+            questionLemmas.set(i, questionLemmas.get(i).toLowerCase());
+        }
+        questionLemmas.removeAll(commonWords);
+
+        for (final String context : getContextSentences()) {
+            final List<String> contextLemmas = new ArrayList<>(new Sentence(context).lemmas());
+            for (int i = 0; i < contextLemmas.size(); i++) {
+                contextLemmas.set(i, contextLemmas.get(i).toLowerCase());
+            }
+            contextLemmas.removeAll(commonWords);
+            int sentenceCounter = 0;
+            for (final String questionLemma : questionLemmas) {
+                for (final String contextLemma : contextLemmas) {
+                    if (questionLemma.equals(contextLemma)) {
+                        sentenceCounter++;
+                    }
+                }
+            }
+            relevancyOrdered.put(context, ((double) sentenceCounter) / contextLemmas.size() );
         }
         sortByValue(relevancyOrdered);
         return relevancyOrdered;
