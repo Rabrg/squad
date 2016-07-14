@@ -14,7 +14,7 @@ public class QAQCSheet {
         final Map<String, List<String>> dataset = loadDataset();
         final List<String> statistics = Files.readAllLines(Paths.get("./res/statistics-qaqc.tsv"));
 
-        final double min = -1, max = 1, accur = 0.05;
+        final double min = -1, max = 1, accur = 0.1;
         final long start = System.currentTimeMillis();
         double bestKeyWeight= 0, bestSetWeight = 0, bestAccuracy = 0;
         for (double keyWeight = min; keyWeight < max; keyWeight += accur) {
@@ -22,9 +22,11 @@ public class QAQCSheet {
                 int correct = 0, total = 0;
                 for (final Map.Entry<String, List<String>> entry : dataset.entrySet()) {
                     for (final String sentence : entry.getValue()) {
-                        final Map<String, Double> probability = getProbability(statistics, sentence, keyWeight, setWeight);
+                        final Map<String, Double> probability = getProbabilityStatistics(statistics, sentence, keyWeight, setWeight);
                         if (!probability.isEmpty() && probability.entrySet().iterator().next().getKey().equals(entry.getKey())) {
                             correct++;
+                        } else {
+                            System.out.println(sentence);
                         }
                         total++;
                     }
@@ -112,7 +114,9 @@ public class QAQCSheet {
         return Math.floor(i * 1000) / 1000;
     }
 
-    private static Map<String, Double> getProbability(final List<String> statistics, final String sentence, final double keyWeight, final double setWeight) {
+    private static Map<String, Double> getProbabilityStatistics(final List<String> statistics, String sentence, final double keyWeight, final double setWeight) {
+        sentence = sentence.toLowerCase();
+
         final Map<String, Double> probability = new HashMap<>();
         for (final String statistic : statistics) {
             final String[] split = statistic.split("\t");
