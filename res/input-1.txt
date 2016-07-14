@@ -1,0 +1,183 @@
+start:what
+start:which
+start:who
+start:name
+start:whom
+contain:team
+contain:company
+contain:tribe
+contain:department
+contain:organization
+contain:school
+contain:college
+contain:army
+contain:manufacturer
+contain:government
+start:what is
+start:what was
+contain:profession
+contain:occupation
+contain:title
+start:who was
+start:who is
+start:who were
+start:what country
+contain:country
+contaiin:contries
+start:where
+start:where is
+start:where can
+start:where was
+start:what city
+start:which city
+contain:city
+start:what state
+contain:U.S.
+contain:mountain
+contain:highest
+contain:peak
+start:when was
+start:what is
+start:when did
+contain:year
+start:what year
+start:when is
+start:what chapter
+start:how long
+contain:how old
+contain:IQ
+contain:population
+contain:people
+contain:quantity
+start:what fraction
+start:what percent
+start:what percentage
+contain:temperature
+start:what is the temperature
+start:what is the telephone number
+contain:telephone number
+start:how much
+contain:paid
+contain:cost
+contain:money
+start:what is the size
+start:what is the acreage
+contain:size
+start:how many
+contain:number
+contain:average
+start:how long
+start:how far
+start:what is the speed
+contain:speed
+start:how fast
+contain:fast
+start:why do
+start:what causes
+start:what makes
+start:what cause
+start:what makes
+start:why does
+start:why were
+start:what does
+start:how did
+start:how can
+start:how do
+start:how is
+contain:origin
+contain:history
+contain:term
+contain:difference
+contain:example
+start:what sign
+contain:sign
+contain:symbol
+contain:product
+contain:produce
+contain:color
+contain:colour
+start:what color
+contain:element
+contain:consist of
+contain:made of
+contain:body
+contain:eye
+contain:tongue
+contain:hair
+contain:gland
+contain:eat
+contain:cocktail
+contain:drink
+contain:food
+contain:term
+start:how do you say
+start:what poem
+start:what song
+start:what film
+start:what movie
+start:what play
+contain:movie
+contain:film
+contain:movie
+contain:play
+contain:poem
+contain:book
+contain:novel
+contain:religion
+start:in what religion
+contain:vowel
+contain:letter
+contain:shrub
+contain:plant
+start:what shrub
+start:what plant
+contain:way
+contain:approach
+contain:technique
+contain:liner
+contain:vessel
+contain:vehicle
+contain:car
+contain:train
+contain:plane
+contain:animal
+contain:mammal
+contain:geese
+contain:bear
+contain:dog
+contain:cat
+contain:duck
+contain:bird
+contain:rabbit
+contain:snake
+contain:domestic
+contain:racoon
+contain:fowl
+contain:instrument
+start:what instrument
+start:what musical instrument
+contain:age
+contain:holiday
+contain:event
+contain:war
+contain:disaster
+contain:phenomenon
+start:what is a fear
+contain:fear of
+contain:disease
+contain:therapy
+contain:cancer
+contain:language
+start:what language
+start:what is a language
+contain:game
+contain:board
+contain:sport
+start:what sport
+contain:word
+contain:plural
+contain:abbreviation
+start:what is the abbreviation
+contain:stand for
+contain:mean
+contain:abbreviat
