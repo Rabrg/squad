@@ -23,10 +23,11 @@ public class QAQCSheet {
                 for (final Map.Entry<String, List<String>> entry : dataset.entrySet()) {
                     for (final String sentence : entry.getValue()) {
                         final Map<String, Double> probability = getProbabilityStatistics(statistics, sentence, keyWeight, setWeight);
-                        if (!probability.isEmpty() && probability.entrySet().iterator().next().getKey().equals(entry.getKey())) {
+                        final String detected = probability.entrySet().iterator().next().getKey();
+                        if (!probability.isEmpty() && detected.equals(entry.getKey())) {
                             correct++;
                         } else {
-                            System.out.println(sentence);
+                            System.out.println("Detected: " + detected + " correct: " + entry.getKey() + " sentence: " + sentence);
                         }
                         total++;
                     }
