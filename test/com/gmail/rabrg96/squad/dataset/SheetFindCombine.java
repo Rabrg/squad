@@ -1,5 +1,6 @@
 package com.gmail.rabrg96.squad.dataset;
 
+import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
@@ -12,16 +13,20 @@ import java.util.Map;
 public class SheetFindCombine {
 
     public static void main(final String[] args) throws IOException {
-        SheetDataFinder.getData("What team did baseball 's St. Louis Browns become ?");
-//        final Map<String, List<String>> dataset = loadDataset();
-//        int i = 1;
-//        for (final Map.Entry<String, List<String>> entry : dataset.entrySet()) {
-//            for (final String sentence : entry.getValue()) {
-//                final List<Object> data = SheetDataFinder.getData(sentence);
-//                data.add(entry.getKey());
-////                SheetsQuickstart.setValue("Sheet1", "A" + i++, String.valueOf((char) ('B' + data.size())), data);
-//            }
-//        }
+//        SheetDataFinder.getData("What team did baseball 's St. Louis Browns become ?");
+        final FileWriter writer = new FileWriter("./res/detected-sheet.tsv");
+        final Map<String, List<String>> dataset = loadDataset();
+        int i = 1;
+        for (final Map.Entry<String, List<String>> entry : dataset.entrySet()) {
+            for (final String sentence : entry.getValue()) {
+                final List<Object> data = SheetDataFinder.getData(sentence + "\n");
+                data.add(entry.getKey());
+                for (final Object object : data) {
+                    writer.write(object + "\t");
+                }
+                writer.flush();
+            }
+        }
     }
 
     private static Map<String, List<String>> loadDataset() throws IOException {

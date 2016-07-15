@@ -23,8 +23,15 @@ public class SheetDataFinder {
             parent.pennPrint();
             final String whType = tree.value();
             final String whWord = tree.getChild(0).yieldWords().get(0).word();
-            final String whTargetWord = combineWords(tree);
-            final String whTargetType = tree.getChild(1).value();
+            String whTargetWord;
+            String whTargetType;
+            try {
+                whTargetWord = combineWords(tree);
+                whTargetType = tree.getChild(1).value();
+            } catch (final Exception e) {
+                whTargetWord = "NONE";
+                whTargetType = "NONE";
+            }
 
             final String subject = getSubject(sentence);
 
