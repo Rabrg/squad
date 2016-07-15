@@ -1,4 +1,4 @@
-Sentence    whType  whWord  whTargetType    whTargetWord    Subject Classification
+Sentence	whType	whWord	whTargetType	whTargetWord	Subject	Classification
 what did the only repealed amendment to the u.s. constitution deal with ?	WHNP	what	NONE	NONE	amendment	DESC.desc
 what 's the olympic motto ?	WHNP	what	NONE	NONE	motto	DESC.desc
 what is the origin of the name ` scarlett ' ?	WHNP	what	NONE	NONE	origin	DESC.desc
