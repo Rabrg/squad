@@ -1,186 +1,286 @@
-"C:\Program Files\Java\jdk1.8.0_92\bin\java" -Didea.launcher.port=7537 "-Didea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2016.2\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Users\Rabrg\IdeaProjects\squad\out\production\squad;C:\Users\Rabrg\IdeaProjects\squad\lib\gson-2.7.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\stanford-corenlp-3.6.0.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\xom-1.2.10.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\xml-apis-1.3.03.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\xercesImpl-2.8.0.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\xalan-2.7.0.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\joda-time-2.9.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\jollyday-0.4.7.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\jaxb-api-2.2.7.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\ejml-0.23.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\javax.json-api-1.0.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\slf4j-api-1.7.12.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\protobuf-java-2.6.1.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\guava-18.0.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\commons-io-2.4.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\httpcore-4.3.2.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\httpmime-4.3.5.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\slf4j-api-1.7.7.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\slf4j-ext-1.7.7.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\cal10n-api-0.8.1.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\gson-2.7-javadoc.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\gson-2.7-sources.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\httpclient-4.3.5.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\commons-codec-1.6.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\jackson-core-2.3.3.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\jul-to-slf4j-1.7.7.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\logback-core-1.1.2.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\sesame-util-2.7.13.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\commons-lang3-3.3.2.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\sesame-model-2.7.13.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\sesame-query-2.7.13.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\jcl-over-slf4j-1.7.7.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\logback-classic-1.1.2.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\sesame-rio-api-2.7.13.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\jackson-databind-2.3.3.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\log4j-over-slf4j-1.7.7.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\javax.servlet-api-3.0.1.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\jackson-annotations-2.3.0.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\sesame-rio-rdfjson-2.7.13.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\marmotta-client-java-3.3.0.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\protobuf-java-2.6.1-javadoc.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\protobuf-java-2.6.1-sources.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\sesame-rio-datatypes-2.7.13.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\sesame-rio-languages-2.7.13.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\stanford-corenlp-3.6.0-javadoc.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\stanford-corenlp-3.6.0-sources.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\sesame-queryresultio-api-2.7.13.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\marmotta-client-java-3.3.0-sources.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\sesame-queryresultio-sparqljson-2.7.13.jar;C:\Users\Rabrg\IdeaProjects\squad\lib\stanford-english-corenlp-2016-01-10-models.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2016.2\lib\idea_rt.jar" com.intellij.rt.execution.application.AppMain com.gmail.rabrg96.squad.dataset.QAQCSheet
-Detected: DESC.manner correct: DESC.desc sentence: What did the only repealed amendment to the U.S. Constitution deal with ?
-Detected: HUM.desc correct: NUM.volsize sentence: What is the acreage of the Chappellet vineyard ?
-Detected: DESC.manner correct: NUM.perc sentence: What fraction of a beaver 's life is spent swimming ?
-Detected: HUM.desc correct: ENTY.event sentence: What is considered the costliest disaster the insurance industry has ever faced ?
-Detected: NUM.weight correct: NUM.count sentence: How many Jews were executed in concentration camps during WWII ?
-Detected: HUM.desc correct: ENTY.plant sentence: What shrubs can be planted that will be safe from deer ?
-Detected: LOC.other correct: NUM.dist sentence: How long is the Coney Island boardwalk ?
-Detected: DESC.def correct: LOC.city sentence: Which city has the oldest relationship as a sisterðcity with Los Angeles ?
-Detected: HUM.ind correct: LOC.mount sentence: Where is the highest point in Japan ?
-Detected: HUM.desc correct: ENTY.cremat sentence: What films featured the character Popeye Doyle ?
-Detected: DESC.desc correct: DESC.reason sentence: Why do heavier objects travel downhill faster ?
-Detected: HUM.ind correct: ENTY.body sentence: The corpus callosum is in what part of the body ?
-Detected: DESC.manner correct: LOC.country sentence: What country do the Galapagos Islands belong to ?
-Detected: HUM.desc correct: ENTY.termeq sentence: What 's the term for a young fox ?
-Detected: DESC.manner correct: HUM.gr sentence: What team did baseball 's St. Louis Browns become ?
-Detected: DESC.manner correct: ENTY.letter sentence: What 's the second-most-used vowel in English ?
-Detected: LOC.state correct: ENTY.product sentence: Which two products use a tiger as their symbol ?
-Detected: DESC.manner correct: ENTY.instru sentence: What instrument is Ray Charles best known for playing ?
-Detected: HUM.desc correct: ENTY.animal sentence: What fowl grabs the spotlight after the Chinese Year of the Monkey ?
-Detected: DESC.manner correct: LOC.state sentence: What sprawling U.S. state boasts the most airports ?
-Detected: HUM.desc correct: NUM.speed sentence: What is the speed of the Mississippi River ?
-Detected: HUM.desc correct: ENTY.color sentence: What 's the only color Johnny Cash wears on stage ?
-Detected: HUM.ind correct: NUM.period sentence: How long does it take for your blood to make one complete trip through the body ?
-Detected: HUM.desc correct: NUM.code sentence: What is the telephone number for the University of Kentucky ?
-Detected: DESC.manner correct: NUM.ord sentence: What chapter of the Bible has the most verses ?
-Detected: HUM.desc correct: ENTY.lang sentence: What 's the most commonly-spoken language in Belgium ?
-Detected: DESC.manner correct: HUM.title sentence: What is the oldest profession ?
-Detected: LOC.other correct: ENTY.religion sentence: In what religion was Isis the nature goddess ?
-Detected: DESC.manner correct: ABBR.exp sentence: What is the full form of .com ?
-Detected: HUM.desc correct: ENTY.symbol sentence: What sign is The Water Carrier the zodiacal symbol for ?
-Detected: DESC.manner correct: LOC.other sentence: What is the highest waterfall in the United States ?
-Detected: DESC.manner correct: ABBR.abb sentence: What is the abbreviation for micro ?
-Detected: DESC.manner correct: NUM.other sentence: What was Einstein 's IQ ?
-Detected: DESC.def correct: NUM.money sentence: How much money does a back injury lawsuit get ?
-Detected: ENTY.dismed correct: ENTY.techmeth sentence: Name a technique widely used to detect birth defects ?
-Detected: DESC.manner correct: NUM.temp sentence: What is the temperature for baking Peachy Oat Muffins ?
-Detected: DESC.manner correct: DESC.def sentence: What are liver enzymes ?
-Detected: HUM.desc correct: ENTY.food sentence: What cocktail inspired John Doxat to write the book Stirred-Not Shaken ?
-Detected: HUM.desc correct: ENTY.sport sentence: What game 's board shows the territories of Irkutsk , Yakutsk and Kamchatka ?
-Detected: DESC.manner correct: HUM.ind sentence: What contemptible scoundrel stole the cork from my lunch ?
-Detected: DESC.manner correct: ENTY.word sentence: What English word comes from the Old French covrefeu , meaning cover fire ?
-Detected: DESC.manner correct: ENTY.veh sentence: What Italian liner was hijacked in 1985 ?
-Detected: DESC.manner correct: ENTY.other sentence: What articles of clothing are tokens in Monopoly ?
-Detected: HUM.desc correct: ENTY.substance sentence: What are the most common elements in the Earth 's crust ?
-Detected: DESC.manner correct: ENTY.dismed sentence: What is a fear of shadows ?
-Detected: ENTY.animal correct: HUM.desc sentence: Who is Terrence Malick ?
-Detected: DESC.manner correct: DESC.desc sentence: What did the only repealed amendment to the U.S. Constitution deal with ?
-Detected: HUM.desc correct: NUM.volsize sentence: What is the acreage of the Chappellet vineyard ?
-Detected: DESC.manner correct: NUM.perc sentence: What fraction of a beaver 's life is spent swimming ?
-Detected: DESC.manner correct: ENTY.event sentence: What is considered the costliest disaster the insurance industry has ever faced ?
-Detected: NUM.weight correct: NUM.count sentence: How many Jews were executed in concentration camps during WWII ?
-Detected: DESC.manner correct: ENTY.plant sentence: What shrubs can be planted that will be safe from deer ?
-Detected: LOC.other correct: NUM.dist sentence: How long is the Coney Island boardwalk ?
-Detected: DESC.def correct: LOC.city sentence: Which city has the oldest relationship as a sisterðcity with Los Angeles ?
-Detected: HUM.ind correct: LOC.mount sentence: Where is the highest point in Japan ?
-Detected: HUM.desc correct: ENTY.cremat sentence: What films featured the character Popeye Doyle ?
-Detected: DESC.desc correct: DESC.reason sentence: Why do heavier objects travel downhill faster ?
-Detected: HUM.ind correct: ENTY.body sentence: The corpus callosum is in what part of the body ?
-Detected: DESC.manner correct: LOC.country sentence: What country do the Galapagos Islands belong to ?
-Detected: HUM.desc correct: ENTY.termeq sentence: What 's the term for a young fox ?
-Detected: DESC.manner correct: HUM.gr sentence: What team did baseball 's St. Louis Browns become ?
-Detected: DESC.manner correct: ENTY.letter sentence: What 's the second-most-used vowel in English ?
-Detected: DESC.desc correct: ENTY.product sentence: Which two products use a tiger as their symbol ?
-Detected: DESC.manner correct: ENTY.instru sentence: What instrument is Ray Charles best known for playing ?
-Detected: DESC.manner correct: ENTY.animal sentence: What fowl grabs the spotlight after the Chinese Year of the Monkey ?
-Detected: DESC.manner correct: LOC.state sentence: What sprawling U.S. state boasts the most airports ?
-Detected: DESC.manner correct: NUM.speed sentence: What is the speed of the Mississippi River ?
-Detected: HUM.desc correct: ENTY.color sentence: What 's the only color Johnny Cash wears on stage ?
-Detected: HUM.ind correct: NUM.period sentence: How long does it take for your blood to make one complete trip through the body ?
-Detected: HUM.desc correct: NUM.code sentence: What is the telephone number for the University of Kentucky ?
-Detected: DESC.manner correct: NUM.ord sentence: What chapter of the Bible has the most verses ?
-Detected: HUM.desc correct: ENTY.lang sentence: What 's the most commonly-spoken language in Belgium ?
-Detected: DESC.manner correct: HUM.title sentence: What is the oldest profession ?
-Detected: HUM.ind correct: ENTY.religion sentence: In what religion was Isis the nature goddess ?
-Detected: DESC.manner correct: ABBR.exp sentence: What is the full form of .com ?
-Detected: DESC.manner correct: ENTY.symbol sentence: What sign is The Water Carrier the zodiacal symbol for ?
-Detected: DESC.manner correct: LOC.other sentence: What is the highest waterfall in the United States ?
-Detected: DESC.manner correct: ABBR.abb sentence: What is the abbreviation for micro ?
-Detected: DESC.manner correct: NUM.other sentence: What was Einstein 's IQ ?
-Detected: DESC.def correct: NUM.money sentence: How much money does a back injury lawsuit get ?
-Detected: DESC.def correct: ENTY.techmeth sentence: Name a technique widely used to detect birth defects ?
-Detected: DESC.manner correct: NUM.temp sentence: What is the temperature for baking Peachy Oat Muffins ?
-Detected: DESC.manner correct: DESC.def sentence: What are liver enzymes ?
-Detected: DESC.manner correct: ENTY.food sentence: What cocktail inspired John Doxat to write the book Stirred-Not Shaken ?
-Detected: DESC.manner correct: ENTY.sport sentence: What game 's board shows the territories of Irkutsk , Yakutsk and Kamchatka ?
-Detected: DESC.manner correct: HUM.ind sentence: What contemptible scoundrel stole the cork from my lunch ?
-Detected: DESC.manner correct: ENTY.word sentence: What English word comes from the Old French covrefeu , meaning cover fire ?
-Detected: DESC.manner correct: ENTY.veh sentence: What Italian liner was hijacked in 1985 ?
-Detected: DESC.manner correct: ENTY.other sentence: What articles of clothing are tokens in Monopoly ?
-Detected: DESC.manner correct: ENTY.substance sentence: What are the most common elements in the Earth 's crust ?
-Detected: DESC.manner correct: ENTY.dismed sentence: What is a fear of shadows ?
-Detected: ENTY.animal correct: HUM.desc sentence: Who is Terrence Malick ?
-Detected: NUM.volsize correct: DESC.desc sentence: What did the only repealed amendment to the U.S. Constitution deal with ?
-Detected: ENTY.religion correct: NUM.volsize sentence: What is the acreage of the Chappellet vineyard ?
-Detected: NUM.volsize correct: NUM.perc sentence: What fraction of a beaver 's life is spent swimming ?
-Detected: ENTY.religion correct: ENTY.event sentence: What is considered the costliest disaster the insurance industry has ever faced ?
-Detected: NUM.weight correct: NUM.count sentence: How many Jews were executed in concentration camps during WWII ?
-Detected: NUM.volsize correct: ENTY.plant sentence: What shrubs can be planted that will be safe from deer ?
-Detected: LOC.other correct: NUM.dist sentence: How long is the Coney Island boardwalk ?
-Detected: NUM.dist correct: LOC.city sentence: Which city has the oldest relationship as a sisterðcity with Los Angeles ?
-Detected: NUM.ord correct: LOC.mount sentence: Where is the highest point in Japan ?
-Detected: NUM.volsize correct: ENTY.cremat sentence: What films featured the character Popeye Doyle ?
-Detected: DESC.desc correct: DESC.reason sentence: Why do heavier objects travel downhill faster ?
-Detected: NUM.perc correct: ENTY.body sentence: The corpus callosum is in what part of the body ?
-Detected: NUM.volsize correct: LOC.country sentence: What country do the Galapagos Islands belong to ?
-Detected: NUM.volsize correct: ENTY.termeq sentence: What 's the term for a young fox ?
-Detected: NUM.volsize correct: HUM.gr sentence: What team did baseball 's St. Louis Browns become ?
-Detected: NUM.volsize correct: ENTY.letter sentence: What 's the second-most-used vowel in English ?
-Detected: LOC.state correct: ENTY.product sentence: Which two products use a tiger as their symbol ?
-Detected: NUM.volsize correct: ENTY.instru sentence: What instrument is Ray Charles best known for playing ?
-Detected: ENTY.religion correct: ENTY.animal sentence: What fowl grabs the spotlight after the Chinese Year of the Monkey ?
-Detected: NUM.volsize correct: LOC.state sentence: What sprawling U.S. state boasts the most airports ?
-Detected: ENTY.religion correct: NUM.speed sentence: What is the speed of the Mississippi River ?
-Detected: ENTY.religion correct: ENTY.color sentence: What 's the only color Johnny Cash wears on stage ?
-Detected: NUM.perc correct: NUM.period sentence: How long does it take for your blood to make one complete trip through the body ?
-Detected: ENTY.religion correct: NUM.code sentence: What is the telephone number for the University of Kentucky ?
-Detected: NUM.volsize correct: NUM.ord sentence: What chapter of the Bible has the most verses ?
-Detected: ENTY.religion correct: ENTY.lang sentence: What 's the most commonly-spoken language in Belgium ?
-Detected: ENTY.religion correct: HUM.title sentence: What is the oldest profession ?
-Detected: DESC.desc correct: ENTY.religion sentence: In what religion was Isis the nature goddess ?
-Detected: ENTY.religion correct: ABBR.exp sentence: What is the full form of .com ?
-Detected: NUM.volsize correct: ENTY.symbol sentence: What sign is The Water Carrier the zodiacal symbol for ?
-Detected: ENTY.religion correct: LOC.other sentence: What is the highest waterfall in the United States ?
-Detected: ENTY.religion correct: ABBR.abb sentence: What is the abbreviation for micro ?
-Detected: NUM.volsize correct: NUM.other sentence: What was Einstein 's IQ ?
-Detected: NUM.weight correct: NUM.money sentence: How much money does a back injury lawsuit get ?
-Detected: ENTY.event correct: ENTY.techmeth sentence: Name a technique widely used to detect birth defects ?
-Detected: ENTY.religion correct: NUM.temp sentence: What is the temperature for baking Peachy Oat Muffins ?
-Detected: NUM.volsize correct: DESC.def sentence: What are liver enzymes ?
-Detected: NUM.volsize correct: ENTY.food sentence: What cocktail inspired John Doxat to write the book Stirred-Not Shaken ?
-Detected: NUM.volsize correct: ENTY.sport sentence: What game 's board shows the territories of Irkutsk , Yakutsk and Kamchatka ?
-Detected: NUM.volsize correct: HUM.ind sentence: What contemptible scoundrel stole the cork from my lunch ?
-Detected: NUM.volsize correct: ENTY.word sentence: What English word comes from the Old French covrefeu , meaning cover fire ?
-Detected: NUM.volsize correct: ENTY.veh sentence: What Italian liner was hijacked in 1985 ?
-Detected: NUM.volsize correct: ENTY.other sentence: What articles of clothing are tokens in Monopoly ?
-Detected: NUM.volsize correct: ENTY.substance sentence: What are the most common elements in the Earth 's crust ?
-Detected: ENTY.religion correct: ENTY.dismed sentence: What is a fear of shadows ?
-Detected: ENTY.animal correct: HUM.desc sentence: Who is Terrence Malick ?
-Detected: NUM.volsize correct: DESC.desc sentence: What did the only repealed amendment to the U.S. Constitution deal with ?
-Detected: NUM.volsize correct: NUM.perc sentence: What fraction of a beaver 's life is spent swimming ?
-Detected: NUM.volsize correct: ENTY.event sentence: What is considered the costliest disaster the insurance industry has ever faced ?
-Detected: NUM.weight correct: NUM.count sentence: How many Jews were executed in concentration camps during WWII ?
-Detected: NUM.volsize correct: ENTY.plant sentence: What shrubs can be planted that will be safe from deer ?
-Detected: DESC.desc correct: NUM.dist sentence: How long is the Coney Island boardwalk ?
-Detected: DESC.desc correct: LOC.city sentence: Which city has the oldest relationship as a sisterðcity with Los Angeles ?
-Detected: DESC.desc correct: LOC.mount sentence: Where is the highest point in Japan ?
-Detected: NUM.volsize correct: ENTY.cremat sentence: What films featured the character Popeye Doyle ?
-Detected: DESC.desc correct: DESC.reason sentence: Why do heavier objects travel downhill faster ?
-Detected: NUM.perc correct: ENTY.body sentence: The corpus callosum is in what part of the body ?
-Detected: NUM.volsize correct: LOC.country sentence: What country do the Galapagos Islands belong to ?
-Detected: NUM.volsize correct: ENTY.termeq sentence: What 's the term for a young fox ?
-Detected: NUM.volsize correct: HUM.gr sentence: What team did baseball 's St. Louis Browns become ?
-Detected: NUM.volsize correct: ENTY.letter sentence: What 's the second-most-used vowel in English ?
-Detected: ENTY.symbol correct: ENTY.product sentence: Which two products use a tiger as their symbol ?
-Detected: NUM.volsize correct: ENTY.instru sentence: What instrument is Ray Charles best known for playing ?
-Detected: NUM.volsize correct: ENTY.animal sentence: What fowl grabs the spotlight after the Chinese Year of the Monkey ?
-Detected: NUM.volsize correct: LOC.state sentence: What sprawling U.S. state boasts the most airports ?
-Detected: NUM.volsize correct: NUM.speed sentence: What is the speed of the Mississippi River ?
-Detected: NUM.volsize correct: ENTY.color sentence: What 's the only color Johnny Cash wears on stage ?
-Detected: NUM.perc correct: NUM.period sentence: How long does it take for your blood to make one complete trip through the body ?
-Detected: NUM.volsize correct: NUM.code sentence: What is the telephone number for the University of Kentucky ?
-Detected: NUM.volsize correct: NUM.ord sentence: What chapter of the Bible has the most verses ?
-Detected: NUM.volsize correct: ENTY.lang sentence: What 's the most commonly-spoken language in Belgium ?
-Detected: NUM.volsize correct: HUM.title sentence: What is the oldest profession ?
-Detected: DESC.desc correct: ENTY.religion sentence: In what religion was Isis the nature goddess ?
-Detected: NUM.volsize correct: ABBR.exp sentence: What is the full form of .com ?
-Detected: NUM.volsize correct: ENTY.symbol sentence: What sign is The Water Carrier the zodiacal symbol for ?
-Detected: NUM.volsize correct: LOC.other sentence: What is the highest waterfall in the United States ?
-Detected: NUM.volsize correct: ABBR.abb sentence: What is the abbreviation for micro ?
-Detected: NUM.volsize correct: NUM.other sentence: What was Einstein 's IQ ?
-Detected: HUM.ind correct: NUM.money sentence: How much money does a back injury lawsuit get ?
-Detected: LOC.other correct: ENTY.techmeth sentence: Name a technique widely used to detect birth defects ?
-Detected: NUM.volsize correct: NUM.temp sentence: What is the temperature for baking Peachy Oat Muffins ?
-Detected: NUM.volsize correct: DESC.def sentence: What are liver enzymes ?
-Detected: NUM.volsize correct: ENTY.food sentence: What cocktail inspired John Doxat to write the book Stirred-Not Shaken ?
-Detected: NUM.volsize correct: ENTY.sport sentence: What game 's board shows the territories of Irkutsk , Yakutsk and Kamchatka ?
-Detected: NUM.volsize correct: HUM.ind sentence: What contemptible scoundrel stole the cork from my lunch ?
-Detected: NUM.volsize correct: ENTY.word sentence: What English word comes from the Old French covrefeu , meaning cover fire ?
-Detected: NUM.volsize correct: ENTY.veh sentence: What Italian liner was hijacked in 1985 ?
-Detected: NUM.volsize correct: ENTY.other sentence: What articles of clothing are tokens in Monopoly ?
-Detected: NUM.volsize correct: ENTY.substance sentence: What are the most common elements in the Earth 's crust ?
-Detected: NUM.volsize correct: ENTY.dismed sentence: What is a fear of shadows ?
-Detected: HUM.ind correct: HUM.desc sentence: Who is Terrence Malick ?
-
-Process finished with exit code 0
+HUM.ind	DESC.desc	what did the only repealed amendment to the u.s. constitution deal with ?
+HUM.ind	DESC.desc	what 's the olympic motto ?
+HUM.ind	DESC.desc	what do mormons believe ?
+LOC.other	DESC.desc	where did the term `` 86ed '' come from ?
+LOC.other	DESC.desc	where do chihuahuas come from ?
+LOC.other	DESC.desc	what is the historical relationship of catholic church and bingo ?
+LOC.other	DESC.desc	where did indian pudding come from ?
+DESC.def	DESC.desc	what is the daily requirement of folic acid for an expectant mother ?
+HUM.ind	DESC.desc	what are the powers and weaknesses of green lantern 's ring ?
+DESC.def	DESC.desc	what is the use of a 24-hour clock instead of a 12-hour clock ?
+ENTY.animal	DESC.desc	what are some interesting facts and information about dogsledding ?
+HUM.ind	DESC.desc	what do bee hives do in cranberry bogs ?
+HUM.ind	DESC.desc	what do economists do ?
+ENTY.animal	DESC.desc	what do i need to do to take my dog with me to live in dominica , west indies for a year ?
+HUM.ind	DESC.desc	what are the distinct physical characterstics of the arabian horse ?
+LOC.other	DESC.desc	where do rocks come from ?
+DESC.def	DESC.desc	what is the motto for the state of maryland ?
+HUM.ind	DESC.desc	what do players try to do when the music stops in a game of musical chairs ?
+DESC.def	DESC.desc	what does a nihilist believe in ?
+HUM.ind	DESC.desc	what did richard feynman say upon hearing he would receive the nobel prize in physics ?
+HUM.ind	DESC.desc	what happened during the blackhawk indian war of 1832 ?
+HUM.ind	DESC.desc	what are the living conditions in cuba ?
+HUM.ind	DESC.desc	what information can you get me on fairground park in st. louis
+NUM.count	DESC.desc	what excuse did the nato people give for hitting the chinese embassy ?
+HUM.ind	ENTY.event	what war did the wanna-go-home riots occur after ?
+HUM.gr	ENTY.event	what are the rites accompanying the circumcision of a newly born-child in judaism called ?
+HUM.ind	ENTY.event	what war did florence nightingale tend the troops in ?
+HUM.ind	ENTY.event	what age followed the bronze age ?
+HUM.ind	ENTY.event	what was organized as a confederate veterans ' social club in pulaski , in tennessee , in 1866 ?
+HUM.ind	NUM.count	what 's the american dollar equivalent for 8 pounds in the u.k. ?
+NUM.money	NUM.count	how much snow equals an inch of rain ?
+HUM.ind	NUM.count	what was the u.s. highway death toll in 1969 ?
+DESC.manner	NUM.count	what is the chromosome number of an elephant ?
+NUM.period	NUM.dist	how long is the coney island boardwalk ?
+DESC.def	NUM.dist	what is the wingspan of a condor ?
+DESC.def	LOC.city	what is california 's capital ?
+DESC.def	LOC.city	what russian seaport has a name meaning `` lord of the east '' ?
+HUM.ind	LOC.city	what are the five most expensive cities in the world ?
+LOC.other	LOC.mount	where is the highest point in japan ?
+HUM.ind	ENTY.cremat	what j.r.r. tolkien book features bilbo baggins as the central character ?
+ENTY.animal	ENTY.cremat	what 's the only work by michelangelo that bears his signature ?
+HUM.ind	ENTY.cremat	in what medium is stuart hamblen considered to be the first singing cowboy ?
+HUM.ind	ENTY.cremat	what broadway musical was inspired by cervantes 's don quixote ?
+HUM.ind	ENTY.cremat	what album put the beatles on the cover of time in 1967 ?
+HUM.ind	ENTY.cremat	on what t.v. show could tom terrific be found ?
+HUM.ind	ENTY.cremat	what tv game show once saw a contestant admit to picking his toes in the shower ?
+HUM.ind	ENTY.cremat	what cbs soap opera was interrupted by the bulletin of john f. kennedy 's assassination ?
+DESC.def	ENTY.cremat	what is the longest-running television series ?
+HUM.ind	ENTY.cremat	what children 's tale contains the line : `` come , cinderslut , and hold this skein of wool for me '' ?
+DESC.def	ENTY.cremat	what is the jewish bible called ?
+HUM.ind	ENTY.cremat	name a movie about the sioux indians starring kevin costner .
+HUM.ind	ENTY.cremat	what was the name of the sitcom that alyssa milano starred in with tony danza ?
+HUM.ind	ENTY.cremat	what was the name of that popular song the creeps sang ?
+HUM.ind	ENTY.cremat	what did shostakovich write for rostropovich ?
+HUM.ind	ENTY.cremat	what was the name of the movie that starred sharon stone and arnold schwarzenegger ?
+HUM.ind	ENTY.cremat	what kind of books does fodor 's publish ?
+HUM.ind	ENTY.cremat	what 2 statues did france give to other countries ?
+HUM.gr	ENTY.cremat	what are the shortest and the longest songs ever produced ?
+HUM.ind	ENTY.cremat	what was connecticut 's first constitution called ?
+HUM.ind	ENTY.cremat	what were popular songs and types of songs in the 1920s ?
+HUM.ind	ENTY.cremat	what boris pasternak book sold 5 , 0 copies to become the fiction best-seller of 1958 ?
+HUM.ind	ENTY.cremat	name the only extant trilogy of classical greek plays .
+HUM.ind	ENTY.cremat	what 1966 boob tube bomb took astronauts back to prehistoric times ?
+HUM.ind	DESC.reason	what are cushman and wakefield known for ?
+DESC.def	DESC.reason	what is betsy ross famous for ?
+ENTY.color	DESC.reason	why is poop sometimes different colors ?
+DESC.def	DESC.reason	what is the function of ram ?
+HUM.gr	DESC.reason	give a reason for american indians oftentimes dropping out of school .
+DESC.def	DESC.reason	what is jane goodall known for ?
+HUM.ind	DESC.reason	what function does a community 's water tower serve ?
+HUM.ind	DESC.reason	what 's nature 's purpose for tornadoes ?
+HUM.gr	DESC.reason	why did several san diego schools stop serving apples to students ?
+ENTY.color	DESC.reason	why is black the color of mourning in the west ?
+HUM.ind	DESC.reason	what was the claim to fame of king camp gillette ?
+DESC.def	DESC.reason	what is colin powell best known for ?
+DESC.def	DESC.reason	what is the purpose of a car bra ?
+DESC.def	DESC.reason	what is d.b. cooper known for ?
+HUM.ind	DESC.reason	why are electric cars less efficient in the northeast than in california ?
+DESC.def	DESC.reason	what is black hills , south dakota most famous for ?
+ENTY.color	ENTY.body	what 's the colored part of the eye called ?
+LOC.other	ENTY.body	where does your hair grow the fastest ?
+NUM.money	ENTY.body	what is the only gland in humans that can regenerate itself ?
+HUM.ind	LOC.country	what two south american countries do n't border brazil ?
+HUM.ind	LOC.country	what countries have the largest areas of forest ?
+HUM.ind	LOC.country	what two european countries entered the war of american independence against the british ?
+HUM.ind	LOC.country	what are the nordic nations ?
+HUM.ind	LOC.country	what are the benelux countries ?
+HUM.ind	LOC.country	what two countries share the khyber pass ?
+HUM.ind	ENTY.termeq	what 's the common name for acetylsalicylic acid ?
+DESC.def	ENTY.termeq	what is a ball that hits the foul pole called ?
+HUM.ind	ENTY.termeq	what do italians call florence ?
+DESC.def	ENTY.termeq	what is latin for incompetent ?
+DESC.def	ENTY.termeq	what is the belt of low pressure around the equator called ?
+HUM.ind	ENTY.termeq	what other name were the `` little rascals '' known as ?
+DESC.def	ENTY.termeq	what is the dialogue circle in cartoons called ?
+DESC.def	HUM.gr	what isps exist in the caribbean ?
+HUM.ind	HUM.gr	who produces spumante ?
+LOC.other	HUM.gr	what indian tribe is f troop perpetually doing battle with ?
+HUM.ind	HUM.gr	who has won the most super bowls ?
+HUM.ind	HUM.gr	who is the leading competitor of trans union company ?
+HUM.ind	HUM.gr	who are the challengers of the unknown ?
+NUM.count	HUM.gr	what polynesian people inhabit new zealand ?
+LOC.country	HUM.gr	what is the best college in the country ?
+HUM.ind	HUM.gr	what was the name of the 187s irish terrorist group in pennsylvania mining areas ?
+HUM.ind	HUM.gr	woodrow wilson served as president of what university ?
+NUM.date	HUM.gr	what new middle school was built in philadelphia , pennsylvania last year ?
+HUM.ind	HUM.gr	what party was winston churchill a member of ?
+NUM.count	ENTY.letter	what letter is to the right of k on a typewriter keyboard ?
+DESC.def	ENTY.product	what is the most advanced handheld calculator in the world ?
+HUM.ind	ENTY.product	name the disposable razor that `` costs about 19 cents . ''
+HUM.gr	ENTY.product	italy is the largest producer of what ?
+HUM.ind	ENTY.product	what soap was touted as being `` for people who like people '' ?
+HUM.ind	ENTY.animal	which mosquito 's bite draws blood , dt nn cc dt nn .
+HUM.ind	ENTY.animal	which came first , according to genesis 1 : 2 : 22 - the chicken or the egg ?
+ENTY.cremat	ENTY.animal	what creature scares people in the film `` jaws '' ?
+HUM.ind	ENTY.animal	what is dudley do-right 's horse 's name ?
+HUM.ind	ENTY.animal	what predators exist on antarctica ?
+DESC.def	ENTY.animal	what is `` the bear of beers '' ?
+HUM.ind	ENTY.animal	name a tiger that is extinct .
+HUM.ind	ENTY.animal	what horse did zorro ride ?
+HUM.ind	ENTY.animal	what was the name of the orca that died of a fungal infection ?
+HUM.ind	ENTY.animal	what species is a colt ?
+HUM.ind	ENTY.animal	which killer whale died at sea world of a fungal infection ?
+HUM.ind	LOC.state	what sprawling u.s. state boasts the most airports ?
+HUM.ind	LOC.state	which two states enclose chesapeake bay ?
+HUM.ind	LOC.state	what u.s. state lived under six flags ?
+HUM.ind	LOC.state	what is the nickname for the state of mississippi ?
+HUM.ind	LOC.state	what u.s. state is fort knox in ?
+HUM.ind	LOC.state	what u.s. state has an element named for it ?
+HUM.ind	LOC.state	in what u.s. state was the first woman governor elected ?
+HUM.ind	LOC.state	what u.s. state borders illinois to the north ?
+DESC.def	LOC.state	what is the leading pecan and peanut growing state ?
+HUM.ind	LOC.state	what u.s. state records the least rainfall ?
+HUM.ind	LOC.state	what is the state nickname of mississippi ?
+HUM.ind	HUM.title	what was queen victoria 's title regarding india ?
+DESC.def	NUM.date	what is the date of boxing day ?
+DESC.def	NUM.date	what is the busiest air travel season ?
+HUM.ind	NUM.date	what are the three winter months in the southern hemisphere ?
+HUM.ind	NUM.date	what day was pearl harbor attacked in 1942 ?
+HUM.ind	NUM.date	what time of day did emperor hirohito die ?
+NUM.money	NUM.date	when does the average teenager first have intercourse ?
+HUM.ind	NUM.date	what day of the week sees the most fatal car accidents ?
+HUM.ind	NUM.date	what 's the first day of the week ?
+HUM.ind	NUM.date	what century does captain video live in ?
+DESC.def	ABBR.exp	what is the full form of .com ?
+ABBR.abb	ABBR.exp	cnn is the abbreviation for what ?
+DESC.def	ABBR.exp	what is bph ?
+HUM.ind	ABBR.exp	what is the full name of the plo ?
+DESC.def	ABBR.exp	what does the word laser mean ?
+DESC.def	ABBR.exp	what does nn o `` mean when used as a prefix in irish surnames ?
+LOC.mount	LOC.other	what is the highest waterfall in the united states ?
+HUM.ind	LOC.other	what are the names of the tourist attractions in reims ?
+ENTY.body	LOC.other	what body of water does the danube river flow into ?
+HUM.ind	LOC.other	what are the world 's four oceans ?
+HUM.ind	LOC.other	what sun-blasted , 14-mile wide valley is just north of the mojave desert ?
+HUM.ind	LOC.other	what las vegas hotel burned in november , 1980 , with the loss of 84 lives ?
+HUM.ind	LOC.other	what sea did the romans call mare nostrum ?
+HUM.ind	LOC.other	what stadium do the miami dolphins play their home games in ?
+DESC.def	LOC.other	what is the deepest area of the arctic ocean ?
+DESC.def	LOC.other	what is answers.com 's address ?
+HUM.ind	LOC.other	what ocean is the largest in the world ?
+HUM.ind	LOC.other	what 's the closest g2 spectrum yellow dwarf to earth ?
+HUM.ind	LOC.other	what desert has been called the garden of allah ?
+HUM.ind	LOC.other	in what area of the world was the six day war fought ?
+DESC.def	LOC.other	what is the brightest star visible from earth ?
+HUM.ind	LOC.other	what was known as the spice island ?
+HUM.ind	LOC.other	what attracts tourists to reims ?
+DESC.def	LOC.other	what is the web address of the list of e-mail addresses of members of the house of representatives ?
+LOC.city	LOC.other	in what city or state do the most gay men live in ?
+DESC.def	LOC.other	what is bill gates of microsoft e-mail address ?
+LOC.city	LOC.other	what 's the tallest building in new york city ?
+HUM.ind	LOC.other	what arch can you see from the place de la concorde ?
+HUM.ind	LOC.other	which way do you turn your bic to increase the flame - clockwise or counterclockwise ?
+HUM.ind	LOC.other	what county is chicago in ?
+HUM.ind	LOC.other	what is the longest place name in the u.s. ?
+DESC.def	LOC.other	what is the oldest website on the internet ?
+HUM.ind	LOC.other	what 's the longest river in the world ?
+HUM.ind	LOC.other	what 's the sacred river of india ?
+HUM.ind	LOC.other	what 's the second-largest island in the world ?
+LOC.city	LOC.other	what 's the name of the temple that is located near the capital city of laos ?
+HUM.ind	NUM.other	what was einstein 's iq ?
+DESC.def	NUM.other	what is the latitude and longitude of el paso , texas ?
+DESC.def	NUM.other	what is the normal resting heart rate of a healthy adult ?
+HUM.ind	NUM.other	what was the number of people that randy steven craft was convicted of killing ?
+ENTY.product	NUM.money	what was the price of varian associates ' vacuum products division ?
+DESC.def	NUM.money	what is the current ticket fare from from cairo to barbados ?
+HUM.ind	ENTY.techmeth	what 's the slowest olympic swimming stroke ?
+HUM.ind	ENTY.techmeth	what are other ways of getting stretch marks besides pregnancy , weight loss , and weight lifting ?
+HUM.ind	ENTY.techmeth	what is the best way to remove wallpaper ?
+ENTY.other	ENTY.techmeth	what are the different approaches of systems analysis ?
+HUM.ind	ENTY.techmeth	what golfing accessory was patented by george grant on december 12
+HUM.ind	ENTY.techmeth	what are some tips for building a fire in a fireplace ?
+ENTY.substance	DESC.manner	how was the element calcium named ?
+NUM.date	DESC.manner	how can i find out what year a beanie baby was introduced ?
+ENTY.dismed	DESC.manner	how successful is arometherapy ?
+HUM.ind	DESC.def	what are liver enzymes ?
+ENTY.animal	DESC.def	what are bear and bull markets ?
+HUM.ind	DESC.def	what are equity securities ?
+HUM.ind	DESC.def	what are hook worms ?
+ENTY.cremat	DESC.def	what is the filmmakers collabrative ?
+HUM.ind	DESC.def	hazmat stands for what ?
+HUM.ind	DESC.def	what are maid-rites ?
+HUM.ind	DESC.def	what 's an auberge in france ?
+ENTY.color	DESC.def	what is color ?
+LOC.other	DESC.def	what is a jellicle cat ?
+HUM.ind	DESC.def	what are shooting stars ?
+HUM.ind	DESC.def	what are amphibians ?
+HUM.ind	DESC.def	what are the seven virtues ?
+HUM.ind	DESC.def	what was archy , and mehitabel ?
+HUM.ind	DESC.def	what was the chivington massacre ?
+HUM.ind	DESC.def	what are the greek numerals ?
+HUM.ind	ENTY.food	what rum is so `` mixable '' it is a one-brand bar ?
+HUM.ind	ENTY.food	what did brontosauruses eat ?
+HUM.ind	ENTY.food	what crop failure caused the irish famine ?
+HUM.ind	ENTY.food	what beer advertised that it had `` three rings '' ?
+HUM.ind	ENTY.food	what was the first lifesaver flavor ?
+HUM.ind	ENTY.food	what do you get by adding lactobacillus bulgaricus to milk ?
+HUM.ind	ENTY.food	what do flatfish eat ?
+HUM.ind	ENTY.food	what kind of wine is spumante ?
+HUM.ind	ENTY.food	what type of food makes you fat ?
+HUM.ind	ENTY.food	what do manatees eat ?
+HUM.ind	ENTY.food	which condiment was once sold as a patent medicine ?
+HUM.ind	ENTY.sport	what game do steve mcqueen and edward g. robinson play in the cincinnati kid ?
+HUM.ind	ENTY.sport	in what olympic games did nadia comaneci become popular ?
+HUM.ind	ENTY.sport	what card game has variations called canfield , klondike and spider ?
+HUM.ind	ENTY.sport	what auto race was wilbur reed the first to win three times ?
+ENTY.sport	HUM.ind	what athlete makes the most money from sports merchandise sales ?
+ENTY.cremat	HUM.ind	what spy novelist served as moscow correspondent for reuter and the times of london ?
+NUM.date	HUM.ind	what baseball star turned down a $1 , 000-a-year contract because he felt he had n't earned it ?
+LOC.country	HUM.ind	what 19th-century writer had a country estate on the hudson dubbed sunnyside ?
+DESC.desc	HUM.ind	what lawyer won the largest divorce settlement , $85 million , in u.s. history for sheika dena al-farri ?
+ENTY.cremat	HUM.ind	what actor starred in 1980 's blue lagoon , 1982 's the pirate movie and 1983 's a night in heaven ?
+DESC.def	ENTY.word	what english word comes from the old french covrefeu , meaning cover fire ?
+ENTY.lang	ENTY.word	what is the longest word in the english language ?
+DESC.desc	ENTY.word	what is the longest english word ?
+DESC.desc	ENTY.word	what 's the word for broken glass or sharp rocks embedded in cement on top of a wall ?
+HUM.ind	ENTY.other	what articles of clothing are tokens in monopoly ?
+HUM.ind	ENTY.other	name a golf course in myrtle beach .
+DESC.def	ENTY.other	what does a spermologer collect ?
+HUM.ind	ENTY.other	what was cash-conscious colonel edwin l. drake the first to drill ?
+HUM.ind	ENTY.other	what weapon is the mythological character apollo most proficient with ?
+DESC.def	ENTY.other	what is nebraska 's most valuable resource ?
+LOC.other	ENTY.other	what was the education system in the 1960 's ?
+HUM.ind	ENTY.other	what four forms does gold occur in ?
+DESC.def	ENTY.other	what is the mascot for notre dame university ?
+DESC.def	ENTY.other	to what does microsoft 's windows 3 owe its success ?
+DESC.def	ENTY.other	what is the lowest level of the american judiciary ?
+HUM.ind	ENTY.other	what are the 7 articles of the constitution ?
+ENTY.sport	ENTY.other	what 's the tallest piece on a chessboard ?
+HUM.ind	ENTY.other	what are the developmental stages of a swimmer ?
+HUM.ind	ENTY.other	what gaming devices were dubbed `` mississippi marbles '' and `` memphis dominoes '' ?
+HUM.ind	ENTY.other	what 's the most powerful card in euchre ?
+HUM.ind	ENTY.other	what are the different types of plastic ?
+HUM.ind	ENTY.other	what killed bob marley ?
+ENTY.animal	ENTY.other	what do bicornate animals have two of ?
+HUM.ind	ENTY.other	what type of bridge is the golden gate bridge ?
+HUM.ind	ENTY.other	what deck of cards includes the wheel of fortune , the lovers , and death ?
+DESC.def	ENTY.other	what does the statue of liberty wear on her feet ?
+HUM.ind	ENTY.other	what household facility contains a float ball , ballcock , and overflow tube ?
+DESC.def	ENTY.other	what is grenada 's main commodity export ?
+HUM.ind	ENTY.other	what `` magic '' does mandrake employ ?
+HUM.ind	ENTY.other	what was introduced commercially by bayer a.g. of leverkusen , in 1899 ?
+HUM.ind	ENTY.other	what kind of file has the extension .dbf ?
+DESC.desc	ENTY.other	what does a chairbound basophobic fear ?
+HUM.ind	ENTY.other	name the operating system that runs on ibm-compatible machines .
+HUM.ind	ENTY.other	what can i use to remove the stubborn gummed labels from some diskettes ?
+DESC.def	ENTY.other	what is the rarest coin ?
+LOC.other	ENTY.other	what kind of education do i need to become a flight attendant ?
+HUM.ind	ENTY.other	what type of hunting are retrievers used for ?
+HUM.ind	ENTY.other	what did dan aykroyd and john belushi quit saturday night live to become ?
+DESC.def	ENTY.other	what is november 's birthstone ?
+HUM.ind	ENTY.other	which is the largest clock , diameter wise , in europe ?
+HUM.ind	ENTY.other	what types of water pollution are there ?
+HUM.ind	ENTY.other	what 's the name of a golf course in myrtle beach ?
+DESC.def	ENTY.other	what does god create in the first sentence of the bible ?
+DESC.def	ENTY.substance	what is the second hardest substance ?
+HUM.ind	ENTY.substance	what are the chemicals used in glowsticks ?
+HUM.ind	ENTY.dismed	what chemicals are used in lethal injection ?
+DESC.def	ENTY.dismed	what does a topophobic actor suffer from ?
+HUM.ind	HUM.desc	who is terrence malick ?
+HUM.ind	HUM.desc	who is stein eriksen ?
+HUM.ind	HUM.desc	who is the `` queen mother '' ?
+HUM.ind	HUM.desc	who is coronado ?
+HUM.ind	HUM.desc	who is desmond tutu ?
+HUM.ind	HUM.desc	who is barbara jordan ?
+HUM.ind	HUM.desc	who is colin powell ?

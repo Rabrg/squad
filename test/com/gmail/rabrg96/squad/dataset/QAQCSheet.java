@@ -30,7 +30,7 @@ public class QAQCSheet {
                 if (!probability.isEmpty() && detected.equals(entry.getKey())) {
                     correct++;
                 } else {
-                    System.out.println("Detected: " + detected + " correct: " + entry.getKey() + " sentence: " + sentence);
+                    System.out.println(detected + "\t" + entry.getKey() + "\t" + sentence);
                 }
                 total++;
             }
