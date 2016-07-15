@@ -49,7 +49,7 @@ public class SheetDataFinder {
         } catch (final Exception e) {
             System.out.println("Failed: " + text);
         }
-        return new ArrayList<>();
+        return null;
     }
 
     private static String combineWords(final Tree tree) {
