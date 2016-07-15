@@ -75,7 +75,7 @@ public final class Paragraph {
                     }
                 }
             }
-            relevancyOrdered.put(context, ((double) sentenceCounter) / contextSentence.lemmas().size() );
+            relevancyOrdered.put(context, ((double) sentenceCounter) / contextSentence.lemmas().size());
         }
         sortByValue(relevancyOrdered);
         return relevancyOrdered;
@@ -106,7 +106,7 @@ public final class Paragraph {
                     }
                 }
             }
-            relevancyOrdered.put(context, ((double) sentenceCounter) / contextLemmas.size() );
+            relevancyOrdered.put(context, ((double) sentenceCounter) / contextLemmas.size());
         }
         sortByValue(relevancyOrdered);
         return relevancyOrdered;

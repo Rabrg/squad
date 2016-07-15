@@ -2,14 +2,7 @@ package com.gmail.rabrg96.squad.marmotta;
 
 import org.apache.marmotta.client.ClientConfiguration;
 import org.apache.marmotta.client.MarmottaClient;
-import org.apache.marmotta.client.clients.ImportClient;
 import org.apache.marmotta.client.model.sparql.SPARQLResult;
-import org.openrdf.rio.RDFFormat;
-import org.openrdf.rio.Rio;
-
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.InputStream;
 
 /**
  * Created by Rabrg on 7/12/2016.

@@ -1,1110 +1,573 @@
-NUM.volsize	0.23	0.0	start	what
-NUM.weight	0.636	0.002	start	what
-NUM.count	0.05	0.005	start	what
-ENTY.plant	1.0	0.004	start	what
-NUM.dist	0.156	0.001	start	what
-LOC.city	0.867	0.034	start	what
-LOC.mount	0.857	0.005	start	what
-DESC.reason	0.4	0.023	start	what
-ENTY.body	0.687	0.003	start	what
-ENTY.currency	1.0	0.001	start	what
-HUM.gr	0.723	0.042	start	what
-ENTY.letter	1.0	0.002	start	what
-ENTY.product	0.829	0.01	start	what
-ENTY.instru	0.666	0.001	start	what
-ENTY.animal	0.857	0.03	start	what
-HUM.title	0.92	0.007	start	what
-NUM.date	0.288	0.019	start	what
-ENTY.religion	0.75	0.0	start	what
-ENTY.symbol	1.0	0.003	start	what
-ABBR.exp	0.928	0.02	start	what
-LOC.other	0.406	0.057	start	what
-NUM.other	0.93	0.012	start	what
-NUM.money	0.492	0.01	start	what
-ENTY.techmeth	0.947	0.011	start	what
-ENTY.veh	0.74	0.006	start	what
-ENTY.word	0.961	0.007	start	what
-ENTY.substance	1.0	0.012	start	what
-ENTY.dismed	0.95	0.03	start	what
-HUM.desc	0.021	0.0	start	what
-NUM.perc	0.913	0.006	start	what
-DESC.desc	0.937	0.079	start	what
-ENTY.event	0.945	0.016	start	what
-ENTY.cremat	0.859	0.055	start	what
-LOC.country	0.903	0.043	start	what
-ENTY.termeq	0.847	0.024	start	what
-LOC.state	0.893	0.018	start	what
-NUM.speed	0.142	0.0	start	what
-ENTY.color	0.975	0.012	start	what
-NUM.ord	0.666	0.0	start	what
-NUM.period	0.189	0.004	start	what
-NUM.code	1.0	0.001	start	what
-ENTY.lang	0.812	0.004	start	what
-ABBR.abb	1.0	0.005	start	what
-NUM.temp	0.625	0.001	start	what
-DESC.manner	0.003	0.0	start	what
-DESC.def	0.983	0.127	start	what
-ENTY.food	0.854	0.027	start	what
-ENTY.sport	0.919	0.017	start	what
-HUM.ind	0.387	0.115	start	what
-ENTY.other	0.912	0.062	start	what
-LOC.city	0.046	0.057	start	which
-ENTY.body	0.125	0.019	start	which
-HUM.gr	0.085	0.152	start	which
-ENTY.product	0.073	0.028	start	which
-ENTY.animal	0.053	0.057	start	which
-LOC.other	0.008	0.038	start	which
-ENTY.veh	0.111	0.028	start	which
-ENTY.dismed	0.029	0.028	start	which
-ENTY.cremat	0.033	0.066	start	which
-LOC.country	0.038	0.057	start	which
-LOC.state	0.015	0.009	start	which
-ENTY.lang	0.062	0.009	start	which
-ENTY.food	0.087	0.085	start	which
-HUM.ind	0.031	0.285	start	which
-ENTY.other	0.036	0.076	start	which
-HUM.gr	0.085	0.027	start	who
-ENTY.animal	0.017	0.003	start	who
-HUM.desc	0.978	0.078	start	who
-HUM.ind	0.534	0.89	start	who
-LOC.mount	0.047	0.011	start	name
-HUM.gr	0.074	0.157	start	name
-ENTY.product	0.073	0.033	start	name
-ENTY.animal	0.035	0.044	start	name
-HUM.title	0.04	0.011	start	name
-LOC.other	0.004	0.022	start	name
-ENTY.techmeth	0.026	0.011	start	name
-ENTY.veh	0.111	0.033	start	name
-ENTY.word	0.038	0.011	start	name
-ENTY.dismed	0.009	0.011	start	name
-ENTY.event	0.018	0.011	start	name
-ENTY.cremat	0.053	0.123	start	name
-LOC.country	0.025	0.044	start	name
-ENTY.termeq	0.01	0.011	start	name
-ENTY.lang	0.125	0.022	start	name
-ENTY.food	0.019	0.022	start	name
-HUM.ind	0.033	0.359	start	name
-ENTY.other	0.023	0.056	start	name
-HUM.gr	0.005	0.25	start	whom
-HUM.ind	0.003	0.75	start	whom
-NUM.count	0.011	0.097	contain	team
-DESC.reason	0.005	0.024	contain	team
-HUM.gr	0.111	0.512	contain	team
-LOC.other	0.004	0.048	contain	team
-ENTY.veh	0.037	0.024	contain	team
-NUM.period	0.013	0.024	contain	team
-DESC.def	0.002	0.024	contain	team
-ENTY.sport	0.032	0.048	contain	team
-HUM.ind	0.008	0.195	contain	team
-HUM.gr	0.218	0.759	contain	company
-ENTY.product	0.024	0.018	contain	company
-NUM.date	0.009	0.037	contain	company
-LOC.other	0.002	0.018	contain	company
-DESC.desc	0.003	0.018	contain	company
-ENTY.event	0.018	0.018	contain	company
-ABBR.abb	0.062	0.018	contain	company
-DESC.manner	0.007	0.037	contain	company
-ENTY.food	0.009	0.018	contain	company
-HUM.ind	0.003	0.055	contain	company
-HUM.gr	0.01	0.666	contain	tribe
-LOC.other	0.002	0.333	contain	tribe
-HUM.gr	0.037	0.583	contain	department
-LOC.other	0.006	0.25	contain	department
-DESC.manner	0.003	0.083	contain	department
-HUM.ind	0.001	0.083	contain	department
-HUM.gr	0.047	0.818	contain	organization
-HUM.ind	0.001	0.09	contain	organization
-ENTY.other	0.004	0.09	contain	organization
-NUM.count	0.008	0.096	contain	school
-DESC.reason	0.026	0.161	contain	school
-HUM.gr	0.037	0.225	contain	school
-LOC.other	0.004	0.064	contain	school
-NUM.money	0.014	0.032	contain	school
-DESC.desc	0.018	0.161	contain	school
-ENTY.color	0.025	0.032	contain	school
-DESC.manner	0.01	0.096	contain	school
-DESC.def	0.002	0.032	contain	school
-HUM.ind	0.003	0.096	contain	school
-NUM.volsize	0.076	0.034	contain	college
-NUM.count	0.008	0.103	contain	college
-DESC.reason	0.005	0.034	contain	college
-HUM.gr	0.069	0.448	contain	college
-LOC.other	0.015	0.241	contain	college
-DESC.desc	0.007	0.068	contain	college
-LOC.state	0.015	0.034	contain	college
-HUM.ind	0.001	0.034	contain	college
-HUM.gr	0.01	0.333	contain	army
-DESC.desc	0.003	0.166	contain	army
-DESC.manner	0.003	0.166	contain	army
-HUM.ind	0.002	0.333	contain	army
-HUM.gr	0.021	0.8	contain	manufacturer
-ABBR.abb	0.062	0.2	contain	manufacturer
-HUM.gr	0.015	0.3	contain	government
-LOC.other	0.004	0.2	contain	government
-ENTY.event	0.018	0.1	contain	government
-ENTY.cremat	0.004	0.1	contain	government
-HUM.ind	0.002	0.2	contain	government
-ENTY.other	0.004	0.1	contain	government
-NUM.volsize	0.23	0.003	start	what is
-NUM.weight	0.454	0.005	start	what is
-NUM.count	0.033	0.012	start	what is
-ENTY.plant	0.153	0.002	start	what is
-NUM.dist	0.093	0.003	start	what is
-LOC.city	0.148	0.02	start	what is
-LOC.mount	0.38	0.008	start	what is
-DESC.reason	0.1	0.02	start	what is
-ENTY.body	0.187	0.003	start	what is
-HUM.gr	0.074	0.014	start	what is
-ENTY.letter	0.111	0.001	start	what is
-ENTY.product	0.195	0.008	start	what is
-ENTY.animal	0.142	0.016	start	what is
-HUM.title	0.32	0.008	start	what is
-NUM.date	0.045	0.01	start	what is
-ENTY.symbol	0.454	0.005	start	what is
-ABBR.exp	0.242	0.017	start	what is
-LOC.other	0.12	0.058	start	what is
-NUM.other	0.534	0.024	start	what is
-NUM.money	0.298	0.021	start	what is
-ENTY.techmeth	0.289	0.011	start	what is
-ENTY.veh	0.037	0.001	start	what is
-ENTY.word	0.384	0.01	start	what is
-ENTY.substance	0.268	0.011	start	what is
-ENTY.dismed	0.715	0.077	start	what is
-NUM.perc	0.173	0.004	start	what is
-DESC.desc	0.426	0.122	start	what is
-ENTY.event	0.109	0.006	start	what is
-ENTY.cremat	0.106	0.023	start	what is
-LOC.country	0.038	0.006	start	what is
-ENTY.termeq	0.326	0.031	start	what is
-LOC.state	0.106	0.007	start	what is
-NUM.speed	0.142	0.001	start	what is
-ENTY.color	0.075	0.003	start	what is
-NUM.period	0.162	0.012	start	what is
-NUM.code	0.6	0.003	start	what is
-ENTY.lang	0.437	0.007	start	what is
-ABBR.abb	0.812	0.013	start	what is
-NUM.temp	0.375	0.003	start	what is
-DESC.def	0.667	0.292	start	what is
-ENTY.food	0.106	0.011	start	what is
-ENTY.sport	0.032	0.002	start	what is
-HUM.ind	0.04	0.041	start	what is
-ENTY.other	0.133	0.03	start	what is
-NUM.count	0.008	0.016	start	what was
-LOC.city	0.015	0.011	start	what was
-LOC.mount	0.047	0.005	start	what was
-DESC.reason	0.026	0.027	start	what was
-HUM.gr	0.053	0.055	start	what was
-ENTY.product	0.048	0.011	start	what was
-ENTY.animal	0.116	0.072	start	what was
-HUM.title	0.12	0.016	start	what was
-NUM.date	0.009	0.011	start	what was
-ENTY.symbol	0.09	0.005	start	what was
-LOC.other	0.01	0.027	start	what was
-NUM.other	0.069	0.016	start	what was
-NUM.money	0.074	0.027	start	what was
-ENTY.veh	0.259	0.038	start	what was
-ENTY.substance	0.048	0.011	start	what was
-NUM.perc	0.086	0.011	start	what was
-DESC.desc	0.047	0.072	start	what was
-ENTY.event	0.181	0.055	start	what was
-ENTY.cremat	0.096	0.111	start	what was
-LOC.country	0.025	0.022	start	what was
-ENTY.termeq	0.054	0.027	start	what was
-NUM.period	0.013	0.005	start	what was
-DESC.def	0.021	0.05	start	what was
-ENTY.food	0.029	0.016	start	what was
-ENTY.sport	0.048	0.016	start	what was
-HUM.ind	0.035	0.188	start	what was
-ENTY.other	0.055	0.066	start	what was
-HUM.gr	0.01	0.222	contain	profession
-HUM.title	0.2	0.555	contain	profession
-NUM.date	0.004	0.111	contain	profession
-HUM.ind	0.001	0.111	contain	profession
-HUM.title	0.2	1.0	contain	occupation
-DESC.reason	0.005	0.032	contain	title
-HUM.title	0.16	0.129	contain	title
-LOC.other	0.002	0.032	contain	title
-ENTY.cremat	0.038	0.258	contain	title
-LOC.country	0.006	0.032	contain	title
-ENTY.termeq	0.01	0.032	contain	title
-ENTY.sport	0.032	0.064	contain	title
-HUM.ind	0.013	0.419	contain	title
-ENTY.animal	0.008	0.007	start	who was
-HUM.desc	0.391	0.133	start	who was
-HUM.ind	0.121	0.859	start	who was
-HUM.gr	0.005	0.009	start	who is
-HUM.desc	0.586	0.257	start	who is
-HUM.ind	0.08	0.733	start	who is
-HUM.gr	0.005	0.1	start	who were
-ENTY.animal	0.008	0.1	start	who were
-HUM.ind	0.008	0.8	start	who were
-LOC.country	0.529	1.0	start	what country
-NUM.count	0.002	0.007	contain	country
-HUM.gr	0.005	0.007	contain	country
-ENTY.symbol	0.09	0.007	contain	country
-LOC.other	0.004	0.015	contain	country
-NUM.money	0.014	0.007	contain	country
-DESC.desc	0.007	0.015	contain	country
-LOC.country	0.767	0.901	contain	country
-LOC.state	0.015	0.007	contain	country
-DESC.manner	0.003	0.007	contain	country
-DESC.def	0.002	0.007	contain	country
-HUM.ind	0.002	0.015	contain	country
-LOC.mount	0.095	0.007	start	where
-ENTY.body	0.125	0.007	start	where
-LOC.other	0.553	0.929	start	where
-DESC.desc	0.051	0.051	start	where
-NUM.ord	0.333	0.003	start	where
-LOC.mount	0.047	0.012	start	where is
-ENTY.body	0.062	0.012	start	where is
-LOC.other	0.167	0.974	start	where is
-LOC.other	0.147	1.0	start	where can
-LOC.other	0.032	1.0	start	where was
-LOC.city	0.304	1.0	start	what city
-LOC.city	0.039	1.0	start	which city
-NUM.count	0.008	0.024	contain	city
-NUM.dist	0.031	0.008	contain	city
-LOC.city	0.726	0.756	contain	city
-HUM.gr	0.005	0.008	contain	city
-LOC.other	0.01	0.04	contain	city
-DESC.desc	0.007	0.016	contain	city
-ENTY.event	0.036	0.016	contain	city
-ENTY.cremat	0.014	0.024	contain	city
-LOC.country	0.019	0.024	contain	city
-DESC.manner	0.007	0.016	contain	city
-DESC.def	0.002	0.008	contain	city
-HUM.ind	0.007	0.056	contain	city
-LOC.city	0.007	0.047	start	what state
-LOC.state	0.303	0.952	start	what state
-NUM.count	0.002	0.033	contain	mountain
-NUM.dist	0.031	0.033	contain	mountain
-LOC.mount	0.809	0.566	contain	mountain
-LOC.other	0.008	0.133	contain	mountain
-LOC.country	0.006	0.033	contain	mountain
-ENTY.termeq	0.01	0.033	contain	mountain
-LOC.state	0.03	0.066	contain	mountain
-ENTY.sport	0.032	0.066	contain	mountain
-HUM.ind	0.001	0.033	contain	mountain
-NUM.count	0.002	0.03	contain	highest
-LOC.city	0.023	0.09	contain	highest
-LOC.mount	0.571	0.363	contain	highest
-HUM.title	0.04	0.03	contain	highest
-LOC.other	0.008	0.121	contain	highest
-NUM.perc	0.043	0.03	contain	highest
-LOC.country	0.025	0.121	contain	highest
-LOC.state	0.015	0.03	contain	highest
-DESC.def	0.002	0.03	contain	highest
-ENTY.sport	0.016	0.03	contain	highest
-HUM.ind	0.001	0.03	contain	highest
-ENTY.other	0.013	0.09	contain	highest
-NUM.count	0.005	0.153	contain	peak
-LOC.mount	0.19	0.307	contain	peak
-ENTY.dismed	0.009	0.076	contain	peak
-ENTY.termeq	0.01	0.076	contain	peak
-LOC.state	0.015	0.076	contain	peak
-HUM.ind	0.004	0.307	contain	peak
-NUM.date	0.243	1.0	start	when was
-NUM.date	0.224	1.0	start	when did
-NUM.volsize	0.076	0.008	contain	year
-NUM.weight	0.09	0.008	contain	year
-NUM.count	0.067	0.214	contain	year
-HUM.gr	0.005	0.008	contain	year
-ENTY.animal	0.008	0.008	contain	year
-NUM.date	0.238	0.464	contain	year
-NUM.other	0.023	0.008	contain	year
-NUM.money	0.059	0.035	contain	year
-NUM.perc	0.043	0.008	contain	year
-DESC.desc	0.007	0.017	contain	year
-ENTY.event	0.018	0.008	contain	year
-ENTY.cremat	0.014	0.026	contain	year
-LOC.country	0.012	0.017	contain	year
-DESC.manner	0.01	0.026	contain	year
-ENTY.sport	0.016	0.008	contain	year
-HUM.ind	0.013	0.116	contain	year
-ENTY.other	0.004	0.008	contain	year
-NUM.date	0.105	1.0	start	what year
-NUM.date	0.045	1.0	start	when is
-NUM.ord	0.666	1.0	start	what chapter
-NUM.dist	0.187	0.127	start	how long
-NUM.period	0.554	0.872	start	how long
-NUM.period	0.216	1.0	contain	how old
-NUM.count	0.025	0.36	contain	population
-LOC.city	0.015	0.08	contain	population
-HUM.gr	0.005	0.04	contain	population
-NUM.other	0.255	0.44	contain	population
-LOC.country	0.012	0.08	contain	population
-NUM.count	0.101	0.4	contain	people
-LOC.city	0.007	0.011	contain	people
-LOC.mount	0.047	0.011	contain	people
-DESC.reason	0.052	0.111	contain	people
-ENTY.body	0.062	0.011	contain	people
-HUM.gr	0.021	0.044	contain	people
-ENTY.product	0.048	0.022	contain	people
-ENTY.animal	0.017	0.022	contain	people
-NUM.date	0.004	0.011	contain	people
-LOC.other	0.008	0.044	contain	people
-NUM.other	0.046	0.022	contain	people
-ENTY.veh	0.037	0.011	contain	people
-ENTY.dismed	0.019	0.022	contain	people
-HUM.desc	0.021	0.011	contain	people
-NUM.perc	0.043	0.011	contain	people
-DESC.desc	0.007	0.022	contain	people
-ENTY.cremat	0.009	0.022	contain	people
-LOC.country	0.012	0.022	contain	people
-ENTY.termeq	0.01	0.011	contain	people
-DESC.manner	0.01	0.033	contain	people
-HUM.ind	0.01	0.111	contain	people
-ENTY.other	0.004	0.011	contain	people
-NUM.other	0.023	1.0	contain	quantity
-NUM.perc	0.043	1.0	start	what fraction
-NUM.perc	0.391	1.0	start	what percent
-NUM.perc	0.304	1.0	start	what percentage
-DESC.reason	0.005	0.125	contain	temperature
-LOC.other	0.002	0.125	contain	temperature
-ENTY.termeq	0.01	0.125	contain	temperature
-NUM.temp	0.5	0.5	contain	temperature
-ENTY.sport	0.016	0.125	contain	temperature
-NUM.temp	0.375	1.0	start	what is the temperature
-NUM.code	0.2	1.0	start	what is the telephone number
-LOC.other	0.002	0.333	contain	telephone number
-NUM.code	0.2	0.333	contain	telephone number
-DESC.manner	0.003	0.333	contain	telephone number
-NUM.weight	0.181	0.037	start	how much
-NUM.count	0.053	0.358	start	how much
-NUM.money	0.477	0.603	start	how much
-DESC.reason	0.005	0.142	contain	paid
-NUM.money	0.044	0.428	contain	paid
-ENTY.cremat	0.009	0.285	contain	paid
-DESC.manner	0.003	0.142	contain	paid
-ENTY.product	0.024	0.032	contain	cost
-NUM.money	0.223	0.483	contain	cost
-ENTY.techmeth	0.026	0.032	contain	cost
-ENTY.event	0.018	0.032	contain	cost
-ENTY.cremat	0.028	0.193	contain	cost
-LOC.country	0.012	0.064	contain	cost
-DESC.manner	0.003	0.032	contain	cost
-HUM.ind	0.004	0.129	contain	cost
-ENTY.currency	0.5	0.086	contain	money
-HUM.gr	0.005	0.043	contain	money
-NUM.money	0.149	0.434	contain	money
-ENTY.substance	0.024	0.043	contain	money
-ENTY.dismed	0.009	0.043	contain	money
-ENTY.cremat	0.004	0.043	contain	money
-DESC.manner	0.01	0.13	contain	money
-DESC.def	0.002	0.043	contain	money
-HUM.ind	0.003	0.13	contain	money
-NUM.volsize	0.153	0.666	start	what is the size
-NUM.other	0.023	0.333	start	what is the size
-NUM.volsize	0.076	1.0	start	what is the acreage
-NUM.volsize	0.23	0.214	contain	size
-NUM.count	0.002	0.071	contain	size
-DESC.reason	0.005	0.071	contain	size
-ENTY.animal	0.008	0.071	contain	size
-LOC.other	0.004	0.142	contain	size
-NUM.other	0.046	0.142	contain	size
-LOC.country	0.012	0.142	contain	size
-DESC.manner	0.003	0.071	contain	size
-HUM.ind	0.001	0.071	contain	size
-NUM.weight	0.09	0.003	start	how many
-NUM.count	0.873	0.996	start	how many
-NUM.count	0.019	0.184	contain	number
-LOC.city	0.007	0.026	contain	number
-LOC.other	0.002	0.026	contain	number
-NUM.other	0.162	0.184	contain	number
-ENTY.techmeth	0.026	0.026	contain	number
-ENTY.cremat	0.004	0.026	contain	number
-ENTY.termeq	0.01	0.026	contain	number
-NUM.code	0.8	0.105	contain	number
-ABBR.abb	0.062	0.026	contain	number
-DESC.manner	0.021	0.157	contain	number
-DESC.def	0.007	0.078	contain	number
-ENTY.food	0.019	0.052	contain	number
-ENTY.sport	0.016	0.026	contain	number
-HUM.ind	0.002	0.052	contain	number
-NUM.weight	0.09	0.04	contain	average
-NUM.count	0.016	0.24	contain	average
-NUM.date	0.009	0.08	contain	average
-NUM.other	0.023	0.04	contain	average
-NUM.money	0.074	0.2	contain	average
-NUM.period	0.121	0.36	contain	average
-HUM.ind	0.001	0.04	contain	average
-NUM.dist	0.312	1.0	start	how far
-NUM.speed	0.142	1.0	start	what is the speed
-NUM.speed	0.142	0.25	contain	speed
-DESC.manner	0.003	0.25	contain	speed
-ENTY.sport	0.016	0.25	contain	speed
-HUM.ind	0.001	0.25	contain	speed
-NUM.speed	0.857	1.0	start	how fast
-DESC.reason	0.005	0.041	contain	fast
-ENTY.body	0.062	0.041	contain	fast
-HUM.gr	0.01	0.083	contain	fast
-ENTY.product	0.024	0.041	contain	fast
-ENTY.animal	0.017	0.083	contain	fast
-DESC.desc	0.003	0.041	contain	fast
-ENTY.cremat	0.004	0.041	contain	fast
-LOC.state	0.015	0.041	contain	fast
-NUM.speed	0.857	0.25	contain	fast
-ENTY.food	0.029	0.125	contain	fast
-HUM.ind	0.003	0.125	contain	fast
-ENTY.other	0.009	0.083	contain	fast
-DESC.reason	0.226	1.0	start	why do
-DESC.reason	0.073	1.0	start	what causes
-DESC.reason	0.047	1.0	start	what makes
-DESC.reason	0.11	1.0	start	what cause
-DESC.reason	0.057	1.0	start	why does
-DESC.reason	0.015	1.0	start	why were
-NUM.weight	0.09	0.006	start	what does
-ENTY.product	0.024	0.006	start	what does
-HUM.title	0.12	0.018	start	what does
-ABBR.exp	0.642	0.277	start	what does
-LOC.other	0.002	0.006	start	what does
-NUM.other	0.023	0.006	start	what does
-NUM.money	0.029	0.012	start	what does
-ENTY.techmeth	0.052	0.012	start	what does
-ENTY.substance	0.048	0.012	start	what does
-ENTY.dismed	0.039	0.024	start	what does
-DESC.desc	0.025	0.043	start	what does
-ENTY.cremat	0.004	0.006	start	what does
-ENTY.termeq	0.076	0.043	start	what does
-ABBR.abb	0.062	0.006	start	what does
-DESC.def	0.144	0.37	start	what does
-ENTY.food	0.009	0.006	start	what does
-ENTY.other	0.105	0.141	start	what does
-DESC.manner	0.098	1.0	start	how did
-DESC.manner	0.17	0.979	start	how can
-DESC.def	0.002	0.02	start	how can
-ENTY.termeq	0.065	0.035	start	how do
-DESC.manner	0.596	0.964	start	how do
-DESC.manner	0.08	0.956	start	how is
-DESC.def	0.002	0.043	start	how is
-NUM.count	0.002	0.011	contain	origin
-DESC.reason	0.005	0.011	contain	origin
-HUM.gr	0.01	0.022	contain	origin
-NUM.date	0.004	0.011	contain	origin
-ENTY.religion	0.25	0.011	contain	origin
-LOC.other	0.028	0.147	contain	origin
-NUM.money	0.014	0.011	contain	origin
-DESC.desc	0.191	0.59	contain	origin
-ENTY.cremat	0.004	0.011	contain	origin
-LOC.country	0.025	0.045	contain	origin
-ENTY.termeq	0.01	0.011	contain	origin
-ABBR.abb	0.062	0.011	contain	origin
-ENTY.sport	0.016	0.011	contain	origin
-HUM.ind	0.007	0.079	contain	origin
-ENTY.other	0.004	0.011	contain	origin
-NUM.count	0.002	0.045	contain	history
-HUM.gr	0.01	0.09	contain	history
-NUM.date	0.009	0.09	contain	history
-LOC.other	0.004	0.09	contain	history
-DESC.desc	0.033	0.409	contain	history
-ENTY.event	0.018	0.045	contain	history
-ENTY.cremat	0.009	0.09	contain	history
-DESC.manner	0.003	0.045	contain	history
-HUM.ind	0.002	0.09	contain	history
-NUM.dist	0.031	0.018	contain	term
-ENTY.animal	0.008	0.018	contain	term
-ENTY.dismed	0.019	0.037	contain	term
-DESC.desc	0.04	0.207	contain	term
-ENTY.termeq	0.195	0.339	contain	term
-ABBR.abb	0.062	0.018	contain	term
-DESC.manner	0.021	0.113	contain	term
-DESC.def	0.021	0.169	contain	term
-HUM.ind	0.003	0.056	contain	term
-ENTY.other	0.004	0.018	contain	term
-DESC.desc	0.125	0.971	contain	difference
-ENTY.termeq	0.01	0.028	contain	difference
-HUM.gr	0.005	0.166	contain	example
-LOC.other	0.002	0.166	contain	example
-DESC.desc	0.003	0.166	contain	example
-HUM.ind	0.001	0.166	contain	example
-ENTY.other	0.009	0.333	contain	example
-ENTY.symbol	0.181	0.666	start	what sign
-ENTY.event	0.018	0.333	start	what sign
-HUM.gr	0.01	0.058	contain	sign
-ENTY.letter	0.111	0.029	contain	sign
-NUM.date	0.009	0.058	contain	sign
-ENTY.symbol	0.454	0.147	contain	sign
-DESC.desc	0.007	0.058	contain	sign
-ENTY.event	0.036	0.058	contain	sign
-ENTY.cremat	0.009	0.058	contain	sign
-ENTY.color	0.025	0.029	contain	sign
-NUM.period	0.013	0.029	contain	sign
-DESC.manner	0.007	0.058	contain	sign
-DESC.def	0.002	0.029	contain	sign
-HUM.ind	0.012	0.352	contain	sign
-ENTY.other	0.004	0.029	contain	sign
-NUM.count	0.002	0.1	contain	symbol
-ENTY.product	0.024	0.1	contain	symbol
-NUM.date	0.004	0.1	contain	symbol
-ENTY.symbol	0.454	0.5	contain	symbol
-DESC.desc	0.003	0.1	contain	symbol
-ENTY.color	0.025	0.1	contain	symbol
-NUM.count	0.002	0.038	contain	product
-HUM.gr	0.01	0.076	contain	product
-ENTY.product	0.365	0.576	contain	product
-ABBR.exp	0.014	0.038	contain	product
-NUM.money	0.029	0.076	contain	product
-NUM.perc	0.086	0.076	contain	product
-DESC.manner	0.003	0.038	contain	product
-ENTY.food	0.009	0.038	contain	product
-HUM.ind	0.001	0.038	contain	product
-NUM.count	0.005	0.055	contain	produce
-LOC.city	0.007	0.027	contain	produce
-HUM.gr	0.042	0.222	contain	produce
-ENTY.product	0.048	0.055	contain	produce
-ENTY.animal	0.008	0.027	contain	produce
-NUM.date	0.004	0.027	contain	produce
-LOC.other	0.002	0.027	contain	produce
-NUM.money	0.014	0.027	contain	produce
-ENTY.techmeth	0.026	0.027	contain	produce
-ENTY.substance	0.024	0.027	contain	produce
-DESC.desc	0.003	0.027	contain	produce
-ENTY.cremat	0.004	0.027	contain	produce
-LOC.country	0.012	0.055	contain	produce
-ENTY.termeq	0.01	0.027	contain	produce
-LOC.state	0.015	0.027	contain	produce
-DESC.manner	0.014	0.111	contain	produce
-ENTY.food	0.009	0.027	contain	produce
-HUM.ind	0.003	0.083	contain	produce
-ENTY.other	0.013	0.083	contain	produce
-NUM.count	0.014	0.076	contain	color
-ENTY.plant	0.076	0.015	contain	color
-LOC.city	0.007	0.015	contain	color
-DESC.reason	0.021	0.061	contain	color
-ENTY.body	0.062	0.015	contain	color
-LOC.other	0.006	0.046	contain	color
-ENTY.dismed	0.009	0.015	contain	color
-ENTY.cremat	0.004	0.015	contain	color
-ENTY.color	1.0	0.615	contain	color
-DESC.manner	0.014	0.061	contain	color
-DESC.def	0.004	0.03	contain	color
-HUM.ind	0.002	0.03	contain	color
-LOC.city	0.007	0.033	start	what color
-LOC.other	0.002	0.033	start	what color
-ENTY.color	0.7	0.933	start	what color
-NUM.count	0.002	0.076	contain	element
-LOC.other	0.002	0.076	contain	element
-ENTY.substance	0.195	0.615	contain	element
-LOC.state	0.015	0.076	contain	element
-DESC.manner	0.007	0.153	contain	element
-ENTY.substance	0.048	1.0	contain	consist of
-ENTY.substance	0.243	0.833	contain	made of
-ENTY.color	0.025	0.083	contain	made of
-ENTY.food	0.009	0.083	contain	made of
-NUM.count	0.002	0.034	contain	body
-LOC.city	0.007	0.034	contain	body
-DESC.reason	0.005	0.034	contain	body
-ENTY.body	0.312	0.172	contain	body
-HUM.gr	0.005	0.034	contain	body
-LOC.other	0.006	0.103	contain	body
-NUM.other	0.023	0.034	contain	body
-ENTY.substance	0.048	0.068	contain	body
-ENTY.dismed	0.029	0.103	contain	body
-NUM.perc	0.043	0.034	contain	body
-DESC.desc	0.011	0.103	contain	body
-ENTY.cremat	0.004	0.034	contain	body
-NUM.period	0.027	0.068	contain	body
-DESC.manner	0.007	0.068	contain	body
-ENTY.sport	0.016	0.034	contain	body
-HUM.ind	0.001	0.034	contain	body
-NUM.count	0.011	0.16	contain	eye
-NUM.dist	0.031	0.04	contain	eye
-DESC.reason	0.015	0.12	contain	eye
-ENTY.body	0.062	0.04	contain	eye
-ENTY.animal	0.008	0.04	contain	eye
-LOC.other	0.004	0.08	contain	eye
-ENTY.techmeth	0.026	0.04	contain	eye
-DESC.desc	0.003	0.04	contain	eye
-ENTY.cremat	0.004	0.04	contain	eye
-ENTY.termeq	0.01	0.04	contain	eye
-LOC.state	0.015	0.04	contain	eye
-ENTY.color	0.05	0.08	contain	eye
-ENTY.sport	0.016	0.04	contain	eye
-HUM.ind	0.005	0.2	contain	eye
-ENTY.body	0.062	0.5	contain	tongue
-LOC.country	0.006	0.5	contain	tongue
-NUM.count	0.002	0.045	contain	hair
-NUM.dist	0.031	0.045	contain	hair
-ENTY.body	0.062	0.045	contain	hair
-ENTY.product	0.024	0.045	contain	hair
-ENTY.substance	0.024	0.045	contain	hair
-ENTY.dismed	0.009	0.045	contain	hair
-DESC.desc	0.022	0.272	contain	hair
-ENTY.color	0.025	0.045	contain	hair
-DESC.manner	0.003	0.045	contain	hair
-DESC.def	0.004	0.09	contain	hair
-HUM.ind	0.004	0.181	contain	hair
-ENTY.other	0.009	0.09	contain	hair
-NUM.count	0.002	0.062	contain	gland
-ENTY.plant	0.076	0.062	contain	gland
-LOC.mount	0.047	0.062	contain	gland
-ENTY.body	0.062	0.062	contain	gland
-ENTY.animal	0.008	0.062	contain	gland
-LOC.other	0.002	0.062	contain	gland
-NUM.money	0.029	0.125	contain	gland
-ENTY.event	0.018	0.062	contain	gland
-LOC.state	0.03	0.125	contain	gland
-HUM.ind	0.005	0.312	contain	gland
-NUM.count	0.025	0.045	contain	eat
-LOC.city	0.039	0.025	contain	eat
-DESC.reason	0.042	0.04	contain	eat
-HUM.gr	0.026	0.025	contain	eat
-ENTY.product	0.024	0.005	contain	eat
-ENTY.animal	0.107	0.06	contain	eat
-NUM.date	0.027	0.03	contain	eat
-ENTY.symbol	0.09	0.005	contain	eat
-LOC.other	0.008	0.02	contain	eat
-NUM.other	0.046	0.01	contain	eat
-NUM.money	0.029	0.01	contain	eat
-ENTY.techmeth	0.105	0.02	contain	eat
-ENTY.word	0.038	0.005	contain	eat
-ENTY.substance	0.048	0.01	contain	eat
-ENTY.dismed	0.058	0.03	contain	eat
-DESC.desc	0.029	0.04	contain	eat
-ENTY.event	0.018	0.005	contain	eat
-ENTY.cremat	0.106	0.11	contain	eat
-ENTY.termeq	0.032	0.015	contain	eat
-LOC.state	0.03	0.01	contain	eat
-ENTY.color	0.025	0.005	contain	eat
-NUM.period	0.013	0.005	contain	eat
-DESC.manner	0.025	0.035	contain	eat
-DESC.def	0.004	0.01	contain	eat
-ENTY.food	0.203	0.105	contain	eat
-ENTY.sport	0.08	0.025	contain	eat
-HUM.ind	0.053	0.256	contain	eat
-ENTY.other	0.032	0.035	contain	eat
-ENTY.food	0.019	1.0	contain	cocktail
-LOC.other	0.002	0.032	contain	drink
-ENTY.dismed	0.009	0.032	contain	drink
-DESC.desc	0.007	0.064	contain	drink
-ENTY.cremat	0.004	0.032	contain	drink
-ENTY.termeq	0.01	0.032	contain	drink
-DESC.manner	0.003	0.032	contain	drink
-ENTY.food	0.213	0.709	contain	drink
-HUM.ind	0.002	0.064	contain	drink
-HUM.gr	0.015	0.111	contain	food
-ENTY.animal	0.008	0.037	contain	food
-ENTY.substance	0.024	0.037	contain	food
-ENTY.dismed	0.009	0.037	contain	food
-DESC.desc	0.003	0.037	contain	food
-DESC.manner	0.007	0.074	contain	food
-DESC.def	0.002	0.037	contain	food
-ENTY.food	0.126	0.481	contain	food
-HUM.ind	0.004	0.148	contain	food
-ENTY.termeq	0.065	1.0	start	how do you say
-ENTY.cremat	0.004	1.0	start	what poem
-ENTY.cremat	0.019	1.0	start	what song
-ENTY.animal	0.008	0.071	start	what film
-ENTY.cremat	0.062	0.928	start	what film
-ENTY.cremat	0.024	1.0	start	what movie
-ENTY.symbol	0.09	0.5	start	what play
-HUM.ind	0.001	0.5	start	what play
-NUM.count	0.002	0.018	contain	movie
-DESC.reason	0.005	0.018	contain	movie
-HUM.gr	0.01	0.036	contain	movie
-NUM.date	0.004	0.018	contain	movie
-LOC.other	0.002	0.018	contain	movie
-ENTY.cremat	0.106	0.4	contain	movie
-DESC.manner	0.007	0.036	contain	movie
-ENTY.food	0.009	0.018	contain	movie
-HUM.ind	0.024	0.418	contain	movie
-ENTY.other	0.004	0.018	contain	movie
-NUM.count	0.008	0.053	contain	film
-HUM.gr	0.005	0.017	contain	film
-ENTY.animal	0.035	0.071	contain	film
-NUM.date	0.004	0.017	contain	film
-LOC.other	0.002	0.017	contain	film
-ENTY.veh	0.037	0.017	contain	film
-DESC.desc	0.003	0.017	contain	film
-ENTY.cremat	0.144	0.535	contain	film
-ENTY.color	0.025	0.017	contain	film
-DESC.manner	0.003	0.017	contain	film
-DESC.def	0.004	0.035	contain	film
-HUM.ind	0.01	0.178	contain	film
-NUM.count	0.019	0.061	contain	play
-HUM.gr	0.042	0.07	contain	play
-ENTY.instru	0.888	0.07	contain	play
-HUM.title	0.04	0.008	contain	play
-NUM.date	0.013	0.026	contain	play
-ENTY.symbol	0.09	0.008	contain	play
-LOC.other	0.006	0.026	contain	play
-NUM.other	0.023	0.008	contain	play
-NUM.money	0.029	0.017	contain	play
-DESC.desc	0.007	0.017	contain	play
-ENTY.cremat	0.043	0.078	contain	play
-ENTY.termeq	0.032	0.026	contain	play
-NUM.period	0.027	0.017	contain	play
-DESC.manner	0.003	0.008	contain	play
-DESC.def	0.004	0.017	contain	play
-ENTY.sport	0.258	0.14	contain	play
-HUM.ind	0.043	0.368	contain	play
-ENTY.other	0.013	0.026	contain	play
-ENTY.cremat	0.004	0.142	contain	poem
-DESC.manner	0.003	0.142	contain	poem
-DESC.def	0.002	0.142	contain	poem
-HUM.ind	0.004	0.571	contain	poem
-DESC.reason	0.005	0.018	contain	book
-NUM.date	0.004	0.018	contain	book
-LOC.other	0.008	0.075	contain	book
-ENTY.event	0.018	0.018	contain	book
-ENTY.cremat	0.12	0.471	contain	book
-ENTY.termeq	0.021	0.037	contain	book
-DESC.manner	0.003	0.018	contain	book
-ENTY.food	0.019	0.037	contain	book
-ENTY.sport	0.016	0.018	contain	book
-HUM.ind	0.014	0.264	contain	book
-ENTY.other	0.004	0.018	contain	book
-NUM.count	0.002	0.03	contain	novel
-LOC.other	0.002	0.03	contain	novel
-ENTY.cremat	0.115	0.727	contain	novel
-HUM.ind	0.007	0.212	contain	novel
-ENTY.religion	0.75	0.375	contain	religion
-LOC.other	0.002	0.125	contain	religion
-DESC.desc	0.003	0.125	contain	religion
-DESC.def	0.002	0.125	contain	religion
-HUM.ind	0.002	0.25	contain	religion
-ENTY.religion	0.25	1.0	start	in what religion
-ENTY.letter	0.222	1.0	contain	vowel
-NUM.count	0.008	0.09	contain	letter
-LOC.city	0.007	0.03	contain	letter
-DESC.reason	0.005	0.03	contain	letter
-ENTY.letter	0.666	0.181	contain	letter
-ENTY.animal	0.008	0.03	contain	letter
-ABBR.exp	0.042	0.09	contain	letter
-LOC.other	0.002	0.03	contain	letter
-ENTY.word	0.307	0.242	contain	letter
-DESC.desc	0.003	0.03	contain	letter
-LOC.country	0.012	0.06	contain	letter
-ENTY.termeq	0.01	0.03	contain	letter
-ABBR.abb	0.062	0.03	contain	letter
-DESC.def	0.004	0.06	contain	letter
-HUM.ind	0.001	0.03	contain	letter
-ENTY.other	0.004	0.03	contain	letter
-ENTY.plant	0.076	1.0	contain	shrub
-ENTY.plant	0.538	0.269	contain	plant
-DESC.reason	0.005	0.038	contain	plant
-NUM.date	0.009	0.076	contain	plant
-LOC.other	0.002	0.038	contain	plant
-NUM.money	0.029	0.076	contain	plant
-NUM.perc	0.043	0.038	contain	plant
-DESC.desc	0.007	0.076	contain	plant
-LOC.state	0.015	0.038	contain	plant
-NUM.code	0.2	0.038	contain	plant
-DESC.manner	0.003	0.038	contain	plant
-DESC.def	0.009	0.153	contain	plant
-HUM.ind	0.003	0.115	contain	plant
-ENTY.plant	0.076	1.0	start	what shrub
-ENTY.plant	0.23	1.0	start	what plant
-NUM.count	0.005	0.03	contain	way
-NUM.dist	0.031	0.015	contain	way
-LOC.city	0.015	0.03	contain	way
-DESC.reason	0.01	0.03	contain	way
-HUM.gr	0.01	0.03	contain	way
-ENTY.product	0.024	0.015	contain	way
-ENTY.animal	0.008	0.015	contain	way
-NUM.date	0.004	0.015	contain	way
-LOC.other	0.015	0.107	contain	way
-ENTY.techmeth	0.394	0.23	contain	way
-DESC.desc	0.011	0.046	contain	way
-ENTY.cremat	0.033	0.107	contain	way
-LOC.country	0.006	0.015	contain	way
-ENTY.color	0.025	0.015	contain	way
-NUM.period	0.013	0.015	contain	way
-ABBR.abb	0.062	0.015	contain	way
-DESC.manner	0.003	0.015	contain	way
-DESC.def	0.002	0.015	contain	way
-ENTY.food	0.009	0.015	contain	way
-HUM.ind	0.011	0.169	contain	way
-ENTY.other	0.013	0.046	contain	way
-ENTY.techmeth	0.026	0.5	contain	approach
-ENTY.other	0.004	0.5	contain	approach
-ENTY.techmeth	0.078	0.75	contain	technique
-DESC.def	0.002	0.25	contain	technique
-DESC.reason	0.005	0.2	contain	liner
-ENTY.veh	0.074	0.4	contain	liner
-ENTY.event	0.018	0.2	contain	liner
-HUM.ind	0.001	0.2	contain	liner
-ENTY.body	0.062	0.333	contain	vessel
-ENTY.veh	0.074	0.666	contain	vessel
-DESC.reason	0.005	0.333	contain	vehicle
-ENTY.veh	0.037	0.333	contain	vehicle
-DESC.manner	0.003	0.333	contain	vehicle
-NUM.count	0.03	0.07	contain	car
-LOC.city	0.031	0.025	contain	car
-DESC.reason	0.026	0.031	contain	car
-ENTY.body	0.062	0.006	contain	car
-HUM.gr	0.053	0.063	contain	car
-ENTY.product	0.121	0.031	contain	car
-ENTY.instru	0.111	0.006	contain	car
-ENTY.animal	0.035	0.025	contain	car
-NUM.date	0.018	0.025	contain	car
-ENTY.religion	0.25	0.006	contain	car
-ENTY.symbol	0.181	0.012	contain	car
-LOC.other	0.021	0.063	contain	car
-NUM.money	0.029	0.012	contain	car
-ENTY.techmeth	0.026	0.006	contain	car
-ENTY.veh	0.037	0.006	contain	car
-HUM.desc	0.043	0.012	contain	car
-DESC.desc	0.036	0.063	contain	car
-ENTY.event	0.018	0.006	contain	car
-ENTY.cremat	0.038	0.05	contain	car
-LOC.country	0.019	0.019	contain	car
-ENTY.termeq	0.043	0.025	contain	car
-LOC.state	0.015	0.006	contain	car
-NUM.speed	0.142	0.006	contain	car
-ENTY.color	0.025	0.006	contain	car
-NUM.ord	0.333	0.006	contain	car
-NUM.period	0.04	0.019	contain	car
-DESC.manner	0.029	0.05	contain	car
-DESC.def	0.009	0.025	contain	car
-ENTY.sport	0.064	0.025	contain	car
-HUM.ind	0.034	0.21	contain	car
-ENTY.other	0.05	0.07	contain	car
-DESC.reason	0.005	0.142	contain	train
-HUM.gr	0.005	0.142	contain	train
-DESC.manner	0.003	0.142	contain	train
-HUM.ind	0.003	0.428	contain	train
-ENTY.other	0.004	0.142	contain	train
-NUM.count	0.002	0.071	contain	plane
-HUM.gr	0.01	0.142	contain	plane
-LOC.other	0.01	0.357	contain	plane
-ENTY.veh	0.074	0.142	contain	plane
-ENTY.substance	0.024	0.071	contain	plane
-LOC.country	0.006	0.071	contain	plane
-DESC.def	0.002	0.071	contain	plane
-HUM.ind	0.001	0.071	contain	plane
-HUM.gr	0.005	0.027	contain	animal
-ENTY.animal	0.294	0.891	contain	animal
-NUM.perc	0.043	0.027	contain	animal
-DESC.desc	0.003	0.027	contain	animal
-ENTY.other	0.004	0.027	contain	animal
-ENTY.animal	0.053	1.0	contain	mammal
-ENTY.animal	0.017	0.5	contain	geese
-ENTY.word	0.038	0.25	contain	geese
-ENTY.termeq	0.01	0.25	contain	geese
-ENTY.animal	0.026	0.2	contain	bear
-LOC.other	0.002	0.066	contain	bear
-DESC.desc	0.007	0.133	contain	bear
-ENTY.cremat	0.009	0.133	contain	bear
-LOC.country	0.006	0.066	contain	bear
-DESC.def	0.002	0.066	contain	bear
-ENTY.food	0.009	0.066	contain	bear
-HUM.ind	0.004	0.266	contain	bear
-NUM.count	0.005	0.058	contain	dog
-ENTY.animal	0.116	0.382	contain	dog
-HUM.title	0.04	0.029	contain	dog
-ENTY.symbol	0.09	0.029	contain	dog
-LOC.other	0.004	0.058	contain	dog
-NUM.money	0.074	0.147	contain	dog
-DESC.desc	0.014	0.117	contain	dog
-ENTY.event	0.054	0.088	contain	dog
-ENTY.cremat	0.004	0.029	contain	dog
-NUM.period	0.013	0.029	contain	dog
-HUM.ind	0.001	0.029	contain	dog
-NUM.count	0.005	0.021	contain	cat
-LOC.city	0.046	0.063	contain	cat
-DESC.reason	0.005	0.01	contain	cat
-ENTY.body	0.062	0.01	contain	cat
-HUM.gr	0.015	0.031	contain	cat
-ENTY.product	0.024	0.01	contain	cat
-ENTY.animal	0.062	0.073	contain	cat
-LOC.other	0.052	0.252	contain	cat
-NUM.money	0.014	0.01	contain	cat
-ENTY.dismed	0.009	0.01	contain	cat
-DESC.desc	0.025	0.073	contain	cat
-ENTY.event	0.018	0.01	contain	cat
-ENTY.cremat	0.009	0.021	contain	cat
-LOC.country	0.012	0.021	contain	cat
-LOC.state	0.06	0.042	contain	cat
-NUM.period	0.013	0.01	contain	cat
-DESC.manner	0.01	0.031	contain	cat
-DESC.def	0.009	0.042	contain	cat
-ENTY.food	0.029	0.031	contain	cat
-HUM.ind	0.012	0.126	contain	cat
-ENTY.other	0.041	0.094	contain	cat
-NUM.count	0.002	0.333	contain	duck
-DESC.def	0.002	0.333	contain	duck
-HUM.ind	0.001	0.333	contain	duck
-NUM.count	0.002	0.083	contain	bird
-ENTY.animal	0.062	0.583	contain	bird
-DESC.desc	0.003	0.083	contain	bird
-ENTY.cremat	0.004	0.083	contain	bird
-DESC.manner	0.007	0.166	contain	bird
-ENTY.product	0.024	0.333	contain	rabbit
-ENTY.animal	0.017	0.666	contain	rabbit
-NUM.count	0.002	0.333	contain	snake
-ENTY.animal	0.017	0.666	contain	snake
-HUM.gr	0.005	0.142	contain	domestic
-ENTY.animal	0.017	0.285	contain	domestic
-NUM.period	0.013	0.142	contain	domestic
-HUM.ind	0.001	0.142	contain	domestic
-ENTY.other	0.009	0.285	contain	domestic
-ENTY.animal	0.008	1.0	contain	racoon
-ENTY.animal	0.008	1.0	contain	fowl
-HUM.gr	0.005	0.111	contain	instrument
-ENTY.instru	0.888	0.888	contain	instrument
-ENTY.instru	0.222	1.0	start	what instrument
-ENTY.instru	0.222	1.0	start	what musical instrument
-NUM.volsize	0.076	0.006	contain	age
-NUM.weight	0.09	0.006	contain	age
-NUM.count	0.039	0.089	contain	age
-LOC.city	0.007	0.006	contain	age
-HUM.gr	0.037	0.044	contain	age
-ENTY.animal	0.008	0.006	contain	age
-HUM.title	0.16	0.025	contain	age
-NUM.date	0.013	0.019	contain	age
-LOC.other	0.006	0.019	contain	age
-NUM.other	0.023	0.006	contain	age
-NUM.money	0.179	0.076	contain	age
-ENTY.veh	0.037	0.006	contain	age
-ENTY.word	0.115	0.019	contain	age
-NUM.perc	0.478	0.07	contain	age
-DESC.desc	0.022	0.038	contain	age
-ENTY.event	0.109	0.038	contain	age
-ENTY.cremat	0.019	0.025	contain	age
-LOC.country	0.006	0.006	contain	age
-ENTY.termeq	0.021	0.012	contain	age
-LOC.state	0.015	0.006	contain	age
-ENTY.color	0.05	0.012	contain	age
-NUM.period	0.202	0.095	contain	age
-ENTY.lang	1.0	0.101	contain	age
-DESC.manner	0.025	0.044	contain	age
-DESC.def	0.004	0.012	contain	age
-ENTY.sport	0.016	0.006	contain	age
-HUM.ind	0.024	0.146	contain	age
-ENTY.other	0.036	0.05	contain	age
-NUM.date	0.004	0.25	contain	holiday
-ENTY.event	0.054	0.75	contain	holiday
-NUM.count	0.002	0.055	contain	event
-ENTY.product	0.024	0.055	contain	event
-ENTY.dismed	0.019	0.111	contain	event
-DESC.desc	0.007	0.111	contain	event
-ENTY.event	0.09	0.277	contain	event
-ENTY.cremat	0.004	0.055	contain	event
-DESC.manner	0.003	0.055	contain	event
-DESC.def	0.002	0.055	contain	event
-ENTY.sport	0.016	0.055	contain	event
-HUM.ind	0.003	0.166	contain	event
-NUM.count	0.042	0.11	contain	war
-LOC.city	0.007	0.007	contain	war
-LOC.mount	0.047	0.007	contain	war
-DESC.reason	0.015	0.022	contain	war
-HUM.gr	0.031	0.044	contain	war
-ENTY.animal	0.008	0.007	contain	war
-HUM.title	0.04	0.007	contain	war
-NUM.date	0.032	0.051	contain	war
-LOC.other	0.013	0.044	contain	war
-NUM.other	0.046	0.014	contain	war
-ENTY.techmeth	0.026	0.007	contain	war
-ENTY.veh	0.037	0.007	contain	war
-DESC.desc	0.007	0.014	contain	war
-ENTY.event	0.309	0.125	contain	war
-ENTY.cremat	0.028	0.044	contain	war
-LOC.country	0.032	0.036	contain	war
-ENTY.termeq	0.021	0.014	contain	war
-LOC.state	0.015	0.007	contain	war
-DESC.manner	0.014	0.029	contain	war
-DESC.def	0.014	0.044	contain	war
-ENTY.sport	0.048	0.022	contain	war
-HUM.ind	0.036	0.257	contain	war
-ENTY.other	0.046	0.073	contain	war
-ENTY.event	0.018	1.0	contain	disaster
-ENTY.event	0.036	1.0	contain	phenomenon
-ENTY.dismed	0.558	1.0	start	what is a fear
-ENTY.dismed	0.598	0.983	contain	fear of
-HUM.ind	0.001	0.016	contain	fear of
-LOC.other	0.002	0.055	contain	disease
-ENTY.dismed	0.156	0.888	contain	disease
-ENTY.other	0.004	0.055	contain	disease
-ENTY.dismed	0.009	0.333	contain	therapy
-DESC.manner	0.003	0.333	contain	therapy
-DESC.def	0.002	0.333	contain	therapy
-ENTY.dismed	0.039	0.666	contain	cancer
-DESC.manner	0.003	0.166	contain	cancer
-DESC.def	0.002	0.166	contain	cancer
-NUM.count	0.011	0.133	contain	language
-LOC.other	0.004	0.066	contain	language
-ENTY.word	0.115	0.1	contain	language
-ENTY.event	0.018	0.033	contain	language
-ENTY.termeq	0.01	0.033	contain	language
-ENTY.lang	1.0	0.533	contain	language
-DESC.def	0.002	0.033	contain	language
-HUM.ind	0.001	0.033	contain	language
-ENTY.other	0.004	0.033	contain	language
-ENTY.lang	0.062	1.0	start	what language
-ENTY.lang	0.062	1.0	start	what is a language
-NUM.count	0.039	0.212	contain	game
-DESC.reason	0.005	0.015	contain	game
-HUM.gr	0.015	0.045	contain	game
-NUM.date	0.018	0.06	contain	game
-LOC.other	0.004	0.03	contain	game
-NUM.other	0.023	0.015	contain	game
-NUM.money	0.014	0.015	contain	game
-DESC.desc	0.007	0.03	contain	game
-ENTY.cremat	0.004	0.015	contain	game
-LOC.country	0.006	0.015	contain	game
-ENTY.food	0.009	0.015	contain	game
-ENTY.sport	0.354	0.333	contain	game
-HUM.ind	0.013	0.196	contain	game
-NUM.count	0.011	0.173	contain	board
-NUM.dist	0.031	0.043	contain	board
-DESC.reason	0.01	0.086	contain	board
-ENTY.letter	0.111	0.043	contain	board
-LOC.other	0.002	0.043	contain	board
-NUM.other	0.023	0.043	contain	board
-DESC.desc	0.007	0.086	contain	board
-LOC.country	0.012	0.086	contain	board
-DESC.manner	0.01	0.13	contain	board
-ENTY.sport	0.032	0.086	contain	board
-HUM.ind	0.002	0.086	contain	board
-ENTY.other	0.009	0.086	contain	board
-NUM.count	0.005	0.05	contain	sport
-HUM.gr	0.015	0.075	contain	sport
-LOC.other	0.002	0.025	contain	sport
-DESC.desc	0.003	0.025	contain	sport
-ENTY.cremat	0.004	0.025	contain	sport
-LOC.country	0.006	0.025	contain	sport
-ENTY.termeq	0.01	0.025	contain	sport
-ENTY.color	0.025	0.025	contain	sport
-DESC.manner	0.003	0.025	contain	sport
-ENTY.sport	0.403	0.625	contain	sport
-HUM.ind	0.003	0.075	contain	sport
-ENTY.cremat	0.004	0.083	start	what sport
-ENTY.sport	0.177	0.916	start	what sport
-NUM.count	0.008	0.041	contain	word
-DESC.reason	0.01	0.027	contain	word
-HUM.gr	0.005	0.013	contain	word
-ABBR.exp	0.014	0.013	contain	word
-LOC.other	0.002	0.013	contain	word
-ENTY.word	0.846	0.301	contain	word
-HUM.desc	0.021	0.013	contain	word
-DESC.desc	0.088	0.328	contain	word
-ENTY.cremat	0.004	0.013	contain	word
-ENTY.termeq	0.043	0.054	contain	word
-ENTY.lang	0.062	0.013	contain	word
-DESC.manner	0.01	0.041	contain	word
-DESC.def	0.016	0.095	contain	word
-HUM.ind	0.001	0.013	contain	word
-ENTY.other	0.004	0.013	contain	word
-ENTY.word	0.038	1.0	contain	plural
-DESC.reason	0.005	0.058	contain	abbreviation
-ABBR.exp	0.114	0.47	contain	abbreviation
-ABBR.abb	0.5	0.47	contain	abbreviation
-ABBR.abb	0.375	1.0	start	what is the abbreviation
-ABBR.exp	0.571	0.909	contain	stand for
-ABBR.abb	0.062	0.022	contain	stand for
-DESC.def	0.007	0.068	contain	stand for
-LOC.city	0.007	0.009	contain	mean
-HUM.gr	0.005	0.009	contain	mean
-ABBR.exp	0.128	0.087	contain	mean
-LOC.other	0.004	0.019	contain	mean
-NUM.money	0.014	0.009	contain	mean
-ENTY.word	0.076	0.019	contain	mean
-DESC.desc	0.007	0.019	contain	mean
-ENTY.event	0.018	0.009	contain	mean
-ENTY.termeq	0.021	0.019	contain	mean
-DESC.def	0.192	0.776	contain	mean
-HUM.ind	0.002	0.019	contain	mean
-DESC.reason	0.005	0.047	contain	abbreviat
-ABBR.exp	0.114	0.38	contain	abbreviat
-ABBR.abb	0.75	0.571	contain	abbreviat
+DESC.desc	0.065	contain	what
+NUM.volsize	0.003	contain	what
+NUM.perc	0.006	contain	what
+ENTY.event	0.019	contain	what
+NUM.count	0.004	contain	what
+ENTY.plant	0.006	contain	what
+NUM.dist	0.001	contain	what
+LOC.city	0.04	contain	what
+LOC.mount	0.009	contain	what
+ENTY.cremat	0.058	contain	what
+DESC.reason	0.034	contain	what
+ENTY.body	0.008	contain	what
+LOC.country	0.04	contain	what
+ENTY.termeq	0.017	contain	what
+HUM.gr	0.035	contain	what
+ENTY.letter	0.003	contain	what
+ENTY.product	0.009	contain	what
+ENTY.instru	0.003	contain	what
+ENTY.animal	0.043	contain	what
+LOC.state	0.021	contain	what
+NUM.speed	0.004	contain	what
+ENTY.color	0.013	contain	what
+NUM.code	0.001	contain	what
+NUM.ord	0.001	contain	what
+ENTY.lang	0.006	contain	what
+HUM.title	0.008	contain	what
+NUM.date	0.027	contain	what
+ENTY.religion	0.001	contain	what
+ABBR.exp	0.024	contain	what
+ENTY.symbol	0.001	contain	what
+LOC.other	0.047	contain	what
+ABBR.abb	0.004	contain	what
+NUM.other	0.011	contain	what
+NUM.money	0.008	contain	what
+ENTY.techmeth	0.009	contain	what
+NUM.temp	0.001	contain	what
+DESC.manner	0.001	contain	what
+DESC.def	0.017	contain	what
+ENTY.food	0.022	contain	what
+ENTY.sport	0.019	contain	what
+HUM.ind	0.104	contain	what
+ENTY.word	0.008	contain	what
+ENTY.veh	0.001	contain	what
+ENTY.other	0.065	contain	what
+ENTY.substance	0.011	contain	what
+ENTY.dismed	0.029	contain	what
+LOC.city	0.103	contain	which
+ENTY.cremat	0.034	contain	which
+LOC.country	0.068	contain	which
+HUM.gr	0.172	contain	which
+ENTY.product	0.068	contain	which
+ENTY.animal	0.103	contain	which
+LOC.state	0.034	contain	which
+NUM.date	0.034	contain	which
+LOC.other	0.034	contain	which
+DESC.manner	0.034	contain	which
+ENTY.food	0.068	contain	which
+HUM.ind	0.172	contain	which
+ENTY.other	0.034	contain	which
+ENTY.dismed	0.034	contain	which
+DESC.reason	0.008	contain	who
+HUM.gr	0.042	contain	who
+ENTY.product	0.008	contain	who
+HUM.ind	0.881	contain	who
+HUM.desc	0.059	contain	who
+DESC.desc	0.047	contain	name
+NUM.count	0.035	contain	name
+LOC.city	0.035	contain	name
+LOC.mount	0.011	contain	name
+ENTY.cremat	0.07	contain	name
+LOC.country	0.011	contain	name
+ENTY.termeq	0.023	contain	name
+HUM.gr	0.035	contain	name
+ENTY.product	0.011	contain	name
+ENTY.animal	0.058	contain	name
+LOC.state	0.035	contain	name
+ABBR.exp	0.023	contain	name
+LOC.other	0.047	contain	name
+ABBR.abb	0.011	contain	name
+ENTY.techmeth	0.011	contain	name
+DESC.manner	0.035	contain	name
+DESC.def	0.058	contain	name
+ENTY.food	0.011	contain	name
+HUM.ind	0.364	contain	name
+ENTY.veh	0.011	contain	name
+ENTY.other	0.035	contain	name
+ENTY.dismed	0.011	contain	name
+HUM.gr	1.0	contain	whom
+HUM.gr	0.666	contain	team
+HUM.ind	0.333	contain	team
+ENTY.event	0.09	contain	company
+HUM.gr	0.818	contain	company
+ABBR.abb	0.09	contain	company
+HUM.gr	0.5	contain	tribe
+LOC.other	0.5	contain	tribe
+HUM.gr	1.0	contain	department
+HUM.gr	1.0	contain	organization
+DESC.reason	0.285	contain	school
+HUM.gr	0.285	contain	school
+ENTY.color	0.142	contain	school
+NUM.money	0.142	contain	school
+DESC.manner	0.142	contain	school
+NUM.count	0.333	contain	college
+HUM.gr	0.666	contain	college
+HUM.gr	1.0	contain	army
+HUM.gr	1.0	contain	manufacturer
+HUM.gr	1.0	contain	government
+DESC.desc	0.122	contain	what is
+NUM.volsize	0.011	contain	what is
+ENTY.event	0.005	contain	what is
+NUM.count	0.005	contain	what is
+NUM.dist	0.005	contain	what is
+LOC.city	0.023	contain	what is
+LOC.mount	0.017	contain	what is
+ENTY.cremat	0.017	contain	what is
+DESC.reason	0.04	contain	what is
+ENTY.body	0.005	contain	what is
+LOC.country	0.011	contain	what is
+ENTY.termeq	0.023	contain	what is
+HUM.gr	0.011	contain	what is
+ENTY.product	0.005	contain	what is
+ENTY.animal	0.029	contain	what is
+LOC.state	0.017	contain	what is
+NUM.speed	0.017	contain	what is
+NUM.code	0.005	contain	what is
+ENTY.lang	0.005	contain	what is
+HUM.title	0.017	contain	what is
+NUM.date	0.011	contain	what is
+ABBR.exp	0.017	contain	what is
+LOC.other	0.046	contain	what is
+ABBR.abb	0.017	contain	what is
+NUM.other	0.029	contain	what is
+NUM.money	0.011	contain	what is
+ENTY.techmeth	0.005	contain	what is
+NUM.temp	0.005	contain	what is
+DESC.def	0.284	contain	what is
+ENTY.food	0.005	contain	what is
+HUM.ind	0.017	contain	what is
+ENTY.word	0.017	contain	what is
+ENTY.other	0.04	contain	what is
+ENTY.substance	0.011	contain	what is
+ENTY.dismed	0.075	contain	what is
+ENTY.event	0.027	contain	what was
+NUM.count	0.027	contain	what was
+LOC.mount	0.027	contain	what was
+ENTY.cremat	0.162	contain	what was
+DESC.reason	0.027	contain	what was
+LOC.country	0.027	contain	what was
+HUM.gr	0.027	contain	what was
+ENTY.animal	0.108	contain	what was
+HUM.title	0.054	contain	what was
+LOC.other	0.027	contain	what was
+NUM.other	0.054	contain	what was
+NUM.money	0.027	contain	what was
+DESC.def	0.054	contain	what was
+ENTY.food	0.027	contain	what was
+HUM.ind	0.216	contain	what was
+ENTY.other	0.081	contain	what was
+ENTY.substance	0.027	contain	what was
+HUM.title	0.666	contain	profession
+NUM.date	0.333	contain	profession
+HUM.title	1.0	contain	occupation
+HUM.title	0.25	contain	title
+HUM.ind	0.75	contain	title
+HUM.ind	1.0	contain	who was
+HUM.gr	0.047	contain	who is
+HUM.ind	0.619	contain	who is
+HUM.desc	0.333	contain	who is
+HUM.ind	1.0	contain	who were
+LOC.country	1.0	contain	what country
+LOC.country	0.88	contain	country
+HUM.gr	0.04	contain	country
+LOC.other	0.04	contain	country
+HUM.ind	0.04	contain	country
+DESC.desc	0.068	contain	where
+LOC.mount	0.034	contain	where
+DESC.reason	0.017	contain	where
+ENTY.body	0.017	contain	where
+LOC.other	0.844	contain	where
+HUM.ind	0.017	contain	where
+LOC.mount	0.058	contain	where is
+LOC.other	0.941	contain	where is
+LOC.other	1.0	contain	where can
+LOC.other	1.0	contain	where was
+LOC.city	0.923	contain	what city
+LOC.other	0.076	contain	what city
+LOC.city	1.0	contain	which city
+NUM.count	0.031	contain	city
+LOC.city	0.75	contain	city
+LOC.country	0.031	contain	city
+LOC.other	0.093	contain	city
+DESC.manner	0.031	contain	city
+HUM.ind	0.062	contain	city
+LOC.state	1.0	contain	what state
+LOC.mount	1.0	contain	mountain
+LOC.city	0.142	contain	highest
+LOC.mount	0.714	contain	highest
+LOC.other	0.142	contain	highest
+NUM.count	0.2	contain	peak
+LOC.mount	0.2	contain	peak
+LOC.state	0.2	contain	peak
+HUM.ind	0.4	contain	peak
+NUM.date	1.0	contain	when was
+NUM.date	1.0	contain	when did
+DESC.desc	0.045	contain	year
+NUM.count	0.181	contain	year
+ENTY.cremat	0.045	contain	year
+HUM.gr	0.045	contain	year
+ENTY.animal	0.045	contain	year
+NUM.date	0.454	contain	year
+NUM.money	0.045	contain	year
+DESC.manner	0.045	contain	year
+HUM.ind	0.09	contain	year
+NUM.date	0.9	contain	what year
+DESC.manner	0.1	contain	what year
+NUM.date	1.0	contain	when is
+NUM.ord	1.0	contain	what chapter
+NUM.dist	0.25	contain	how long
+NUM.period	0.75	contain	how long
+NUM.period	1.0	contain	how old
+LOC.country	0.333	contain	population
+NUM.other	0.666	contain	population
+DESC.desc	0.052	contain	people
+NUM.count	0.263	contain	people
+LOC.mount	0.052	contain	people
+DESC.reason	0.105	contain	people
+LOC.country	0.052	contain	people
+HUM.gr	0.052	contain	people
+ENTY.product	0.105	contain	people
+ENTY.animal	0.105	contain	people
+NUM.other	0.052	contain	people
+HUM.ind	0.157	contain	people
+NUM.other	1.0	contain	quantity
+NUM.perc	1.0	contain	what fraction
+NUM.perc	1.0	contain	what percent
+NUM.perc	1.0	contain	what percentage
+DESC.reason	0.5	contain	temperature
+NUM.temp	0.5	contain	temperature
+NUM.temp	1.0	contain	what is the temperature
+NUM.code	1.0	contain	what is the telephone number
+NUM.code	0.5	contain	telephone number
+LOC.other	0.5	contain	telephone number
+NUM.count	0.125	contain	how much
+HUM.gr	0.125	contain	how much
+NUM.money	0.75	contain	how much
+NUM.money	1.0	contain	paid
+ENTY.event	0.125	contain	cost
+ENTY.cremat	0.125	contain	cost
+ENTY.product	0.125	contain	cost
+NUM.money	0.375	contain	cost
+HUM.ind	0.25	contain	cost
+NUM.money	0.5	contain	money
+HUM.ind	0.5	contain	money
+NUM.volsize	1.0	contain	what is the size
+NUM.volsize	1.0	contain	what is the acreage
+NUM.volsize	0.5	contain	size
+ENTY.animal	0.5	contain	size
+NUM.count	1.0	contain	how many
+NUM.count	0.111	contain	number
+NUM.code	0.111	contain	number
+LOC.other	0.111	contain	number
+NUM.other	0.111	contain	number
+DESC.manner	0.333	contain	number
+ENTY.food	0.111	contain	number
+ENTY.sport	0.111	contain	number
+NUM.count	0.333	contain	average
+NUM.date	0.166	contain	average
+NUM.money	0.5	contain	average
+NUM.dist	1.0	contain	how far
+NUM.speed	1.0	contain	what is the speed
+NUM.speed	1.0	contain	speed
+NUM.speed	1.0	contain	how fast
+DESC.reason	0.142	contain	fast
+ENTY.body	0.142	contain	fast
+NUM.speed	0.285	contain	fast
+HUM.ind	0.142	contain	fast
+ENTY.other	0.285	contain	fast
+DESC.reason	1.0	contain	why do
+DESC.reason	1.0	contain	what causes
+DESC.reason	1.0	contain	what makes
+DESC.reason	1.0	contain	what cause
+DESC.reason	1.0	contain	why does
+DESC.reason	1.0	contain	why were
+DESC.desc	0.027	contain	what does
+ABBR.exp	0.297	contain	what does
+NUM.money	0.054	contain	what does
+DESC.def	0.405	contain	what does
+ENTY.other	0.162	contain	what does
+ENTY.substance	0.027	contain	what does
+ENTY.dismed	0.027	contain	what does
+DESC.manner	1.0	contain	how did
+DESC.manner	1.0	contain	how can
+ENTY.termeq	0.107	contain	how do
+DESC.manner	0.892	contain	how do
+DESC.manner	1.0	contain	how is
+DESC.desc	0.769	contain	origin
+LOC.country	0.076	contain	origin
+LOC.other	0.076	contain	origin
+HUM.ind	0.076	contain	origin
+DESC.desc	0.5	contain	history
+HUM.gr	0.25	contain	history
+HUM.ind	0.25	contain	history
+DESC.desc	0.125	contain	term
+ENTY.termeq	0.5	contain	term
+DESC.manner	0.25	contain	term
+HUM.ind	0.125	contain	term
+DESC.desc	1.0	contain	difference
+DESC.desc	1.0	contain	example
+ENTY.symbol	1.0	contain	what sign
+DESC.desc	0.142	contain	sign
+ENTY.event	0.142	contain	sign
+ENTY.cremat	0.142	contain	sign
+NUM.date	0.285	contain	sign
+ENTY.symbol	0.142	contain	sign
+DESC.manner	0.142	contain	sign
+NUM.count	0.333	contain	symbol
+ENTY.product	0.333	contain	symbol
+ENTY.symbol	0.333	contain	symbol
+HUM.gr	0.142	contain	product
+ENTY.product	0.714	contain	product
+NUM.money	0.142	contain	product
+ENTY.cremat	0.2	contain	produce
+HUM.gr	0.4	contain	produce
+ENTY.product	0.2	contain	produce
+DESC.manner	0.2	contain	produce
+DESC.reason	0.153	contain	color
+ENTY.body	0.076	contain	color
+ENTY.color	0.615	contain	color
+DESC.def	0.076	contain	color
+HUM.ind	0.076	contain	color
+ENTY.color	1.0	contain	what color
+LOC.state	0.2	contain	element
+LOC.other	0.2	contain	element
+DESC.manner	0.2	contain	element
+ENTY.substance	0.4	contain	element
+ENTY.substance	1.0	contain	consist of
+ENTY.substance	1.0	contain	made of
+NUM.perc	0.125	contain	body
+DESC.reason	0.125	contain	body
+ENTY.body	0.25	contain	body
+NUM.period	0.125	contain	body
+LOC.other	0.125	contain	body
+HUM.ind	0.125	contain	body
+ENTY.dismed	0.125	contain	body
+ENTY.cremat	0.166	contain	eye
+ENTY.body	0.166	contain	eye
+ENTY.animal	0.166	contain	eye
+LOC.other	0.166	contain	eye
+ENTY.sport	0.166	contain	eye
+HUM.ind	0.166	contain	eye
+ENTY.body	1.0	contain	tongue
+DESC.desc	0.428	contain	hair
+ENTY.body	0.142	contain	hair
+ENTY.product	0.142	contain	hair
+HUM.ind	0.142	contain	hair
+ENTY.other	0.142	contain	hair
+ENTY.body	0.333	contain	gland
+NUM.money	0.666	contain	gland
+DESC.desc	0.032	contain	eat
+NUM.count	0.096	contain	eat
+LOC.city	0.032	contain	eat
+ENTY.cremat	0.193	contain	eat
+DESC.reason	0.032	contain	eat
+HUM.gr	0.064	contain	eat
+ENTY.animal	0.032	contain	eat
+NUM.date	0.032	contain	eat
+DESC.manner	0.064	contain	eat
+DESC.def	0.032	contain	eat
+ENTY.food	0.096	contain	eat
+ENTY.sport	0.032	contain	eat
+HUM.ind	0.161	contain	eat
+ENTY.other	0.064	contain	eat
+ENTY.dismed	0.032	contain	eat
+ENTY.food	1.0	contain	cocktail
+ENTY.food	0.8	contain	drink
+HUM.ind	0.2	contain	drink
+ENTY.food	0.333	contain	food
+HUM.ind	0.333	contain	food
+ENTY.dismed	0.333	contain	food
+ENTY.termeq	1.0	contain	how do you say
+ENTY.cremat	1.0	contain	what poem
+ENTY.cremat	1.0	contain	what song
+ENTY.cremat	1.0	contain	what film
+ENTY.cremat	1.0	contain	what movie
+ENTY.cremat	0.583	contain	movie
+LOC.other	0.083	contain	movie
+HUM.ind	0.333	contain	movie
+ENTY.cremat	0.636	contain	film
+ENTY.animal	0.09	contain	film
+LOC.other	0.09	contain	film
+DESC.def	0.09	contain	film
+HUM.ind	0.09	contain	film
+DESC.desc	0.066	contain	play
+NUM.count	0.066	contain	play
+ENTY.cremat	0.066	contain	play
+ENTY.termeq	0.066	contain	play
+ENTY.instru	0.133	contain	play
+LOC.other	0.133	contain	play
+DESC.manner	0.066	contain	play
+ENTY.sport	0.2	contain	play
+HUM.ind	0.2	contain	play
+ENTY.cremat	0.333	contain	poem
+DESC.def	0.333	contain	poem
+HUM.ind	0.333	contain	poem
+ENTY.cremat	0.333	contain	book
+LOC.other	0.111	contain	book
+ENTY.food	0.111	contain	book
+ENTY.sport	0.111	contain	book
+HUM.ind	0.333	contain	book
+ENTY.cremat	0.6	contain	novel
+HUM.ind	0.4	contain	novel
+ENTY.religion	0.5	contain	religion
+DESC.def	0.5	contain	religion
+ENTY.religion	1.0	contain	in what religion
+ENTY.letter	1.0	contain	vowel
+NUM.count	0.5	contain	letter
+ENTY.letter	0.5	contain	letter
+ENTY.plant	1.0	contain	shrub
+ENTY.plant	0.8	contain	plant
+DESC.def	0.2	contain	plant
+ENTY.plant	1.0	contain	what shrub
+ENTY.plant	1.0	contain	what plant
+NUM.count	0.09	contain	way
+LOC.city	0.09	contain	way
+ENTY.cremat	0.09	contain	way
+ENTY.product	0.09	contain	way
+LOC.other	0.09	contain	way
+ENTY.techmeth	0.181	contain	way
+HUM.ind	0.363	contain	way
+ENTY.techmeth	0.5	contain	approach
+ENTY.other	0.5	contain	approach
+ENTY.techmeth	1.0	contain	technique
+ENTY.veh	1.0	contain	liner
+ENTY.veh	1.0	contain	vessel
+DESC.manner	1.0	contain	vehicle
+DESC.desc	0.06	contain	car
+NUM.count	0.09	contain	car
+LOC.city	0.03	contain	car
+ENTY.cremat	0.03	contain	car
+DESC.reason	0.06	contain	car
+ENTY.termeq	0.06	contain	car
+HUM.gr	0.09	contain	car
+ENTY.product	0.06	contain	car
+ENTY.animal	0.03	contain	car
+NUM.speed	0.03	contain	car
+NUM.date	0.03	contain	car
+ENTY.symbol	0.03	contain	car
+LOC.other	0.03	contain	car
+NUM.money	0.09	contain	car
+DESC.manner	0.03	contain	car
+DESC.def	0.03	contain	car
+ENTY.sport	0.03	contain	car
+HUM.ind	0.121	contain	car
+ENTY.other	0.06	contain	car
+ENTY.animal	0.888	contain	animal
+ENTY.other	0.111	contain	animal
+ENTY.animal	1.0	contain	mammal
+ENTY.animal	1.0	contain	geese
+ENTY.cremat	0.2	contain	bear
+ENTY.animal	0.4	contain	bear
+DESC.def	0.2	contain	bear
+HUM.ind	0.2	contain	bear
+DESC.desc	0.25	contain	dog
+ENTY.event	0.125	contain	dog
+NUM.count	0.125	contain	dog
+ENTY.animal	0.5	contain	dog
+DESC.desc	0.076	contain	cat
+LOC.city	0.076	contain	cat
+HUM.gr	0.076	contain	cat
+ENTY.animal	0.153	contain	cat
+LOC.other	0.384	contain	cat
+DESC.def	0.076	contain	cat
+ENTY.other	0.153	contain	cat
+DESC.def	1.0	contain	duck
+ENTY.animal	1.0	contain	bird
+ENTY.animal	1.0	contain	rabbit
+ENTY.animal	1.0	contain	snake
+HUM.gr	0.333	contain	domestic
+ENTY.animal	0.333	contain	domestic
+ENTY.other	0.333	contain	domestic
+ENTY.animal	1.0	contain	racoon
+ENTY.animal	1.0	contain	fowl
+HUM.gr	0.333	contain	instrument
+ENTY.instru	0.666	contain	instrument
+ENTY.instru	1.0	contain	what instrument
+ENTY.instru	1.0	contain	what musical instrument
+NUM.volsize	0.032	contain	age
+NUM.perc	0.064	contain	age
+ENTY.event	0.032	contain	age
+NUM.count	0.129	contain	age
+LOC.city	0.032	contain	age
+HUM.gr	0.064	contain	age
+ENTY.color	0.032	contain	age
+ENTY.lang	0.129	contain	age
+HUM.title	0.032	contain	age
+NUM.date	0.064	contain	age
+NUM.money	0.129	contain	age
+DESC.manner	0.032	contain	age
+HUM.ind	0.161	contain	age
+ENTY.word	0.032	contain	age
+ENTY.other	0.032	contain	age
+ENTY.event	1.0	contain	holiday
+ENTY.event	0.75	contain	event
+ENTY.sport	0.25	contain	event
+DESC.desc	0.047	contain	war
+ENTY.event	0.142	contain	war
+LOC.city	0.047	contain	war
+ENTY.cremat	0.047	contain	war
+DESC.reason	0.047	contain	war
+LOC.country	0.047	contain	war
+HUM.gr	0.095	contain	war
+LOC.state	0.047	contain	war
+NUM.date	0.095	contain	war
+LOC.other	0.095	contain	war
+NUM.other	0.047	contain	war
+ENTY.sport	0.047	contain	war
+HUM.ind	0.19	contain	war
+ENTY.event	1.0	contain	disaster
+ENTY.event	1.0	contain	phenomenon
+ENTY.dismed	1.0	contain	what is a fear
+ENTY.dismed	1.0	contain	fear of
+LOC.other	0.25	contain	disease
+ENTY.dismed	0.75	contain	disease
+DESC.manner	0.5	contain	therapy
+ENTY.dismed	0.5	contain	therapy
+DESC.manner	0.5	contain	cancer
+ENTY.dismed	0.5	contain	cancer
+ENTY.lang	0.666	contain	language
+HUM.ind	0.166	contain	language
+ENTY.word	0.166	contain	language
+ENTY.lang	1.0	contain	what language
+ENTY.lang	1.0	contain	what is a language
+DESC.desc	0.052	contain	game
+NUM.count	0.21	contain	game
+ENTY.cremat	0.052	contain	game
+LOC.country	0.052	contain	game
+HUM.gr	0.052	contain	game
+LOC.other	0.052	contain	game
+ENTY.sport	0.263	contain	game
+HUM.ind	0.263	contain	game
+DESC.desc	0.111	contain	board
+NUM.count	0.111	contain	board
+NUM.dist	0.111	contain	board
+LOC.country	0.111	contain	board
+ENTY.letter	0.111	contain	board
+DESC.manner	0.111	contain	board
+ENTY.sport	0.222	contain	board
+ENTY.other	0.111	contain	board
+DESC.manner	0.125	contain	sport
+ENTY.sport	0.75	contain	sport
+HUM.ind	0.125	contain	sport
+ENTY.sport	1.0	contain	what sport
+DESC.desc	0.285	contain	word
+NUM.count	0.071	contain	word
+ENTY.termeq	0.071	contain	word
+HUM.gr	0.071	contain	word
+ABBR.exp	0.071	contain	word
+DESC.manner	0.071	contain	word
+DESC.def	0.071	contain	word
+ENTY.word	0.285	contain	word
+ENTY.word	1.0	contain	plural
+ABBR.exp	0.5	contain	abbreviation
+ABBR.abb	0.5	contain	abbreviation
+ABBR.abb	1.0	contain	what is the abbreviation
+ABBR.exp	1.0	contain	stand for
+DESC.desc	0.08	contain	mean
+LOC.city	0.04	contain	mean
+HUM.gr	0.04	contain	mean
+ABBR.exp	0.08	contain	mean
+DESC.def	0.72	contain	mean
+ENTY.word	0.04	contain	mean
+ABBR.exp	0.4	contain	abbreviat
+ABBR.abb	0.6	contain	abbreviat

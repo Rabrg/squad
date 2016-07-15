@@ -1,8 +1,8 @@
-start:what
-start:which
-start:who
-start:name
-start:whom
+contain:what
+contain:which
+contain:who
+contain:name
+contain:whom
 contain:team
 contain:company
 contain:tribe
@@ -13,90 +13,90 @@ contain:college
 contain:army
 contain:manufacturer
 contain:government
-start:what is
-start:what was
+contain:what is
+contain:what was
 contain:profession
 contain:occupation
 contain:title
-start:who was
-start:who is
-start:who were
-start:what country
+contain:who was
+contain:who is
+contain:who were
+contain:what country
 contain:country
-contaiin:contries
-start:where
-start:where is
-start:where can
-start:where was
-start:what city
-start:which city
+contain:contries
+contain:where
+contain:where is
+contain:where can
+contain:where was
+contain:what city
+contain:which city
 contain:city
-start:what state
+contain:what state
 contain:U.S.
 contain:mountain
 contain:highest
 contain:peak
-start:when was
-start:what is
-start:when did
+contain:when was
+contain:what is
+contain:when did
 contain:year
-start:what year
-start:when is
-start:what chapter
-start:how long
+contain:what year
+contain:when is
+contain:what chapter
+contain:how long
 contain:how old
 contain:IQ
 contain:population
 contain:people
 contain:quantity
-start:what fraction
-start:what percent
-start:what percentage
+contain:what fraction
+contain:what percent
+contain:what percentage
 contain:temperature
-start:what is the temperature
-start:what is the telephone number
+contain:what is the temperature
+contain:what is the telephone number
 contain:telephone number
-start:how much
+contain:how much
 contain:paid
 contain:cost
 contain:money
-start:what is the size
-start:what is the acreage
+contain:what is the size
+contain:what is the acreage
 contain:size
-start:how many
+contain:how many
 contain:number
 contain:average
-start:how long
-start:how far
-start:what is the speed
+contain:how long
+contain:how far
+contain:what is the speed
 contain:speed
-start:how fast
+contain:how fast
 contain:fast
-start:why do
-start:what causes
-start:what makes
-start:what cause
-start:what makes
-start:why does
-start:why were
-start:what does
-start:how did
-start:how can
-start:how do
-start:how is
+contain:why do
+contain:what causes
+contain:what makes
+contain:what cause
+contain:what makes
+contain:why does
+contain:why were
+contain:what does
+contain:how did
+contain:how can
+contain:how do
+contain:how is
 contain:origin
 contain:history
 contain:term
 contain:difference
 contain:example
-start:what sign
+contain:what sign
 contain:sign
 contain:symbol
 contain:product
 contain:produce
 contain:color
 contain:colour
-start:what color
+contain:what color
 contain:element
 contain:consist of
 contain:made of
@@ -110,12 +110,12 @@ contain:cocktail
 contain:drink
 contain:food
 contain:term
-start:how do you say
-start:what poem
-start:what song
-start:what film
-start:what movie
-start:what play
+contain:how do you say
+contain:what poem
+contain:what song
+contain:what film
+contain:what movie
+contain:what play
 contain:movie
 contain:film
 contain:movie
@@ -124,13 +124,13 @@ contain:poem
 contain:book
 contain:novel
 contain:religion
-start:in what religion
+contain:in what religion
 contain:vowel
 contain:letter
 contain:shrub
 contain:plant
-start:what shrub
-start:what plant
+contain:what shrub
+contain:what plant
 contain:way
 contain:approach
 contain:technique
@@ -154,30 +154,30 @@ contain:domestic
 contain:racoon
 contain:fowl
 contain:instrument
-start:what instrument
-start:what musical instrument
+contain:what instrument
+contain:what musical instrument
 contain:age
 contain:holiday
 contain:event
 contain:war
 contain:disaster
 contain:phenomenon
-start:what is a fear
+contain:what is a fear
 contain:fear of
 contain:disease
 contain:therapy
 contain:cancer
 contain:language
-start:what language
-start:what is a language
+contain:what language
+contain:what is a language
 contain:game
 contain:board
 contain:sport
-start:what sport
+contain:what sport
 contain:word
 contain:plural
 contain:abbreviation
-start:what is the abbreviation
+contain:what is the abbreviation
 contain:stand for
 contain:mean
 contain:abbreviat

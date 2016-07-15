@@ -1,5 +1,7 @@
 package com.gmail.rabrg96.squad.dataset;
 
+import com.gmail.rabrg96.utils.MapUtils;
+
 import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.charset.Charset;
@@ -12,35 +14,28 @@ public class QAQCSheet {
     // TODO: algorithm to automatically weight statistics
     public static void main(final String[] args) throws Exception {
         final Map<String, List<String>> dataset = loadDataset();
+//        inputStatistics(dataset);
         final List<String> statistics = Files.readAllLines(Paths.get("./res/statistics-qaqc.tsv"));
 
-        final double min = -1, max = 1, accur = 0.1;
-        final long start = System.currentTimeMillis();
-        double bestKeyWeight= 0, bestSetWeight = 0, bestAccuracy = 0;
-        for (double keyWeight = min; keyWeight < max; keyWeight += accur) {
-            for (double setWeight = min; setWeight < max; setWeight += accur) {
-                int correct = 0, total = 0;
-                for (final Map.Entry<String, List<String>> entry : dataset.entrySet()) {
-                    for (final String sentence : entry.getValue()) {
-                        final Map<String, Double> probability = getProbabilityStatistics(statistics, sentence, keyWeight, setWeight);
-                        final String detected = probability.entrySet().iterator().next().getKey();
-                        if (!probability.isEmpty() && detected.equals(entry.getKey())) {
-                            correct++;
-                        } else {
-                            System.out.println("Detected: " + detected + " correct: " + entry.getKey() + " sentence: " + sentence);
-                        }
-                        total++;
-                    }
+        int correct = 0, total = 0, empty = 0;
+        for (final Map.Entry<String, List<String>> entry : dataset.entrySet()) {
+            for (final String sentence : entry.getValue()) {
+                final Map<String, Double> probability = getProbabilityStatistics(statistics, sentence, 1);
+                if (probability.isEmpty()) {
+                    total++;
+                    empty++;
+                    continue;
                 }
-                final double accuracy = ((double) correct) / total;
-                if (accuracy > bestAccuracy) {
-                    bestKeyWeight = keyWeight;
-                    bestSetWeight = setWeight;
-                    bestAccuracy = accuracy;
+                final String detected = probability.entrySet().iterator().next().getKey();
+                if (!probability.isEmpty() && detected.equals(entry.getKey())) {
+                    correct++;
+                } else {
+                    System.out.println("Detected: " + detected + " correct: " + entry.getKey() + " sentence: " + sentence);
                 }
+                total++;
             }
         }
-        System.out.println("best accuracy: " + bestAccuracy + " with key weight: " + bestKeyWeight + " and set weight: " + bestSetWeight + " detected in: " + (System.currentTimeMillis() - start) + "ms" + " with min weight: " + min + " and max weight: " + max + " with accur of " + accur);
+        System.out.println(((double) correct) / total + " "+  empty);
     }
 
     // TODO: flatten input usage into <parent.child> key map
@@ -53,42 +48,29 @@ public class QAQCSheet {
             final String childClass = classesSplit[1];
             final String sentence = line.substring(line.indexOf(' ') + 1);
 
-            final List<String> sentences = parentMap.getOrDefault(childClass, new ArrayList<>());
-            sentences.add(sentence);
-
+            final List<String> sentences = parentMap.getOrDefault(parentClass + "." + childClass, new ArrayList<>());
+            sentences.add(sentence.toLowerCase());
             parentMap.putIfAbsent(parentClass + "." + childClass, sentences);
         }
         return parentMap;
     }
 
-    private static Map<String, Integer> countSentences(final Map<String, Map<String, List<String>>> parentMap) {
-        final Map<String, Integer> sentenceCount = new HashMap<>();
-        for (final Map.Entry<String, Map<String, List<String>>> parentEntry : parentMap.entrySet()) {
-            for (final Map.Entry<String, List<String>> childEntry : parentEntry.getValue().entrySet()) {
-                sentenceCount.put(parentEntry.getKey() + "." + childEntry.getKey(), childEntry.getValue().size());
-            }
-        }
-        return sentenceCount;
-    }
-
-    private static void inputStatistics(final Map<String, Map<String, List<String>>> parentMap,
-                                        final Map<String, Integer> sentenceCount)  throws IOException {
+    private static void inputStatistics(final Map<String, List<String>> parentMap)  throws IOException {
         int counter = 0;
         final Map<String, Integer> result = new HashMap<>();
         final List<String> previous = new ArrayList<>();
         try (final Scanner scanner = new Scanner(System.in);
              final FileWriter writer = new FileWriter("./res/statistics-qaqc.tsv", true)) {
             String line;
-            while ((line = scanner.nextLine()) != null) {
+            while ((line = scanner.nextLine()) != null && line.length() > 0) {
                 if (previous.contains(line))
                     continue;
                 previous.add(line);
                 final String mode = line.substring(0, line.indexOf(':'));
                 final String term =  line.substring(line.indexOf(':') + 1);
-                for (final Map.Entry<String, Map<String, List<String>>> parentEntry : parentMap.entrySet()) {
-                    for (final Map.Entry<String, List<String>> childEntry : parentEntry.getValue().entrySet()) {
-                        final String key = parentEntry.getKey() + "." + childEntry.getKey();
-                        for (String sentence : childEntry.getValue()) {
+                for (final Map.Entry<String, List<String>> parentEntry : parentMap.entrySet()) {
+                        final String key = parentEntry.getKey();
+                        for (String sentence : parentEntry.getValue()) {
                             sentence = sentence.toLowerCase();
                             if ("start".equals(mode) && sentence.startsWith(term)
                                     || "end".equals(mode) && sentence.endsWith(term)
@@ -96,12 +78,10 @@ public class QAQCSheet {
                                 result.put(key, result.getOrDefault(key, 0) + 1);
                                 counter++;
                             }
-                        }
                     }
                 }
                 for (final Map.Entry<String, Integer> entry : result.entrySet()) {
                     writer.write(entry.getKey() + "\t"
-                            + truncate(entry.getValue() / (double) sentenceCount.get(entry.getKey())) + "\t"
                             + truncate(entry.getValue() / (double) counter) + "\t" + mode + "\t" + term + "\n");
                 }
                 writer.flush();
@@ -115,38 +95,22 @@ public class QAQCSheet {
         return Math.floor(i * 1000) / 1000;
     }
 
-    private static Map<String, Double> getProbabilityStatistics(final List<String> statistics, String sentence, final double keyWeight, final double setWeight) {
+    private static Map<String, Double> getProbabilityStatistics(final List<String> statistics, String sentence, final double setWeight) {
         sentence = sentence.toLowerCase();
 
         final Map<String, Double> probability = new HashMap<>();
         for (final String statistic : statistics) {
             final String[] split = statistic.split("\t");
             final String key = split[0];
-            final double keyProbability = Double.parseDouble(split[1]);
-            final double setProbability = Double.parseDouble(split[2]);
-            final String mode = split[3];
-            final String term = split[4];
+            final double setProbability = Double.parseDouble(split[1]);
+            final String mode = split[2];
+            final String term = split[3];
             if ("start".equals(mode) && sentence.startsWith(term)
                     || "end".equals(mode) && sentence.endsWith(term)
                     || "contain".equals(mode) && sentence.contains(term)) {
-                probability.put(key, probability.getOrDefault(key, 0D) + (keyProbability * keyWeight) + (setProbability * setWeight));
+                probability.put(key, probability.getOrDefault(key, 0D) + (setProbability * setWeight));
             }
         }
-        return sortByValue(probability);
-    }
-
-    private static <K, V extends Comparable<? super V>> Map<K, V> sortByValue(final Map<K, V> map) {
-        final List<Map.Entry<K, V>> list = new LinkedList<Map.Entry<K, V>>(map.entrySet());
-        Collections.sort(list, new Comparator<Map.Entry<K, V>>() {
-            public int compare(final Map.Entry<K, V> o1, final Map.Entry<K, V> o2) {
-                return (o1.getValue()).compareTo(o2.getValue()) * -1;
-            }
-        });
-
-        final Map<K, V> result = new LinkedHashMap<K, V>();
-        for (final Map.Entry<K, V> entry : list) {
-            result.put(entry.getKey(), entry.getValue());
-        }
-        return result;
+        return MapUtils.sortByValue(probability);
     }
 }

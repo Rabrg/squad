@@ -42,7 +42,7 @@ public class Coref {
             final List<CorefChain.CorefMention> mentions = chain.getMentionsInTextualOrder();
             if (mentions.size() > 1) { // TODO: word precision when not using exclusively pronouns
                 StringBuilder builder = new StringBuilder();
-                builder.append("Context before: " + paragraph.getContextSentences()+ "\n");
+                builder.append("Context before: " + paragraph.getContextSentences() + "\n");
                 boolean replaced = false;
                 final String first = mentions.get(0).mentionSpan;
                 for (int i = 1; i < mentions.size(); i++) {
