@@ -14,13 +14,13 @@ import java.util.List;
 
 public class SheetDataFinder {
 
+    private static final  LexicalizedParser parser = LexicalizedParser.loadModel("edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz");
     public static List<Object> getData(final String text) {
         try {
             final Sentence sentence = new Sentence(text);
 
             final Tree parent = sentence.parse();
             final Tree tree = findWHTree(parent);
-            parent.pennPrint();
             final String whType = tree.value();
             final String whWord = tree.getChild(0).yieldWords().get(0).word();
             String whTargetWord;
@@ -36,7 +36,7 @@ public class SheetDataFinder {
             final String subject = getSubject(sentence);
 
             // subject, object, relation
-            System.out.println("[whType=" + whType + ", whWord=" + whWord + ", whTargetWord=" + whTargetWord + ", whTargetType=" + whTargetType + ", subject=" + subject + "]");
+//            System.out.println("[whType=" + whType + ", whWord=" + whWord + ", whTargetWord=" + whTargetWord + ", whTargetType=" + whTargetType + ", subject=" + subject + "]");
 
             final List<Object> data = new ArrayList<>();
             data.add(text);
@@ -45,11 +45,9 @@ public class SheetDataFinder {
             data.add(whTargetType);
             data.add(whTargetWord);
             data.add(subject);
-            data.add(whType);
             return data;
         } catch (final Exception e) {
             System.out.println("Failed: " + text);
-            e.printStackTrace();
         }
         return new ArrayList<>();
     }
@@ -70,7 +68,6 @@ public class SheetDataFinder {
 
     // TODO: make this pretty
     private static String getSubject(final Sentence sentence) {
-        final LexicalizedParser parser = LexicalizedParser.loadModel("edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz");
 
         final TokenizerFactory<CoreLabel> tokenizerFactory = PTBTokenizer.factory(new CoreLabelTokenFactory(), "");
         final List<CoreLabel> words = tokenizerFactory.getTokenizer(new StringReader(sentence.text())).tokenize();

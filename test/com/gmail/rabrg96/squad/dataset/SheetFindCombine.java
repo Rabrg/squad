@@ -19,10 +19,10 @@ public class SheetFindCombine {
         int i = 1;
         for (final Map.Entry<String, List<String>> entry : dataset.entrySet()) {
             for (final String sentence : entry.getValue()) {
-                final List<Object> data = SheetDataFinder.getData(sentence + "\n");
+                final List<Object> data = SheetDataFinder.getData(sentence);
                 data.add(entry.getKey());
-                for (final Object object : data) {
-                    writer.write(object + "\t");
+                for (int j = 0; j < data.size(); j++) {
+                    writer.write(data.get(j) + (j == data.size() - 1 ? "\n" : "\t"));
                 }
                 writer.flush();
             }
