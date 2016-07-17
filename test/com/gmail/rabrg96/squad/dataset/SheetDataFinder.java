@@ -52,22 +52,18 @@ public class SheetDataFinder {
         final List<TypedDependency> dependencies = structureFactory.newGrammaticalStructure(parser.parse(text))
                 .typedDependenciesCCprocessed();
 
-        int predicateIndex = 0;
+        String rootSubject = "";
         for (final TypedDependency dependency : dependencies)
             if (dependency.reln().toString().equals("root"))
-                predicateIndex = dependency.dep().index();
+                rootSubject = dependency.dep().word();
 
-        // TODO: optimize this
-        String rootSubject = "";
         String subject = "";
         for (int i = dependencies.size() - 1; i >= 0; i--) {
             final TypedDependency dependency = dependencies.get(i);
-            if (dependency.reln().toString().contains("subj") && dependency.gov().index() == predicateIndex) {
-                rootSubject = dependency.dep().word();
-                subject = dependency.dep().word();
-            } else if (dependency.reln().toString().contains("compound") && dependency.gov().word().equals(rootSubject)) {
+            if (dependency.reln().toString().contains("subj") && dependency.gov().word().equals(rootSubject))
+                subject = dependency.dep().word(); // TODO: optimize
+            else if (dependency.reln().toString().contains("compound") && dependency.gov().word().equals(rootSubject))
                 subject = dependency.dep().word() + " " + subject;
-            }
         }
         return subject;
     }
