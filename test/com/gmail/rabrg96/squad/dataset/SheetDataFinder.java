@@ -1,25 +1,19 @@
 package com.gmail.rabrg96.squad.dataset;
 
-import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.parser.lexparser.LexicalizedParser;
-import edu.stanford.nlp.process.CoreLabelTokenFactory;
-import edu.stanford.nlp.process.PTBTokenizer;
-import edu.stanford.nlp.process.TokenizerFactory;
-import edu.stanford.nlp.simple.Sentence;
 import edu.stanford.nlp.trees.*;
 
-import java.io.StringReader;
-import java.util.ArrayList;
 import java.util.List;
 
 public class SheetDataFinder {
 
-    private static final  LexicalizedParser parser = LexicalizedParser.loadModel("edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz");
-    public static List<Object> getData(final String text) {
-        try {
-            final Sentence sentence = new Sentence(text);
+    private static final LexicalizedParser parser = LexicalizedParser.loadModel();
+    private static final PennTreebankLanguagePack languagePack = new PennTreebankLanguagePack();
+    private static final GrammaticalStructureFactory structureFactory = languagePack.grammaticalStructureFactory();
 
-            final Tree parent = sentence.parse();
+    public static Data getData(final String text, final String classification) {
+        try {
+            final Tree parent = parser.parse(text);
             final Tree tree = findWHTree(parent);
             final String whType = tree.value();
             final String whWord = tree.getChild(0).yieldWords().get(0).word();
@@ -32,20 +26,8 @@ public class SheetDataFinder {
                 whTargetWord = "NONE";
                 whTargetType = "NONE";
             }
-
-            final String subject = getSubject(sentence);
-
-            // subject, object, relation
-//            System.out.println("[whType=" + whType + ", whWord=" + whWord + ", whTargetWord=" + whTargetWord + ", whTargetType=" + whTargetType + ", subject=" + subject + "]");
-
-            final List<Object> data = new ArrayList<>();
-            data.add(text);
-            data.add(whType);
-            data.add(whWord);
-            data.add(whTargetType);
-            data.add(whTargetWord);
-            data.add(subject);
-            return data;
+            final String subject = getSubject(text);
+            return new Data(text, classification, whType, whWord, whTargetType, whTargetWord, subject);
         } catch (final Exception e) {
             System.out.println("Failed: " + text);
         }
@@ -62,41 +44,59 @@ public class SheetDataFinder {
 
     private static Tree findWHTree(final Tree parent) {
         for (final Tree child : parent.children())
-            return parent.value().startsWith("WH") && !child.value().startsWith("WH")? parent : findWHTree(child);
+            return parent.value().startsWith("WH") && !child.value().startsWith("WH") ? parent : findWHTree(child);
         return null;
     }
 
-    // TODO: make this pretty
-    private static String getSubject(final Sentence sentence) {
-
-        final TokenizerFactory<CoreLabel> tokenizerFactory = PTBTokenizer.factory(new CoreLabelTokenFactory(), "");
-        final List<CoreLabel> words = tokenizerFactory.getTokenizer(new StringReader(sentence.text())).tokenize();
-        final Tree parseTree = parser.parseTree(words);
-
-        final PennTreebankLanguagePack languagePack = new PennTreebankLanguagePack();
-        final GrammaticalStructureFactory structureFactory = languagePack.grammaticalStructureFactory();
-        final GrammaticalStructure structure = structureFactory.newGrammaticalStructure(parseTree);
-
-        final List<TypedDependency> tdl = structure.typedDependenciesCCprocessed();
+    private static String getSubject(final String text) {
+        final List<TypedDependency> dependencies = structureFactory.newGrammaticalStructure(parser.parse(text))
+                .typedDependenciesCCprocessed();
 
         int predicateIndex = 0;
-        // Find predicate
-        for (int indx = 0; indx < tdl.size(); indx++)
-            if (tdl.get(indx).reln().toString().equals("root"))
-                predicateIndex = tdl.get(indx).dep().index();
-        // Find subject
-        String subject = "";
+        for (final TypedDependency dependency : dependencies)
+            if (dependency.reln().toString().equals("root"))
+                predicateIndex = dependency.dep().index();
+
+        // TODO: optimize this
         String rootSubject = "";
-        for (int indx = tdl.size() - 1; indx >= 0; indx--) {
-            final TypedDependency dependency = tdl.get(indx);
-            if (dependency.reln().toString().contains("subj") && (tdl.get(indx).gov().index() == predicateIndex)) {
+        String subject = "";
+        for (int i = dependencies.size() - 1; i >= 0; i--) {
+            final TypedDependency dependency = dependencies.get(i);
+            if (dependency.reln().toString().contains("subj") && dependency.gov().index() == predicateIndex) {
                 rootSubject = dependency.dep().word();
                 subject = dependency.dep().word();
-            }
-            if (dependency.reln().toString().contains("compound") && dependency.gov().word().equals(rootSubject)) {
+            } else if (dependency.reln().toString().contains("compound") && dependency.gov().word().equals(rootSubject)) {
                 subject = dependency.dep().word() + " " + subject;
             }
         }
         return subject;
+    }
+
+    public static final class Data {
+
+        private final String text;
+        private final String classification;
+        private final String whType;
+        private final String whWord;
+        private final String whTargetType;
+        private final String whTargetWord;
+        private final String subject;
+
+        private Data(final String text, final String classification, final String whType, final String whWord,
+                     final String whTargetType, final String whTargetWord, final String subject) {
+            this.text = text;
+            this.classification = classification;
+            this.whType = whType;
+            this.whWord = whWord;
+            this.whTargetType = whTargetType;
+            this.whTargetWord = whTargetWord;
+            this.subject = subject;
+        }
+
+        @Override
+        public String toString() {
+            return text + '\t' + classification + '\t' + whType + '\t' + whWord + '\t' + whTargetType + '\t'
+                    + whTargetWord + '\t' + subject + '\n';
+        }
     }
 }
